@@ -1,0 +1,208 @@
+fileFormatVersion: 2
+guid: f1e4d0d31255c51409027b14aa9dc015
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: SpearWoman_B 1
+    100002: add_Spear_B
+    100004: Bip01 R Toe0
+    100006: Bip01 R Foot
+    100008: Bip01 R Calf
+    100010: Bip01 Xtra01
+    100012: FatMan_S
+    100014: Bip01 R Thigh
+    100016: //RootNode
+    100018: DEL_Bip01 RUpArmTwist2
+    100020: Bip01 L Toe0Nub
+    100022: Bip01 L Toe0
+    100024: Bip01 L Foot
+    100026: DEL_Bip01 RUpArmTwist1
+    100028: Bip01 RUpArmTwist
+    100030: Bip01_Eye01
+    100032: Bip01 HeadNub
+    100034: Bip01 Head
+    100036: Bip01 L Clavicle
+    100038: Bip01 Prop1
+    100040: Bip01 R Hand
+    100042: SpearWoman_B
+    100044: Bip01 L Calf
+    100046: Bip01 L Thigh
+    100048: Bip01 Xtra01Nub
+    100050: Horn_B
+    100052: Bip01
+    100054: Root
+    100056: Cylinder_B
+    100058: FatMan_S_B
+    100060: SpearWoman_H
+    100062: SpearWoman01
+    100064: Bip01 Pelvis
+    100066: Bip01 Footsteps
+    100068: Bip01 LUpArmTwist
+    100070: Bip01 L UpperArm
+    100072: DEL_Bip01 LUpArmTwist2
+    100074: DEL_Bip01 LUpArmTwist1
+    100076: Bone_spear
+    100078: Spear_Root
+    100080: Bip01 R Toe0Nub
+    100082: Cylinder001
+    100084: Slider001
+    100086: Body Collider
+    100088: Bip01 L Hand
+    100090: Bip01 L Forearm
+    100092: Bip01 Neck
+    100094: Bip01 Spine1
+    100096: Bip01 Spine
+    100098: add_Spear
+    100100: SpearWoman_E
+    100102: SpearWoman_W
+    100104: SpearWoman_H_B
+    100106: Bip01 R Forearm
+    100108: Horn02
+    100110: Bip01 R UpperArm
+    100112: Bip01 R Clavicle
+    400000: SpearWoman_B 1
+    400002: add_Spear_B
+    400004: Bip01 R Toe0
+    400006: Bip01 R Foot
+    400008: Bip01 R Calf
+    400010: Bip01 Xtra01
+    400012: FatMan_S
+    400014: Bip01 R Thigh
+    400016: //RootNode
+    400018: DEL_Bip01 RUpArmTwist2
+    400020: Bip01 L Toe0Nub
+    400022: Bip01 L Toe0
+    400024: Bip01 L Foot
+    400026: DEL_Bip01 RUpArmTwist1
+    400028: Bip01 RUpArmTwist
+    400030: Bip01_Eye01
+    400032: Bip01 HeadNub
+    400034: Bip01 Head
+    400036: Bip01 L Clavicle
+    400038: Bip01 Prop1
+    400040: Bip01 R Hand
+    400042: SpearWoman_B
+    400044: Bip01 L Calf
+    400046: Bip01 L Thigh
+    400048: Bip01 Xtra01Nub
+    400050: Horn_B
+    400052: Bip01
+    400054: Root
+    400056: Cylinder_B
+    400058: FatMan_S_B
+    400060: SpearWoman_H
+    400062: SpearWoman01
+    400064: Bip01 Pelvis
+    400066: Bip01 Footsteps
+    400068: Bip01 LUpArmTwist
+    400070: Bip01 L UpperArm
+    400072: DEL_Bip01 LUpArmTwist2
+    400074: DEL_Bip01 LUpArmTwist1
+    400076: Bone_spear
+    400078: Spear_Root
+    400080: Bip01 R Toe0Nub
+    400082: Cylinder001
+    400084: Slider001
+    400086: Body Collider
+    400088: Bip01 L Hand
+    400090: Bip01 L Forearm
+    400092: Bip01 Neck
+    400094: Bip01 Spine1
+    400096: Bip01 Spine
+    400098: add_Spear
+    400100: SpearWoman_E
+    400102: SpearWoman_W
+    400104: SpearWoman_H_B
+    400106: Bip01 R Forearm
+    400108: Horn02
+    400110: Bip01 R UpperArm
+    400112: Bip01 R Clavicle
+    2300000: Root
+    2300002: Body Collider
+    3300000: Root
+    3300002: Body Collider
+    4300000: SpearWoman01
+    4300002: SpearWoman_H
+    4300004: Root
+    4300006: Body Collider
+    4300008: Cylinder001
+    4300010: SpearWoman_W
+    4300012: SpearWoman_E
+    4300014: add_Spear
+    4300016: SpearWoman_H_B
+    4300018: add_Spear_B
+    4300020: SpearWoman_B
+    4300022: Cylinder_B
+    4300024: Horn02
+    4300026: FatMan_S
+    4300028: Horn_B
+    4300030: FatMan_S_B
+    4300032: SpearWoman_B
+    11100000: //RootNode
+    13700000: SpearWoman_B 1
+    13700002: add_Spear_B
+    13700004: FatMan_S
+    13700006: SpearWoman_B
+    13700008: Horn_B
+    13700010: Cylinder_B
+    13700012: FatMan_S_B
+    13700014: SpearWoman_H
+    13700016: SpearWoman01
+    13700018: Cylinder001
+    13700020: add_Spear
+    13700022: SpearWoman_E
+    13700024: SpearWoman_W
+    13700026: SpearWoman_H_B
+    13700028: Horn02
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 3
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

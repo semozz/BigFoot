@@ -1,0 +1,266 @@
+fileFormatVersion: 2
+guid: 6f6667e993dcb7c46a3ba001ed717e38
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Bone_L_wing02
+    100002: Bip002 L Finger1Nub
+    100004: Bone_L_wing01
+    100006: DEL_Bip002 L Clavicle001
+    100008: Bip002 R Forearm
+    100010: Bip002 R Finger1
+    100012: Slider001
+    100014: DEL_Bip002 L Clavicle002
+    100016: Bip002 L Clavicle
+    100018: Body Collider
+    100020: Bip002 R Toe0Nub
+    100022: Bip002 Head
+    100024: Bone_R_wing01
+    100026: Bip002 L Finger0Nub
+    100028: Object002
+    100030: Bip002 Neck
+    100032: Bone_L_wing03
+    100034: //RootNode
+    100036: DEL_Dummy001
+    100038: Bip002 R Finger0
+    100040: Bone_R_wing00
+    100042: Bip002 L Finger1
+    100044: Object001
+    100046: Root
+    100048: Weapon Collider03
+    100050: Bip002 R Calf
+    100052: Bip002 Footsteps
+    100054: Bone_R_wing03
+    100056: Bip002 L Forearm
+    100058: Bip002 R Finger1Nub
+    100060: Bip002 R Thigh
+    100062: Bip002 L Toe0
+    100064: Bip002 R Clavicle
+    100066: Plane002
+    100068: DEL_Bip002 R Clavicle001
+    100070: Bip002 L Calf
+    100072: Bone_Eye01
+    100074: Bip002 R Hand
+    100076: Bip002 Spine1
+    100078: Bip002 Spine
+    100080: DEL_Dummy002
+    100082: Bip002 L Hand
+    100084: Bip002 Pelvis
+    100086: Bip002 HeadNub
+    100088: Bip002
+    100090: Bip003
+    100092: Bip002 R HorseLink
+    100094: Bip002 L Foot
+    100096: Bone_L_wing00
+    100098: Weapon Collider02
+    100100: Bip002 R Foot
+    100102: Bip002 L HorseLink
+    100104: Bip002 L Thigh
+    100106: Bip002 L UpperArm
+    100108: Bip002 R Finger0Nub
+    100110: Bip002 R Toe0
+    100112: Weapon Collider01
+    100114: DEL_Bip002 R Clavicle002
+    100116: Bip002 L Toe0Nub
+    100118: Bone_R_wing02
+    100120: Bip002 L Finger0
+    100122: Bip002 R UpperArm
+    100124: M_F_Wizard03
+    400000: Bone_L_wing02
+    400002: Bip002 L Finger1Nub
+    400004: Bone_L_wing01
+    400006: DEL_Bip002 L Clavicle001
+    400008: Bip002 R Forearm
+    400010: Bip002 R Finger1
+    400012: Slider001
+    400014: DEL_Bip002 L Clavicle002
+    400016: Bip002 L Clavicle
+    400018: Body Collider
+    400020: Bip002 R Toe0Nub
+    400022: Bip002 Head
+    400024: Bone_R_wing01
+    400026: Bip002 L Finger0Nub
+    400028: Object002
+    400030: Bip002 Neck
+    400032: Bone_L_wing03
+    400034: //RootNode
+    400036: DEL_Dummy001
+    400038: Bip002 R Finger0
+    400040: Bone_R_wing00
+    400042: Bip002 L Finger1
+    400044: Object001
+    400046: Root
+    400048: Weapon Collider03
+    400050: Bip002 R Calf
+    400052: Bip002 Footsteps
+    400054: Bone_R_wing03
+    400056: Bip002 L Forearm
+    400058: Bip002 R Finger1Nub
+    400060: Bip002 R Thigh
+    400062: Bip002 L Toe0
+    400064: Bip002 R Clavicle
+    400066: Plane002
+    400068: DEL_Bip002 R Clavicle001
+    400070: Bip002 L Calf
+    400072: Bone_Eye01
+    400074: Bip002 R Hand
+    400076: Bip002 Spine1
+    400078: Bip002 Spine
+    400080: DEL_Dummy002
+    400082: Bip002 L Hand
+    400084: Bip002 Pelvis
+    400086: Bip002 HeadNub
+    400088: Bip002
+    400090: Bip003
+    400092: Bip002 R HorseLink
+    400094: Bip002 L Foot
+    400096: Bone_L_wing00
+    400098: Weapon Collider02
+    400100: Bip002 R Foot
+    400102: Bip002 L HorseLink
+    400104: Bip002 L Thigh
+    400106: Bip002 L UpperArm
+    400108: Bip002 R Finger0Nub
+    400110: Bip002 R Toe0
+    400112: Weapon Collider01
+    400114: DEL_Bip002 R Clavicle002
+    400116: Bip002 L Toe0Nub
+    400118: Bone_R_wing02
+    400120: Bip002 L Finger0
+    400122: Bip002 R UpperArm
+    400124: M_F_Wizard03
+    2300000: Bone_L_wing02
+    2300002: Bone_L_wing01
+    2300004: DEL_Bip002 L Clavicle001
+    2300006: DEL_Bip002 L Clavicle002
+    2300008: Body Collider
+    2300010: Bone_R_wing01
+    2300012: Bone_L_wing03
+    2300014: Root
+    2300016: Weapon Collider03
+    2300018: Bone_R_wing03
+    2300020: Plane002
+    2300022: DEL_Bip002 R Clavicle001
+    2300024: Bip003
+    2300026: Weapon Collider02
+    2300028: Weapon Collider01
+    2300030: DEL_Bip002 R Clavicle002
+    2300032: Bone_R_wing02
+    2300034: //RootNode
+    3300000: Bone_L_wing02
+    3300002: Bone_L_wing01
+    3300004: DEL_Bip002 L Clavicle001
+    3300006: DEL_Bip002 L Clavicle002
+    3300008: Body Collider
+    3300010: Bone_R_wing01
+    3300012: Bone_L_wing03
+    3300014: Root
+    3300016: Weapon Collider03
+    3300018: Bone_R_wing03
+    3300020: Plane002
+    3300022: DEL_Bip002 R Clavicle001
+    3300024: Bip003
+    3300026: Weapon Collider02
+    3300028: Weapon Collider01
+    3300030: DEL_Bip002 R Clavicle002
+    3300032: Bone_R_wing02
+    3300034: //RootNode
+    4300000: Root
+    4300002: DEL_Bip002 L Clavicle001
+    4300004: DEL_Bip002 L Clavicle002
+    4300006: DEL_Bip002 R Clavicle001
+    4300008: DEL_Bip002 R Clavicle002
+    4300010: Bone_L_wing01
+    4300012: Bone_L_wing02
+    4300014: Bone_L_wing03
+    4300016: Bone_R_wing01
+    4300018: Bone_R_wing02
+    4300020: Bone_R_wing03
+    4300022: Body Collider
+    4300024: Bip003
+    4300026: Weapon Collider03
+    4300028: Weapon Collider01
+    4300030: Weapon Collider02
+    4300032: Plane002
+    4300034: M_F_Wizard03
+    4300036: Object001
+    4300038: Object002
+    7400000: Take 001
+    7400002: FX_M_F_Devil04_flying_attack_blowXY
+    11100000: //RootNode
+    13700000: Object002
+    13700002: Object001
+    13700004: M_F_Wizard03
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 3
+    bakeSimulation: 0
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: FX_M_F_Devil04_flying_attack_blowXY
+      takeName: 
+      firstFrame: 1
+      lastFrame: 9
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

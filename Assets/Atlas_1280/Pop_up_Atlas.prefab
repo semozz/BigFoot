@@ -1,0 +1,742 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Pop_up_Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 7a8a6b725fa9afd47ab56d1558d3241c, type: 2}
+  sprites:
+  - name: Fail01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 694
+      width: 536
+      height: 330
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 694
+      width: 536
+      height: 330
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Btn_Default_Yellow01_pressed
+    outer:
+      serializedVersion: 2
+      x: 809
+      y: 64
+      width: 60
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 838
+      y: 64
+      width: 2
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Btn_Default_Yellow01
+    outer:
+      serializedVersion: 2
+      x: 819
+      y: 131
+      width: 60
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 848
+      y: 131
+      width: 2
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Pop_Up_Sad
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 303
+      width: 279
+      height: 390
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 303
+      width: 279
+      height: 390
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Pop_Up_Happy
+    outer:
+      serializedVersion: 2
+      x: 280
+      y: 246
+      width: 279
+      height: 390
+    inner:
+      serializedVersion: 2
+      x: 280
+      y: 246
+      width: 279
+      height: 390
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Pop_Up_Base01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 65
+      width: 190
+      height: 237
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 65
+      width: 190
+      height: 237
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Btn_Default_Red01_pressed
+    outer:
+      serializedVersion: 2
+      x: 758
+      y: 131
+      width: 60
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 787
+      y: 131
+      width: 2
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Btn_Default_Red02
+    outer:
+      serializedVersion: 2
+      x: 870
+      y: 64
+      width: 60
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 899
+      y: 64
+      width: 2
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Frame02-3
+    outer:
+      serializedVersion: 2
+      x: 548
+      y: 78
+      width: 30
+      height: 18
+    inner:
+      serializedVersion: 2
+      x: 562
+      y: 78
+      width: 2
+      height: 18
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Frame01-9
+    outer:
+      serializedVersion: 2
+      x: 880
+      y: 188
+      width: 60
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 909
+      y: 217
+      width: 2
+      height: 2
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Title_659
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 17
+      width: 659
+      height: 47
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 17
+      width: 659
+      height: 47
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Price_money_Big_Jewel
+    outer:
+      serializedVersion: 2
+      x: 931
+      y: 127
+      width: 60
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 931
+      y: 127
+      width: 60
+      height: 60
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Price_money_Big_Won
+    outer:
+      serializedVersion: 2
+      x: 931
+      y: 66
+      width: 60
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 931
+      y: 66
+      width: 60
+      height: 60
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Price_money_Big_Gold
+    outer:
+      serializedVersion: 2
+      x: 937
+      y: 5
+      width: 60
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 937
+      y: 5
+      width: 60
+      height: 60
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Back_Paper01-1
+    outer:
+      serializedVersion: 2
+      x: 657
+      y: 97
+      width: 100
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 657
+      y: 97
+      width: 100
+      height: 100
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Black01
+    outer:
+      serializedVersion: 2
+      x: 758
+      y: 100
+      width: 30
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 762
+      y: 104
+      width: 22
+      height: 22
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Shop_Money02
+    outer:
+      serializedVersion: 2
+      x: 822
+      y: 212
+      width: 42
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 822
+      y: 212
+      width: 42
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Price_money_Big_Medal
+    outer:
+      serializedVersion: 2
+      x: 379
+      y: 98
+      width: 60
+      height: 51
+    inner:
+      serializedVersion: 2
+      x: 379
+      y: 98
+      width: 60
+      height: 51
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Btn_Default_Yellow01_01
+    outer:
+      serializedVersion: 2
+      x: 880
+      y: 143
+      width: 40
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 899
+      y: 143
+      width: 2
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Title_630
+    outer:
+      serializedVersion: 2
+      x: 191
+      y: 198
+      width: 630
+      height: 47
+    inner:
+      serializedVersion: 2
+      x: 192
+      y: 198
+      width: 628
+      height: 47
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Wood_Base02
+    outer:
+      serializedVersion: 2
+      x: 560
+      y: 249
+      width: 325
+      height: 17
+    inner:
+      serializedVersion: 2
+      x: 560
+      y: 249
+      width: 325
+      height: 17
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Frame_Yellow01
+    outer:
+      serializedVersion: 2
+      x: 822
+      y: 267
+      width: 23
+      height: 369
+    inner:
+      serializedVersion: 2
+      x: 833
+      y: 282
+      width: 1
+      height: 339
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Btn_Tiny_Yellow01
+    outer:
+      serializedVersion: 2
+      x: 257
+      y: 94
+      width: 60
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 286
+      y: 94
+      width: 2
+      height: 55
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Check01
+    outer:
+      serializedVersion: 2
+      x: 379
+      y: 73
+      width: 31
+      height: 24
+    inner:
+      serializedVersion: 2
+      x: 379
+      y: 73
+      width: 31
+      height: 24
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Btn_Tiny_Yellow01_pressed
+    outer:
+      serializedVersion: 2
+      x: 318
+      y: 94
+      width: 60
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 347
+      y: 94
+      width: 2
+      height: 55
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Close_pressed
+    outer:
+      serializedVersion: 2
+      x: 440
+      y: 94
+      width: 53
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 440
+      y: 94
+      width: 53
+      height: 55
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Close
+    outer:
+      serializedVersion: 2
+      x: 494
+      y: 94
+      width: 53
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 494
+      y: 94
+      width: 53
+      height: 55
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Price_Meat
+    outer:
+      serializedVersion: 2
+      x: 660
+      y: 8
+      width: 91
+      height: 88
+    inner:
+      serializedVersion: 2
+      x: 660
+      y: 8
+      width: 91
+      height: 88
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_InPut_TextBox01-3
+    outer:
+      serializedVersion: 2
+      x: 809
+      y: 6
+      width: 66
+      height: 57
+    inner:
+      serializedVersion: 2
+      x: 834
+      y: 21
+      width: 16
+      height: 27
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BoxPackage
+    outer:
+      serializedVersion: 2
+      x: 876
+      y: 3
+      width: 60
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 876
+      y: 3
+      width: 60
+      height: 60
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Title_Back01-0
+    outer:
+      serializedVersion: 2
+      x: 191
+      y: 150
+      width: 465
+      height: 47
+    inner:
+      serializedVersion: 2
+      x: 191
+      y: 150
+      width: 465
+      height: 47
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Frame_AttributeGrade02
+    outer:
+      serializedVersion: 2
+      x: 280
+      y: 648
+      width: 97
+      height: 45
+    inner:
+      serializedVersion: 2
+      x: 328
+      y: 648
+      width: 1
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Count_arrow02
+    outer:
+      serializedVersion: 2
+      x: 191
+      y: 94
+      width: 65
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 191
+      y: 94
+      width: 65
+      height: 55
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Count_arrow01
+    outer:
+      serializedVersion: 2
+      x: 378
+      y: 638
+      width: 65
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 378
+      y: 638
+      width: 65
+      height: 55
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Count_arrow02_pressed
+    outer:
+      serializedVersion: 2
+      x: 444
+      y: 638
+      width: 65
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 444
+      y: 638
+      width: 65
+      height: 55
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Count_arrow01_pressed
+    outer:
+      serializedVersion: 2
+      x: 191
+      y: 247
+      width: 65
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 191
+      y: 247
+      width: 65
+      height: 55
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Price_money_Big_potion
+    outer:
+      serializedVersion: 2
+      x: 752
+      y: 18
+      width: 56
+      height: 78
+    inner:
+      serializedVersion: 2
+      x: 752
+      y: 18
+      width: 56
+      height: 78
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PopUp_NPC02
+    outer:
+      serializedVersion: 2
+      x: 537
+      y: 637
+      width: 299
+      height: 387
+    inner:
+      serializedVersion: 2
+      x: 537
+      y: 637
+      width: 299
+      height: 387
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

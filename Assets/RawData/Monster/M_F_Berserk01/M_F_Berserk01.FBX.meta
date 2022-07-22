@@ -1,0 +1,200 @@
+fileFormatVersion: 2
+guid: 7a5661b7720f6694db15be4c6409c16c
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Weapon Collider02
+    100002: M_F_Berserk01_WP
+    100004: Weapon Collider05
+    100006: Weapon Collider04
+    100008: Weapon Collider03
+    100010: DEL_Bip002 LUpArmTwist1
+    100012: Bip002 R Forearm
+    100014: DEL_Bip002 LUpArmTwist2
+    100016: Bip002 L Forearm
+    100018: Bip002 L Toe0Nub
+    100020: Bip002 RUpArmTwist
+    100022: Bip002 R UpperArm
+    100024: Bone_ L Clavicle01
+    100026: Weapon Collider01
+    100028: Bip002 R Toe0Nub
+    100030: Bip002 L UpperArm
+    100032: Bip002 L Clavicle
+    100034: DEL_Bip002 RUpArmTwist1
+    100036: Bip002 LUpArmTwist
+    100038: DEL_Bip002 RUpArmTwist2
+    100040: Bip002 Footsteps
+    100042: Bip002 R Clavicle
+    100044: M_F_Berserk01_P
+    100046: Body Collider
+    100048: Bip002 R Thigh
+    100050: Bip002 L Toe0
+    100052: Bip002 L Hand
+    100054: Bip002 L Thigh
+    100056: Bip002 R Hand
+    100058: Bip002 R Toe0
+    100060: Bip002 Spine
+    100062: Bip002 Pelvis
+    100064: Bip002
+    100066: Root
+    100068: M_F_Berserk01_F
+    100070: M_F_Berserk01_S
+    100072: Bip002 R Foot
+    100074: Bip002 R Calf
+    100076: M_F_Berserk01_H
+    100078: Bip002 L Foot
+    100080: M_F_Berserk01_D
+    100082: Slider001
+    100084: M_F_Berserk01_E
+    100086: Bip002 Spine1
+    100088: M_F_Berserk01
+    100090: Bip002 L Calf
+    100092: Bone_Eye01
+    100094: Bip002 Head
+    100096: Bip002 HeadNub
+    100098: Bip002 Neck
+    100100: Bip002 Prop1
+    100102: //RootNode
+    400000: Weapon Collider02
+    400002: M_F_Berserk01_WP
+    400004: Weapon Collider05
+    400006: Weapon Collider04
+    400008: Weapon Collider03
+    400010: DEL_Bip002 LUpArmTwist1
+    400012: Bip002 R Forearm
+    400014: DEL_Bip002 LUpArmTwist2
+    400016: Bip002 L Forearm
+    400018: Bip002 L Toe0Nub
+    400020: Bip002 RUpArmTwist
+    400022: Bip002 R UpperArm
+    400024: Bone_ L Clavicle01
+    400026: Weapon Collider01
+    400028: Bip002 R Toe0Nub
+    400030: Bip002 L UpperArm
+    400032: Bip002 L Clavicle
+    400034: DEL_Bip002 RUpArmTwist1
+    400036: Bip002 LUpArmTwist
+    400038: DEL_Bip002 RUpArmTwist2
+    400040: Bip002 Footsteps
+    400042: Bip002 R Clavicle
+    400044: M_F_Berserk01_P
+    400046: Body Collider
+    400048: Bip002 R Thigh
+    400050: Bip002 L Toe0
+    400052: Bip002 L Hand
+    400054: Bip002 L Thigh
+    400056: Bip002 R Hand
+    400058: Bip002 R Toe0
+    400060: Bip002 Spine
+    400062: Bip002 Pelvis
+    400064: Bip002
+    400066: Root
+    400068: M_F_Berserk01_F
+    400070: M_F_Berserk01_S
+    400072: Bip002 R Foot
+    400074: Bip002 R Calf
+    400076: M_F_Berserk01_H
+    400078: Bip002 L Foot
+    400080: M_F_Berserk01_D
+    400082: Slider001
+    400084: M_F_Berserk01_E
+    400086: Bip002 Spine1
+    400088: M_F_Berserk01
+    400090: Bip002 L Calf
+    400092: Bone_Eye01
+    400094: Bip002 Head
+    400096: Bip002 HeadNub
+    400098: Bip002 Neck
+    400100: Bip002 Prop1
+    400102: //RootNode
+    2300000: Weapon Collider02
+    2300002: Weapon Collider05
+    2300004: Weapon Collider04
+    2300006: Weapon Collider03
+    2300008: Weapon Collider01
+    2300010: Body Collider
+    2300012: Root
+    3300000: Weapon Collider02
+    3300002: Weapon Collider05
+    3300004: Weapon Collider04
+    3300006: Weapon Collider03
+    3300008: Weapon Collider01
+    3300010: Body Collider
+    3300012: Root
+    4300000: M_F_Berserk01
+    4300002: Root
+    4300004: Body Collider
+    4300006: Weapon Collider01
+    4300008: Weapon Collider03
+    4300010: Weapon Collider02
+    4300012: Weapon Collider04
+    4300014: Weapon Collider05
+    4300016: M_F_Berserk01_WP
+    4300018: M_F_Berserk01_D
+    4300020: M_F_Berserk01_P
+    4300022: M_F_Berserk01_F
+    4300024: M_F_Berserk01_H
+    4300026: M_F_Berserk01_S
+    4300028: M_F_Berserk01_E
+    7400000: Take 001
+    11100000: //RootNode
+    13700000: M_F_Berserk01_WP
+    13700002: M_F_Berserk01_P
+    13700004: M_F_Berserk01_F
+    13700006: M_F_Berserk01_S
+    13700008: M_F_Berserk01_H
+    13700010: M_F_Berserk01_D
+    13700012: M_F_Berserk01_E
+    13700014: M_F_Berserk01
+  materials:
+    importMaterials: 1
+    materialName: 3
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 3
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 1
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41a5487d43c36d744ba6419dc1a38e4f, type: 3}
+  m_Name: m_m_archer01-animation
+  m_EditorClassIdentifier: 
+  clipinfos:
+  - clipname: 61747461636b3031
+    wrapmode: 1
+    eventinfos:
+    - eventtime: 0
+      functionname: 4f6e4172726f774571756970
+    - eventtime: 1.60000002
+      functionname: 4f6e46697265
+  - clipname: 61747461636b3032
+    wrapmode: 1
+    eventinfos:
+    - eventtime: 0
+      functionname: 4f6e4172726f774571756970
+    - eventtime: 1.60000002
+      functionname: 4f6e46697265
+  - clipname: 61747461636b3033
+    wrapmode: 1
+    eventinfos:
+    - eventtime: 0
+      functionname: 4f6e4172726f774571756970
+    - eventtime: 1.60000002
+      functionname: 4f6e46697265
+  - clipname: 64616d616765
+    wrapmode: 1
+    eventinfos:
+    - eventtime: .0333333351
+      functionname: 4f6e57616c6b696e675374617274
+    - eventtime: .200000003
+      functionname: 4f6e57616c6b696e6753746f70
+  - clipname: 646965
+    wrapmode: 1
+    eventinfos: []
+  - clipname: 6a756d705f66616c6c
+    wrapmode: 2
+    eventinfos: []
+  - clipname: 6a756d705f6c616e64696e67
+    wrapmode: 1
+    eventinfos: []
+  - clipname: 6b69636b
+    wrapmode: 1
+    eventinfos:
+    - eventtime: .0333333351
+      functionname: 4f6e57616c6b696e675374617274
+    - eventtime: .13333334
+      functionname: 4f6e436f6c6c6973696f6e5374617274
+    - eventtime: .200000003
+      functionname: 4f6e57616c6b696e6753746f70
+    - eventtime: .300000012
+      functionname: 4f6e436f6c6c6973696f6e53746f70
+  - clipname: 6b6e6f636b646f776e5f646965
+    wrapmode: 1
+    eventinfos: []
+  - clipname: 6b6e6f636b646f776e5f66616c6c
+    wrapmode: 1
+    eventinfos: []
+  - clipname: 6b6e6f636b646f776e5f6c616e64696e67
+    wrapmode: 1
+    eventinfos:
+    - eventtime: 0
+      functionname: 4f6e57616c6b696e675374617274
+    - eventtime: .266666681
+      functionname: 4f6e57616c6b696e6753746f70
+  - clipname: 6b6e6f636b646f776e5f7374617274
+    wrapmode: 1
+    eventinfos: []
+  - clipname: 706f7765725f73686f74
+    wrapmode: 1
+    eventinfos:
+    - eventtime: 0
+      functionname: 4f6e4172726f774571756970
+    - eventtime: 2.29999995
+      functionname: 4f6e46697265
+  - clipname: 72756e
+    wrapmode: 2
+    eventinfos: []
+  - clipname: 7374616e643031
+    wrapmode: 2
+    eventinfos: []
+  - clipname: 7374616e643032
+    wrapmode: 2
+    eventinfos: []
+  - clipname: 7374616e643033
+    wrapmode: 2
+    eventinfos: []
+  - clipname: 7374616e643034
+    wrapmode: 2
+    eventinfos: []
+  - clipname: 7374756e
+    wrapmode: 2
+    eventinfos: []
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6

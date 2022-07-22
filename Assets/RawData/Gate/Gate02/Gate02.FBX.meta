@@ -1,0 +1,142 @@
+fileFormatVersion: 2
+guid: d794ebb8f4393dc49b2b6ecdd426b8dc
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Bone_Body
+    100002: Bone_Cannon
+    100004: Bone_Door_L
+    100006: Bone_Door_R01
+    100008: Bone_Door_R02
+    100010: Bone_Door_R03
+    100012: Bone_Door_R04
+    100014: Bone_Door_R05
+    100016: Bone_Door_R06
+    100018: Bone_Door_R07
+    100020: Bone_Face
+    100022: Gate002
+    100024: //RootNode
+    100026: Object010
+    100028: Object011
+    100030: Object025
+    100032: Object026
+    100034: Object027
+    100036: Object028
+    100038: Object029
+    100040: Object030
+    100042: Object031
+    100044: Object032
+    100046: Object033
+    100048: Particle View 001
+    100050: Particle View 002
+    100052: Root
+    400000: Bone_Body
+    400002: Bone_Cannon
+    400004: Bone_Door_L
+    400006: Bone_Door_R01
+    400008: Bone_Door_R02
+    400010: Bone_Door_R03
+    400012: Bone_Door_R04
+    400014: Bone_Door_R05
+    400016: Bone_Door_R06
+    400018: Bone_Door_R07
+    400020: Bone_Face
+    400022: Gate002
+    400024: //RootNode
+    400026: Object010
+    400028: Object011
+    400030: Object025
+    400032: Object026
+    400034: Object027
+    400036: Object028
+    400038: Object029
+    400040: Object030
+    400042: Object031
+    400044: Object032
+    400046: Object033
+    400048: Particle View 001
+    400050: Particle View 002
+    400052: Root
+    2300000: Bone_Door_L
+    2300002: Object010
+    2300004: Object011
+    2300006: Object027
+    3300000: Bone_Door_L
+    3300002: Object010
+    3300004: Object011
+    3300006: Object027
+    4300000: Object010
+    4300002: Bone_Door_L
+    4300004: Object027
+    4300006: Object011
+    4300008: Gate002
+    4300010: Object026
+    4300012: Object025
+    4300014: Object028
+    4300016: Object029
+    4300018: Object030
+    4300020: Object031
+    4300022: Object032
+    4300024: Object033
+    9500000: //RootNode
+    13700000: Gate002
+    13700002: Object025
+    13700004: Object026
+    13700006: Object028
+    13700008: Object029
+    13700010: Object030
+    13700012: Object031
+    13700014: Object032
+    13700016: Object033
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 2
+  userData: 

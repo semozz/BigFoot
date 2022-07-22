@@ -1,0 +1,153 @@
+fileFormatVersion: 2
+guid: dd7e6a7ba06f48540b7e9f5e00aa6b1b
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Bone_Body
+    100002: Bone_Cannon
+    100004: Bone_Door01
+    100006: Bone_Door02
+    100008: Bone_Door03
+    100010: Bone_Door04
+    100012: Bone_Door05
+    100014: Bone_Door06
+    100016: Bone_Door07
+    100018: Bone_Face
+    100020: //RootNode
+    100022: Gate01
+    100024: Gate_wood01
+    100026: Gate_wood02
+    100028: Gate_wood03
+    100030: Gate_wood04
+    100032: Object010
+    100034: Particle View 001
+    100036: Root
+    400000: Bone_Body
+    400002: Bone_Cannon
+    400004: Bone_Door01
+    400006: Bone_Door02
+    400008: Bone_Door03
+    400010: Bone_Door04
+    400012: Bone_Door05
+    400014: Bone_Door06
+    400016: Bone_Door07
+    400018: Bone_Face
+    400020: //RootNode
+    400022: Gate01
+    400024: Gate_wood01
+    400026: Gate_wood02
+    400028: Gate_wood03
+    400030: Gate_wood04
+    400032: Object010
+    400034: Particle View 001
+    400036: Root
+    2300000: Bone_Door01
+    2300002: Bone_Door02
+    2300004: Bone_Door03
+    2300006: Bone_Door04
+    2300008: Bone_Door05
+    2300010: Bone_Door06
+    2300012: Bone_Door07
+    2300014: Object010
+    3300000: Bone_Door01
+    3300002: Bone_Door02
+    3300004: Bone_Door03
+    3300006: Bone_Door04
+    3300008: Bone_Door05
+    3300010: Bone_Door06
+    3300012: Bone_Door07
+    3300014: Object010
+    4300000: Object010
+    4300002: Gate_wood03
+    4300004: Gate01
+    4300006: Gate_wood02
+    4300008: Gate_wood01
+    4300010: Gate_wood04
+    4300012: Bone_Door02
+    4300014: Bone_Door01
+    4300016: Bone_Door03
+    4300018: Bone_Door04
+    4300020: Bone_Door05
+    4300022: Bone_Door06
+    4300024: Bone_Door07
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Gate01
+    13700002: Gate_wood01
+    13700004: Gate_wood02
+    13700006: Gate_wood03
+    13700008: Gate_wood04
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 8
+    clipAnimations:
+    - name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

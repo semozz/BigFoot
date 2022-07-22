@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArenaReward>
+	<Rank>1;전설의 발;0.01;6080</Rank>
+	<Rank>2;위대한 발;0.04;4270</Rank>
+	<Rank>3;강력한 발;0.09;3000</Rank>
+	<Rank>4;거대한 발;0.16;2110</Rank>
+	<Rank>5;큰 발;0.25;1480</Rank>
+	<Rank>6;넓은 발;0.36;1040</Rank>
+	<Rank>7;좋은 발;0.49;730</Rank>
+	<Rank>8;적당한 발;0.64;510</Rank>
+	<Rank>9;작은 발;0.81;360</Rank>
+	<Rank>10;약한 발;1.00;210</Rank>
+</ArenaReward>
+		

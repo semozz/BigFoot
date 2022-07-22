@@ -1,0 +1,418 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: CharacterSelectImage_Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 31fbbf7ca4942654b917ec843f865cbf, type: 2}
+  sprites:
+  - name: BG_Character_Select
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 448
+      width: 1024
+      height: 576
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 448
+      width: 1024
+      height: 576
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BG_Character_Select01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 189
+      width: 286
+      height: 258
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 189
+      width: 286
+      height: 258
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BG_Character_Select03
+    outer:
+      serializedVersion: 2
+      x: 287
+      y: 14
+      width: 120
+      height: 433
+    inner:
+      serializedVersion: 2
+      x: 287
+      y: 14
+      width: 120
+      height: 433
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BG_Character_Select02
+    outer:
+      serializedVersion: 2
+      x: 408
+      y: 224
+      width: 183
+      height: 223
+    inner:
+      serializedVersion: 2
+      x: 408
+      y: 224
+      width: 183
+      height: 223
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Windmill
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 30
+      width: 160
+      height: 158
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 30
+      width: 160
+      height: 158
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Character_Select_Name01-1
+    outer:
+      serializedVersion: 2
+      x: 408
+      y: 141
+      width: 346
+      height: 82
+    inner:
+      serializedVersion: 2
+      x: 408
+      y: 141
+      width: 346
+      height: 82
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Btn_Default_Yellow01_pressed
+    outer:
+      serializedVersion: 2
+      x: 890
+      y: 381
+      width: 60
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 919
+      y: 381
+      width: 2
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Btn_Default_Yellow01
+    outer:
+      serializedVersion: 2
+      x: 951
+      y: 381
+      width: 60
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 980
+      y: 381
+      width: 2
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Class_Stat_Icon03
+    outer:
+      serializedVersion: 2
+      x: 755
+      y: 326
+      width: 60
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 755
+      y: 326
+      width: 60
+      height: 60
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Class_Stat_Icon01
+    outer:
+      serializedVersion: 2
+      x: 816
+      y: 387
+      width: 60
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 816
+      y: 387
+      width: 60
+      height: 60
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Class_Stat_Icon02
+    outer:
+      serializedVersion: 2
+      x: 816
+      y: 326
+      width: 60
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 816
+      y: 326
+      width: 60
+      height: 60
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Class_Stat_Icon04
+    outer:
+      serializedVersion: 2
+      x: 755
+      y: 387
+      width: 60
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 755
+      y: 387
+      width: 60
+      height: 60
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Class_Stat_Back_AP
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 3
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 9
+      y: 3
+      width: 0
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Class_Stat_Back_HP
+    outer:
+      serializedVersion: 2
+      x: 262
+      y: 25
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 271
+      y: 25
+      width: 0
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Class_Stat_Back01
+    outer:
+      serializedVersion: 2
+      x: 161
+      y: 25
+      width: 100
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 170
+      y: 35
+      width: 82
+      height: 6
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Class_Stat_Back_CT
+    outer:
+      serializedVersion: 2
+      x: 19
+      y: 3
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 28
+      y: 3
+      width: 0
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Class_Stat_Back_AD
+    outer:
+      serializedVersion: 2
+      x: 38
+      y: 3
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 47
+      y: 3
+      width: 0
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Character_Select_Start_pressed
+    outer:
+      serializedVersion: 2
+      x: 649
+      y: 48
+      width: 240
+      height: 92
+    inner:
+      serializedVersion: 2
+      x: 768
+      y: 48
+      width: 2
+      height: 92
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Character_Select_Start
+    outer:
+      serializedVersion: 2
+      x: 408
+      y: 48
+      width: 240
+      height: 92
+    inner:
+      serializedVersion: 2
+      x: 527
+      y: 48
+      width: 2
+      height: 92
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Info_Base
+    outer:
+      serializedVersion: 2
+      x: 161
+      y: 52
+      width: 110
+      height: 136
+    inner:
+      serializedVersion: 2
+      x: 216
+      y: 52
+      width: 0
+      height: 136
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

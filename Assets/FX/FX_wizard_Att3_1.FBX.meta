@@ -1,0 +1,106 @@
+fileFormatVersion: 2
+guid: 815b3f6d394f95a47b279227ed10f13c
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: IceArrow_Casting06
+    100002: //RootNode
+    100004: IceArrow_Casting04
+    100008: Plane032
+    100010: Plane031
+    400000: IceArrow_Casting06
+    400002: //RootNode
+    400004: IceArrow_Casting04
+    400008: Plane032
+    400010: Plane031
+    2300000: IceArrow_Casting06
+    2300002: //RootNode
+    2300004: IceArrow_Casting04
+    2300006: Plane032
+    2300008: Plane031
+    3300000: IceArrow_Casting06
+    3300002: //RootNode
+    3300004: IceArrow_Casting04
+    3300006: Plane032
+    3300008: Plane031
+    4300000: Root
+    4300002: Plane031
+    4300004: Plane032
+    4300006: IceArrow_Casting04
+    4300008: IceArrow_Casting06
+    7400000: Take 001
+    7400002: FX_wizard_Att3_1
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 3
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 3
+    bakeSimulation: 0
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: FX_wizard_Att3_1
+      takeName: 
+      firstFrame: 1
+      lastFrame: 36
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

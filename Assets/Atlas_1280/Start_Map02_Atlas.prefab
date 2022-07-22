@@ -1,0 +1,292 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Start_Map02_Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 149c3d245c8625140a13148608e2616e, type: 2}
+  sprites:
+  - name: Map04
+    outer:
+      serializedVersion: 2
+      x: 599
+      y: 799
+      width: 320
+      height: 225
+    inner:
+      serializedVersion: 2
+      x: 599
+      y: 799
+      width: 320
+      height: 225
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Map02
+    outer:
+      serializedVersion: 2
+      x: 599
+      y: 579
+      width: 307
+      height: 219
+    inner:
+      serializedVersion: 2
+      x: 599
+      y: 579
+      width: 307
+      height: 219
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Map03
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 500
+      width: 323
+      height: 205
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 500
+      width: 323
+      height: 205
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Map01
+    outer:
+      serializedVersion: 2
+      x: 324
+      y: 357
+      width: 296
+      height: 221
+    inner:
+      serializedVersion: 2
+      x: 324
+      y: 357
+      width: 296
+      height: 221
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Kingdom1_Lionet
+    outer:
+      serializedVersion: 2
+      x: 621
+      y: 172
+      width: 185
+      height: 210
+    inner:
+      serializedVersion: 2
+      x: 621
+      y: 172
+      width: 185
+      height: 210
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Kingdom2_Vars
+    outer:
+      serializedVersion: 2
+      x: 807
+      y: 168
+      width: 166
+      height: 214
+    inner:
+      serializedVersion: 2
+      x: 807
+      y: 168
+      width: 166
+      height: 214
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Kingdom4_Prester
+    outer:
+      serializedVersion: 2
+      x: 274
+      y: 127
+      width: 153
+      height: 229
+    inner:
+      serializedVersion: 2
+      x: 274
+      y: 127
+      width: 153
+      height: 229
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Kingdom3_Medigar
+    outer:
+      serializedVersion: 2
+      x: 428
+      y: 111
+      width: 143
+      height: 245
+    inner:
+      serializedVersion: 2
+      x: 428
+      y: 111
+      width: 143
+      height: 245
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Weekly_Back01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 706
+      width: 598
+      height: 318
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 706
+      width: 598
+      height: 318
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Weekly_Icon02
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 266
+      width: 273
+      height: 233
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 266
+      width: 273
+      height: 233
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Weekly_Icon01
+    outer:
+      serializedVersion: 2
+      x: 621
+      y: 383
+      width: 270
+      height: 195
+    inner:
+      serializedVersion: 2
+      x: 621
+      y: 383
+      width: 270
+      height: 195
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Weekly_Label_Material
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 54
+      width: 315
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 54
+      width: 315
+      height: 72
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Weekly_Label_Gold
+    outer:
+      serializedVersion: 2
+      x: 572
+      y: 95
+      width: 315
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 572
+      y: 95
+      width: 315
+      height: 72
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

@@ -1,0 +1,526 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: CashShop_Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 5af83c55420d38a499ea255893077d4b, type: 2}
+  sprites:
+  - name: CashShop_Base_T01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 934
+      width: 879
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 934
+      width: 879
+      height: 90
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Black01
+    outer:
+      serializedVersion: 2
+      x: 805
+      y: 650
+      width: 30
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 806
+      y: 651
+      width: 28
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Shop_Money04
+    outer:
+      serializedVersion: 2
+      x: 736
+      y: 676
+      width: 41
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 736
+      y: 676
+      width: 41
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Price_money_jewel
+    outer:
+      serializedVersion: 2
+      x: 778
+      y: 681
+      width: 39
+      height: 31
+    inner:
+      serializedVersion: 2
+      x: 778
+      y: 681
+      width: 39
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Shop_Money02
+    outer:
+      serializedVersion: 2
+      x: 736
+      y: 625
+      width: 37
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 736
+      y: 625
+      width: 37
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Price_money_won
+    outer:
+      serializedVersion: 2
+      x: 774
+      y: 620
+      width: 30
+      height: 31
+    inner:
+      serializedVersion: 2
+      x: 774
+      y: 620
+      width: 30
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Price_money_gold
+    outer:
+      serializedVersion: 2
+      x: 805
+      y: 620
+      width: 30
+      height: 29
+    inner:
+      serializedVersion: 2
+      x: 805
+      y: 620
+      width: 30
+      height: 29
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Shop_Money01
+    outer:
+      serializedVersion: 2
+      x: 790
+      y: 798
+      width: 30
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 790
+      y: 798
+      width: 30
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Frame02-3
+    outer:
+      serializedVersion: 2
+      x: 736
+      y: 606
+      width: 30
+      height: 18
+    inner:
+      serializedVersion: 2
+      x: 750
+      y: 606
+      width: 2
+      height: 18
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Frame01-9
+    outer:
+      serializedVersion: 2
+      x: 941
+      y: 964
+      width: 60
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 970
+      y: 993
+      width: 2
+      height: 2
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Close
+    outer:
+      serializedVersion: 2
+      x: 736
+      y: 769
+      width: 53
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 736
+      y: 769
+      width: 53
+      height: 55
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Btn_Default_Yellow01
+    outer:
+      serializedVersion: 2
+      x: 880
+      y: 958
+      width: 60
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 909
+      y: 958
+      width: 2
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Frame_Yellow01
+    outer:
+      serializedVersion: 2
+      x: 998
+      y: 868
+      width: 23
+      height: 95
+    inner:
+      serializedVersion: 2
+      x: 1009
+      y: 883
+      width: 1
+      height: 65
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Close_pressed
+    outer:
+      serializedVersion: 2
+      x: 736
+      y: 713
+      width: 53
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 736
+      y: 713
+      width: 53
+      height: 55
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Title_600_01
+    outer:
+      serializedVersion: 2
+      x: 336
+      y: 556
+      width: 600
+      height: 47
+    inner:
+      serializedVersion: 2
+      x: 336
+      y: 556
+      width: 600
+      height: 47
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Btn_Default_Yellow01_pressed
+    outer:
+      serializedVersion: 2
+      x: 937
+      y: 891
+      width: 60
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 966
+      y: 891
+      width: 2
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Title_Back01-208
+    outer:
+      serializedVersion: 2
+      x: 736
+      y: 825
+      width: 208
+      height: 47
+    inner:
+      serializedVersion: 2
+      x: 736
+      y: 825
+      width: 208
+      height: 47
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: CashShop_Base_C01
+    outer:
+      serializedVersion: 2
+      x: 736
+      y: 873
+      width: 200
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 736
+      y: 873
+      width: 200
+      height: 60
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Market_Event01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 604
+      width: 367
+      height: 164
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 604
+      width: 367
+      height: 164
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Market_Event02
+    outer:
+      serializedVersion: 2
+      x: 368
+      y: 769
+      width: 367
+      height: 164
+    inner:
+      serializedVersion: 2
+      x: 368
+      y: 769
+      width: 367
+      height: 164
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Market_Event03
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 769
+      width: 367
+      height: 164
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 769
+      width: 367
+      height: 164
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Gradient01
+    outer:
+      serializedVersion: 2
+      x: 736
+      y: 652
+      width: 60
+      height: 23
+    inner:
+      serializedVersion: 2
+      x: 765
+      y: 652
+      width: 2
+      height: 23
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Market_Event04
+    outer:
+      serializedVersion: 2
+      x: 368
+      y: 604
+      width: 367
+      height: 164
+    inner:
+      serializedVersion: 2
+      x: 368
+      y: 604
+      width: 367
+      height: 164
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Selected_Center06
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 518
+      width: 335
+      height: 85
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 518
+      width: 335
+      height: 85
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Selected_Left08
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 432
+      width: 314
+      height: 85
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 432
+      width: 314
+      height: 85
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Selected_Right08
+    outer:
+      serializedVersion: 2
+      x: 336
+      y: 470
+      width: 314
+      height: 85
+    inner:
+      serializedVersion: 2
+      x: 336
+      y: 470
+      width: 314
+      height: 85
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

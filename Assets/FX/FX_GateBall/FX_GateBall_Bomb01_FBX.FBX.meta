@@ -1,0 +1,120 @@
+fileFormatVersion: 2
+guid: 1eb60d8b653dd484bb81c68c5564203e
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Bomb_Root
+    100002: //RootNode
+    100004: GateBall_Bomb01
+    100006: GateBall_Bomb02
+    100008: GateBall_Bomb03
+    100010: GateBall_Bomb04
+    100012: Plane001
+    100014: Plane002
+    100016: Plane003
+    400000: Bomb_Root
+    400002: //RootNode
+    400004: GateBall_Bomb01
+    400006: GateBall_Bomb02
+    400008: GateBall_Bomb03
+    400010: GateBall_Bomb04
+    400012: Plane001
+    400014: Plane002
+    400016: Plane003
+    2300000: GateBall_Bomb01
+    2300002: GateBall_Bomb02
+    2300004: GateBall_Bomb03
+    2300006: GateBall_Bomb04
+    2300008: Plane001
+    2300010: Plane002
+    2300012: Plane003
+    3300000: GateBall_Bomb01
+    3300002: GateBall_Bomb02
+    3300004: GateBall_Bomb03
+    3300006: GateBall_Bomb04
+    3300008: Plane001
+    3300010: Plane002
+    3300012: Plane003
+    4300000: GateBall_Bomb01
+    4300002: GateBall_Bomb02
+    4300004: GateBall_Bomb03
+    4300006: GateBall_Bomb04
+    4300008: Plane001
+    4300010: Plane002
+    4300012: Plane003
+    7400000: FX_GateBall_Bomb01
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 8
+    clipAnimations:
+    - name: FX_GateBall_Bomb01
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

@@ -1,0 +1,13 @@
+id,Name,Icon,Max,AttributeType,IncValue,StartMoney,MaxMoney,Desc
+1,공격력,SnowBall_Icon00,1000,AttackDamage,3,50000,50000,
+2,주문력,SnowBall_Icon01,1000,AbilityPower,3,50000,50000,
+3,치명타적중,SnowBall_Icon02,1000,CriticalHitRate,0.0006,50000,50000,
+4,치명타피해,SnowBall_Icon03,1000,CriticalDamageRate,0.001,50000,50000,
+5,생명력,SnowBall_Icon04,1000,HealthMax,120,50000,50000,
+6,생명력회복,SnowBall_Icon05,1000,HealthRegen,6,50000,50000,
+7,물리방어,SnowBall_Icon06,1000,Armor,36,50000,50000,
+8,마법저항,SnowBall_Icon07,1000,MagicResist,36,50000,50000,
+9,방어관통,SnowBall_Icon08,1000,ArmorPenetration,9,50000,50000,
+10,마법관통,SnowBall_Icon09,1000,MagicPenetration,9,50000,50000,
+11,생명력흡수,SnowBall_Icon10,1000,LifeSteal,0.0003,50000,50000,
+12,획득골드,SnowBall_Icon11,1000,IncGainGold,0.002,50000,50000,

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wave>
+	<StaminaRecoverPrice>0.0,10.0,0.0,0.0</StaminaRecoverPrice>
+	<Tower>Wood,900,50000,0,50,튼튼한 나무 성문</Tower>
+	<Tower>Stone,2700,150000,5,50,견고한 벽돌 성문</Tower>
+	<Tower>Iron,4500,250000,10,50,최강의 강철 성문</Tower>
+	<Reinforce>
+		<Info>공격력/주문력 +10%</Info>
+		<Type>Offense</Type>
+		<Attribute>AttackDamage,0.1</Attribute>
+		<Attribute>AbilityPower,0.1</Attribute>
+		<Gold>1000,0,0</Gold>
+	</Reinforce>
+	<Reinforce>
+		<Info>방어력/저항력 +10%</Info>
+		<Type>Defense</Type>
+		<Attribute>Armor,0.1</Attribute>
+		<Attribute>MagicResist,0.1</Attribute>
+		<Gold>1000,0,0</Gold>
+	</Reinforce>
+	<Reinforce>
+		<Info>생명력 +10%</Info>
+		<Type>AddLife</Type>
+		<Attribute>HealthMax,0.1</Attribute>
+		<Gold>1000,0,0</Gold>
+	</Reinforce>
+	<Reinforce>
+		<Info>경험치 +10%</Info>
+		<Type>AddExp</Type>
+		<Attribute>IncGainExp,0.1</Attribute>
+		<Gold>0,10,0</Gold>
+	</Reinforce>
+</Wave>

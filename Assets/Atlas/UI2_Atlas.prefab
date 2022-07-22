@@ -1,0 +1,634 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: UI2_Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: f69af5f64c53b5e41abf8e0c83814522, type: 2}
+  sprites:
+  - name: Result_05
+    outer:
+      serializedVersion: 2
+      x: 680
+      y: 306
+      width: 63
+      height: 82
+    inner:
+      serializedVersion: 2
+      x: 680
+      y: 306
+      width: 63
+      height: 82
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Result_03
+    outer:
+      serializedVersion: 2
+      x: 744
+      y: 306
+      width: 63
+      height: 82
+    inner:
+      serializedVersion: 2
+      x: 744
+      y: 306
+      width: 63
+      height: 82
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Result_04
+    outer:
+      serializedVersion: 2
+      x: 616
+      y: 306
+      width: 63
+      height: 82
+    inner:
+      serializedVersion: 2
+      x: 616
+      y: 306
+      width: 63
+      height: 82
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Result_02
+    outer:
+      serializedVersion: 2
+      x: 510
+      y: 413
+      width: 63
+      height: 82
+    inner:
+      serializedVersion: 2
+      x: 510
+      y: 413
+      width: 63
+      height: 82
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Result_01
+    outer:
+      serializedVersion: 2
+      x: 905
+      y: 310
+      width: 63
+      height: 82
+    inner:
+      serializedVersion: 2
+      x: 905
+      y: 310
+      width: 63
+      height: 82
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Black
+    outer:
+      serializedVersion: 2
+      x: 490
+      y: 479
+      width: 16
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 491
+      y: 480
+      width: 14
+      height: 14
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Result_Bar
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 496
+      width: 576
+      height: 121
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 496
+      width: 576
+      height: 121
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: exp_bar
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 253
+      width: 429
+      height: 17
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 253
+      width: 429
+      height: 17
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: exp_frame
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 466
+      width: 439
+      height: 29
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 466
+      width: 439
+      height: 29
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Weekly_Reward_Frame01
+    outer:
+      serializedVersion: 2
+      x: 815
+      y: 477
+      width: 120
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 870
+      y: 567
+      width: 10
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Weekly_Reward_Frame02
+    outer:
+      serializedVersion: 2
+      x: 490
+      y: 769
+      width: 306
+      height: 255
+    inner:
+      serializedVersion: 2
+      x: 490
+      y: 769
+      width: 306
+      height: 255
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Upprer_Bar_Long
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 271
+      width: 607
+      height: 47
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 271
+      width: 607
+      height: 47
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Weekly_Reward_Frame03
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 319
+      width: 615
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 319
+      width: 615
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Black_Frame
+    outer:
+      serializedVersion: 2
+      x: 294
+      y: 619
+      width: 32
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 294
+      y: 619
+      width: 32
+      height: 32
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Weekly_Reward_IMG_Medal
+    outer:
+      serializedVersion: 2
+      x: 577
+      y: 389
+      width: 237
+      height: 228
+    inner:
+      serializedVersion: 2
+      x: 577
+      y: 389
+      width: 237
+      height: 228
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Weekly_Reward_IMG_Jewel
+    outer:
+      serializedVersion: 2
+      x: 905
+      y: 393
+      width: 97
+      height: 83
+    inner:
+      serializedVersion: 2
+      x: 905
+      y: 393
+      width: 97
+      height: 83
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Weekly_Reward_IMG_Rank
+    outer:
+      serializedVersion: 2
+      x: 936
+      y: 497
+      width: 43
+      height: 33
+    inner:
+      serializedVersion: 2
+      x: 936
+      y: 497
+      width: 43
+      height: 33
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Weekly_Reward_IMG_Placing
+    outer:
+      serializedVersion: 2
+      x: 980
+      y: 497
+      width: 35
+      height: 33
+    inner:
+      serializedVersion: 2
+      x: 980
+      y: 497
+      width: 35
+      height: 33
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Weekly_Reward_IMG_Record
+    outer:
+      serializedVersion: 2
+      x: 294
+      y: 652
+      width: 30
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 294
+      y: 652
+      width: 30
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Gold_Box
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 689
+      width: 489
+      height: 335
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 689
+      width: 489
+      height: 335
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Wave_Frame_Recode_R
+    outer:
+      serializedVersion: 2
+      x: 255
+      y: 402
+      width: 254
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 255
+      y: 402
+      width: 254
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Wave_Frame_Recode_L
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 402
+      width: 254
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 402
+      width: 254
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Weekly_Reward_Best_Brave
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 441
+      width: 424
+      height: 24
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 441
+      width: 424
+      height: 24
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Arena_Start04
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 635
+      width: 293
+      height: 53
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 635
+      width: 293
+      height: 53
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Arena_Count01
+    outer:
+      serializedVersion: 2
+      x: 930
+      y: 905
+      width: 89
+      height: 119
+    inner:
+      serializedVersion: 2
+      x: 930
+      y: 905
+      width: 89
+      height: 119
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Arena_Start02
+    outer:
+      serializedVersion: 2
+      x: 440
+      y: 456
+      width: 49
+      height: 39
+    inner:
+      serializedVersion: 2
+      x: 440
+      y: 456
+      width: 49
+      height: 39
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Arena_Start05
+    outer:
+      serializedVersion: 2
+      x: 797
+      y: 775
+      width: 118
+      height: 116
+    inner:
+      serializedVersion: 2
+      x: 797
+      y: 775
+      width: 118
+      height: 116
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Arena_Start03
+    outer:
+      serializedVersion: 2
+      x: 490
+      y: 618
+      width: 514
+      height: 150
+    inner:
+      serializedVersion: 2
+      x: 700
+      y: 618
+      width: 94
+      height: 150
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Arena_Count02
+    outer:
+      serializedVersion: 2
+      x: 815
+      y: 357
+      width: 89
+      height: 119
+    inner:
+      serializedVersion: 2
+      x: 815
+      y: 357
+      width: 89
+      height: 119
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Arena_Start01
+    outer:
+      serializedVersion: 2
+      x: 936
+      y: 531
+      width: 85
+      height: 86
+    inner:
+      serializedVersion: 2
+      x: 936
+      y: 531
+      width: 85
+      height: 86
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Arena_Count03
+    outer:
+      serializedVersion: 2
+      x: 916
+      y: 772
+      width: 89
+      height: 119
+    inner:
+      serializedVersion: 2
+      x: 916
+      y: 772
+      width: 89
+      height: 119
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Arena_Start06
+    outer:
+      serializedVersion: 2
+      x: 797
+      y: 892
+      width: 132
+      height: 132
+    inner:
+      serializedVersion: 2
+      x: 797
+      y: 892
+      width: 132
+      height: 132
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

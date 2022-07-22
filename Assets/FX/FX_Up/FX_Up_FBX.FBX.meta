@@ -1,0 +1,151 @@
+fileFormatVersion: 2
+guid: ff94fc411c6d04e4b8a9cad9cf106f36
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Light004
+    100004: Light005
+    100006: Light006
+    100008: Light007
+    100010: Light008
+    100012: Light009
+    100014: Light01
+    100016: Light010
+    100018: Light011
+    100020: Light012
+    100022: Light013
+    100024: Light02
+    100026: Light03
+    400000: //RootNode
+    400002: Light004
+    400004: Light005
+    400006: Light006
+    400008: Light007
+    400010: Light008
+    400012: Light009
+    400014: Light01
+    400016: Light010
+    400018: Light011
+    400020: Light012
+    400022: Light013
+    400024: Light02
+    400026: Light03
+    2300000: Light004
+    2300002: Light005
+    2300004: Light006
+    2300006: Light007
+    2300008: Light008
+    2300010: Light009
+    2300012: Light01
+    2300014: Light010
+    2300016: Light011
+    2300018: Light012
+    2300020: Light013
+    2300022: Light02
+    2300024: Light03
+    2300026: //RootNode
+    3300000: Light004
+    3300002: Light005
+    3300004: Light006
+    3300006: Light007
+    3300008: Light008
+    3300010: Light009
+    3300012: Light01
+    3300014: Light010
+    3300016: Light011
+    3300018: Light012
+    3300020: Light013
+    3300022: Light02
+    3300024: Light03
+    3300026: //RootNode
+    4300000: Light01
+    4300002: Light03
+    4300004: Light02
+    4300006: Light004
+    4300008: Light005
+    4300010: Light006
+    4300012: Light007
+    4300014: Light008
+    4300016: Light009
+    4300018: Light010
+    4300020: Light011
+    4300022: Light012
+    4300024: Light013
+    4300026: Root
+    7400000: FX_Up
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 2
+    clipAnimations:
+    - name: FX_Up
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

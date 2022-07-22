@@ -1,0 +1,116 @@
+fileFormatVersion: 2
+guid: 34385a35695fe2446bae62fa2eaa7fd5
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Heal_target_light02
+    100004: Heal_target_light05
+    100006: Heal_target_light04
+    100008: Heal_target_light06
+    100010: Heal_target_light03
+    100012: Heal_target_light01
+    400000: //RootNode
+    400002: Heal_target_light02
+    400004: Heal_target_light05
+    400006: Heal_target_light04
+    400008: Heal_target_light06
+    400010: Heal_target_light03
+    400012: Heal_target_light01
+    2300000: //RootNode
+    2300002: Heal_target_light02
+    2300004: Heal_target_light05
+    2300006: Heal_target_light04
+    2300008: Heal_target_light06
+    2300010: Heal_target_light03
+    2300012: Heal_target_light01
+    3300000: //RootNode
+    3300002: Heal_target_light02
+    3300004: Heal_target_light05
+    3300006: Heal_target_light04
+    3300008: Heal_target_light06
+    3300010: Heal_target_light03
+    3300012: Heal_target_light01
+    4300000: Root
+    4300002: Heal_target_light01
+    4300004: Heal_target_light03
+    4300006: Heal_target_light02
+    4300008: Heal_target_light06
+    4300010: Heal_target_light05
+    4300012: Heal_target_light04
+    7400000: Take 001
+    7400002: FX_Heal_target
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 3
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 3
+    bakeSimulation: 0
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: FX_Heal_target
+      takeName: 
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 1
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

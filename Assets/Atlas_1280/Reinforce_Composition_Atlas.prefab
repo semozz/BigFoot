@@ -1,0 +1,976 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Reinforce_Composition_Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: dd39bdde37f4818408815437110510e3, type: 2}
+  sprites:
+  - name: Reinforce_Base01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 304
+      width: 366
+      height: 720
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 304
+      width: 366
+      height: 720
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Reinforce_Base02
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 72
+      width: 569
+      height: 57
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 72
+      width: 569
+      height: 57
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: exp_frame
+    outer:
+      serializedVersion: 2
+      x: 570
+      y: 100
+      width: 439
+      height: 29
+    inner:
+      serializedVersion: 2
+      x: 770
+      y: 100
+      width: 39
+      height: 29
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: reinforce_bar
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 9
+      width: 429
+      height: 17
+    inner:
+      serializedVersion: 2
+      x: 200
+      y: 9
+      width: 29
+      height: 17
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Btn_Default_Red01_pressed
+    outer:
+      serializedVersion: 2
+      x: 945
+      y: 33
+      width: 60
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 974
+      y: 33
+      width: 2
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Close_pressed
+    outer:
+      serializedVersion: 2
+      x: 969
+      y: 896
+      width: 53
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 969
+      y: 896
+      width: 53
+      height: 55
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Close
+    outer:
+      serializedVersion: 2
+      x: 876
+      y: 386
+      width: 53
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 876
+      y: 386
+      width: 53
+      height: 55
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Black01
+    outer:
+      serializedVersion: 2
+      x: 969
+      y: 865
+      width: 30
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 973
+      y: 869
+      width: 22
+      height: 22
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Shop_Money01
+    outer:
+      serializedVersion: 2
+      x: 964
+      y: 643
+      width: 42
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 964
+      y: 643
+      width: 42
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Composition_Base01
+    outer:
+      serializedVersion: 2
+      x: 367
+      y: 516
+      width: 399
+      height: 508
+    inner:
+      serializedVersion: 2
+      x: 367
+      y: 516
+      width: 399
+      height: 508
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Composition_Hammer01
+    outer:
+      serializedVersion: 2
+      x: 592
+      y: 293
+      width: 222
+      height: 222
+    inner:
+      serializedVersion: 2
+      x: 592
+      y: 293
+      width: 222
+      height: 222
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Arrow01
+    outer:
+      serializedVersion: 2
+      x: 877
+      y: 680
+      width: 96
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 877
+      y: 680
+      width: 96
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Select_Left01
+    outer:
+      serializedVersion: 2
+      x: 876
+      y: 442
+      width: 65
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 876
+      y: 442
+      width: 65
+      height: 55
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Select_Right01
+    outer:
+      serializedVersion: 2
+      x: 898
+      y: 568
+      width: 65
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 898
+      y: 568
+      width: 65
+      height: 55
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Btn_Default_Red02
+    outer:
+      serializedVersion: 2
+      x: 927
+      y: 793
+      width: 60
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 956
+      y: 793
+      width: 2
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bar_vital
+    outer:
+      serializedVersion: 2
+      x: 559
+      y: 9
+      width: 229
+      height: 17
+    inner:
+      serializedVersion: 2
+      x: 559
+      y: 9
+      width: 229
+      height: 17
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Btn_Default_Yellow01
+    outer:
+      serializedVersion: 2
+      x: 815
+      y: 353
+      width: 60
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 844
+      y: 353
+      width: 2
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Btn_Default_Yellow01_pressed
+    outer:
+      serializedVersion: 2
+      x: 815
+      y: 420
+      width: 60
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 844
+      y: 420
+      width: 2
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Shop_Money02
+    outer:
+      serializedVersion: 2
+      x: 974
+      y: 689
+      width: 42
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 974
+      y: 689
+      width: 42
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Select_Left01_01
+    outer:
+      serializedVersion: 2
+      x: 898
+      y: 624
+      width: 65
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 898
+      y: 624
+      width: 65
+      height: 55
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Select_Right01_01
+    outer:
+      serializedVersion: 2
+      x: 876
+      y: 498
+      width: 65
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 876
+      y: 498
+      width: 65
+      height: 55
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Frame01-9
+    outer:
+      serializedVersion: 2
+      x: 842
+      y: 242
+      width: 60
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 871
+      y: 271
+      width: 2
+      height: 2
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Btn_Default_Blue01
+    outer:
+      serializedVersion: 2
+      x: 927
+      y: 726
+      width: 60
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 956
+      y: 726
+      width: 2
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Btn_Default_Blue01_pressed
+    outer:
+      serializedVersion: 2
+      x: 815
+      y: 487
+      width: 60
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 844
+      y: 487
+      width: 2
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Composition_Material_Base01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 214
+      width: 591
+      height: 89
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 214
+      width: 591
+      height: 89
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Composition_Material_Kingdom03
+    outer:
+      serializedVersion: 2
+      x: 793
+      y: 147
+      width: 124
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 793
+      y: 147
+      width: 124
+      height: 72
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Composition_Material_Kingdom02
+    outer:
+      serializedVersion: 2
+      x: 717
+      y: 220
+      width: 124
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 717
+      y: 220
+      width: 124
+      height: 72
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Composition_Material_Kingdom01
+    outer:
+      serializedVersion: 2
+      x: 592
+      y: 220
+      width: 124
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 592
+      y: 220
+      width: 124
+      height: 72
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Composition_Material_Kingdom04
+    outer:
+      serializedVersion: 2
+      x: 570
+      y: 27
+      width: 124
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 570
+      y: 27
+      width: 124
+      height: 72
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Composition_Material_Base03
+    outer:
+      serializedVersion: 2
+      x: 430
+      y: 17
+      width: 128
+      height: 54
+    inner:
+      serializedVersion: 2
+      x: 490
+      y: 17
+      width: 8
+      height: 54
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Composition_Material_Base02
+    outer:
+      serializedVersion: 2
+      x: 976
+      y: 3
+      width: 16
+      height: 29
+    inner:
+      serializedVersion: 2
+      x: 983
+      y: 3
+      width: 2
+      height: 29
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Frame02-3
+    outer:
+      serializedVersion: 2
+      x: 945
+      y: 14
+      width: 30
+      height: 18
+    inner:
+      serializedVersion: 2
+      x: 959
+      y: 14
+      width: 2
+      height: 18
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Title_Back01-208
+    outer:
+      serializedVersion: 2
+      x: 584
+      y: 166
+      width: 208
+      height: 47
+    inner:
+      serializedVersion: 2
+      x: 585
+      y: 166
+      width: 206
+      height: 47
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Back_Paper01-0
+    outer:
+      serializedVersion: 2
+      x: 367
+      y: 315
+      width: 200
+      height: 200
+    inner:
+      serializedVersion: 2
+      x: 367
+      y: 315
+      width: 200
+      height: 200
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Composition_Material_Base04
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 130
+      width: 583
+      height: 83
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 130
+      width: 583
+      height: 83
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Composition_Material_Base05
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 607
+      height: 8
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 607
+      height: 8
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Boss_Icon_hard
+    outer:
+      serializedVersion: 2
+      x: 892
+      y: 308
+      width: 46
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 892
+      y: 308
+      width: 46
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Boss_Icon_hell
+    outer:
+      serializedVersion: 2
+      x: 767
+      y: 517
+      width: 46
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 767
+      y: 517
+      width: 46
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Boss_Icon_normal
+    outer:
+      serializedVersion: 2
+      x: 942
+      y: 531
+      width: 46
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 942
+      y: 531
+      width: 46
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Composition_Material_Gamble
+    outer:
+      serializedVersion: 2
+      x: 820
+      y: 27
+      width: 124
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 820
+      y: 27
+      width: 124
+      height: 72
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Composition_Material_ArenaShop
+    outer:
+      serializedVersion: 2
+      x: 695
+      y: 27
+      width: 124
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 695
+      y: 27
+      width: 124
+      height: 72
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Reinforce_Base03
+    outer:
+      serializedVersion: 2
+      x: 767
+      y: 666
+      width: 109
+      height: 358
+    inner:
+      serializedVersion: 2
+      x: 767
+      y: 666
+      width: 109
+      height: 358
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Reinforce_Base04
+    outer:
+      serializedVersion: 2
+      x: 930
+      y: 401
+      width: 55
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 980
+      y: 401
+      width: 1
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Reinforce_Base05
+    outer:
+      serializedVersion: 2
+      x: 993
+      y: 16
+      width: 16
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 997
+      y: 20
+      width: 8
+      height: 8
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Reinforce_Base06
+    outer:
+      serializedVersion: 2
+      x: 877
+      y: 725
+      width: 49
+      height: 134
+    inner:
+      serializedVersion: 2
+      x: 877
+      y: 725
+      width: 49
+      height: 134
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Reinforce_Base041
+    outer:
+      serializedVersion: 2
+      x: 892
+      y: 345
+      width: 55
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 896
+      y: 345
+      width: 1
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Reinforce_Base07
+    outer:
+      serializedVersion: 2
+      x: 815
+      y: 303
+      width: 76
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 815
+      y: 303
+      width: 76
+      height: 49
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Reinforce_Base08
+    outer:
+      serializedVersion: 2
+      x: 877
+      y: 860
+      width: 91
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 877
+      y: 860
+      width: 91
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Composition_Material_Defence
+    outer:
+      serializedVersion: 2
+      x: 877
+      y: 952
+      width: 124
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 877
+      y: 952
+      width: 124
+      height: 72
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Reinforce_Back_pt
+    outer:
+      serializedVersion: 2
+      x: 767
+      y: 554
+      width: 130
+      height: 111
+    inner:
+      serializedVersion: 2
+      x: 768
+      y: 555
+      width: 128
+      height: 109
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Reinforce_Description
+    outer:
+      serializedVersion: 2
+      x: 964
+      y: 584
+      width: 24
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 975
+      y: 595
+      width: 2
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

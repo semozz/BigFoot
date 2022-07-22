@@ -1,0 +1,1138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: MapSelect_Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: ae64314b6c58764438422731a9f20a3f, type: 2}
+  sprites:
+  - name: Shop_Btn_Back
+    outer:
+      serializedVersion: 2
+      x: 353
+      y: 106
+      width: 98
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 353
+      y: 106
+      width: 98
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Shop_Btn_Back_pressed
+    outer:
+      serializedVersion: 2
+      x: 516
+      y: 13
+      width: 98
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 516
+      y: 13
+      width: 98
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: select_stage_normal
+    outer:
+      serializedVersion: 2
+      x: 251
+      y: 70
+      width: 101
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 251
+      y: 70
+      width: 101
+      height: 100
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: select_stage_normal_clear
+    outer:
+      serializedVersion: 2
+      x: 494
+      y: 78
+      width: 101
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 494
+      y: 78
+      width: 101
+      height: 100
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: select_stage_normal_locked
+    outer:
+      serializedVersion: 2
+      x: 596
+      y: 78
+      width: 101
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 596
+      y: 78
+      width: 101
+      height: 100
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Mode_Base001
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 937
+      width: 292
+      height: 87
+    inner:
+      serializedVersion: 2
+      x: 110
+      y: 937
+      width: 92
+      height: 87
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Hard_selected
+    outer:
+      serializedVersion: 2
+      x: 353
+      y: 21
+      width: 162
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 353
+      y: 21
+      width: 162
+      height: 56
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Hard_unselected
+    outer:
+      serializedVersion: 2
+      x: 163
+      y: 19
+      width: 154
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 163
+      y: 19
+      width: 154
+      height: 50
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Normal_selected
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 51
+      width: 162
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 51
+      width: 162
+      height: 56
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Normal_unselected
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 181
+      width: 154
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 181
+      width: 154
+      height: 50
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Mode_Base002
+    outer:
+      serializedVersion: 2
+      x: 155
+      y: 179
+      width: 80
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 155
+      y: 179
+      width: 80
+      height: 52
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Mode_Base004
+    outer:
+      serializedVersion: 2
+      x: 163
+      y: 70
+      width: 40
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 163
+      y: 70
+      width: 40
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Mode_Base003
+    outer:
+      serializedVersion: 2
+      x: 318
+      y: 40
+      width: 34
+      height: 29
+    inner:
+      serializedVersion: 2
+      x: 318
+      y: 40
+      width: 34
+      height: 29
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: select_stage_boss005_locked
+    outer:
+      serializedVersion: 2
+      x: 568
+      y: 320
+      width: 141
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 568
+      y: 320
+      width: 141
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: select_stage_boss004_clear
+    outer:
+      serializedVersion: 2
+      x: 710
+      y: 320
+      width: 141
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 710
+      y: 320
+      width: 141
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: select_stage_sp02_clear
+    outer:
+      serializedVersion: 2
+      x: 426
+      y: 373
+      width: 141
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 426
+      y: 373
+      width: 141
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: select_stage_boss002
+    outer:
+      serializedVersion: 2
+      x: 142
+      y: 373
+      width: 141
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 142
+      y: 373
+      width: 141
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: select_stage_boss007_clear
+    outer:
+      serializedVersion: 2
+      x: 284
+      y: 373
+      width: 141
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 284
+      y: 373
+      width: 141
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: select_stage_sp03
+    outer:
+      serializedVersion: 2
+      x: 852
+      y: 320
+      width: 141
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 852
+      y: 320
+      width: 141
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: select_stage_boss002_locked
+    outer:
+      serializedVersion: 2
+      x: 426
+      y: 232
+      width: 141
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 426
+      y: 232
+      width: 141
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: select_stage_boss001_clear
+    outer:
+      serializedVersion: 2
+      x: 568
+      y: 179
+      width: 141
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 568
+      y: 179
+      width: 141
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: select_stage_sp04_clear
+    outer:
+      serializedVersion: 2
+      x: 284
+      y: 232
+      width: 141
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 284
+      y: 232
+      width: 141
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: select_stage_boss003_clear
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 232
+      width: 141
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 232
+      width: 141
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: select_stage_sp02
+    outer:
+      serializedVersion: 2
+      x: 142
+      y: 232
+      width: 141
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 142
+      y: 232
+      width: 141
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: select_stage_boss001
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 373
+      width: 141
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 373
+      width: 141
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: select_stage_sp01_clear
+    outer:
+      serializedVersion: 2
+      x: 710
+      y: 743
+      width: 141
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 710
+      y: 743
+      width: 141
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: select_stage_boss008_clear
+    outer:
+      serializedVersion: 2
+      x: 568
+      y: 743
+      width: 141
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 568
+      y: 743
+      width: 141
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: select_stage_boss007_locked
+    outer:
+      serializedVersion: 2
+      x: 426
+      y: 796
+      width: 141
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 426
+      y: 796
+      width: 141
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: select_stage_boss008
+    outer:
+      serializedVersion: 2
+      x: 142
+      y: 655
+      width: 141
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 142
+      y: 655
+      width: 141
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: select_stage_boss006
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 655
+      width: 141
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 655
+      width: 141
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: select_stage_boss007
+    outer:
+      serializedVersion: 2
+      x: 852
+      y: 743
+      width: 141
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 852
+      y: 743
+      width: 141
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: select_stage_boss004
+    outer:
+      serializedVersion: 2
+      x: 728
+      y: 884
+      width: 141
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 728
+      y: 884
+      width: 141
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: select_stage_boss004_locked
+    outer:
+      serializedVersion: 2
+      x: 586
+      y: 884
+      width: 141
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 586
+      y: 884
+      width: 141
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: select_stage_boss005
+    outer:
+      serializedVersion: 2
+      x: 870
+      y: 884
+      width: 141
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 870
+      y: 884
+      width: 141
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: select_stage_boss006_locked
+    outer:
+      serializedVersion: 2
+      x: 284
+      y: 796
+      width: 141
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 284
+      y: 796
+      width: 141
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: select_stage_boss008_locked
+    outer:
+      serializedVersion: 2
+      x: 142
+      y: 796
+      width: 141
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 142
+      y: 796
+      width: 141
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: select_stage_sp04
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 796
+      width: 141
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 796
+      width: 141
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: select_stage_sp01
+    outer:
+      serializedVersion: 2
+      x: 426
+      y: 514
+      width: 141
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 426
+      y: 514
+      width: 141
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: select_stage_boss003
+    outer:
+      serializedVersion: 2
+      x: 284
+      y: 514
+      width: 141
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 284
+      y: 514
+      width: 141
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: select_stage_boss002_clear
+    outer:
+      serializedVersion: 2
+      x: 142
+      y: 514
+      width: 141
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 142
+      y: 514
+      width: 141
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: select_stage_boss001_locked
+    outer:
+      serializedVersion: 2
+      x: 852
+      y: 461
+      width: 141
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 852
+      y: 461
+      width: 141
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: select_stage_boss006_clear
+    outer:
+      serializedVersion: 2
+      x: 710
+      y: 461
+      width: 141
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 710
+      y: 461
+      width: 141
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: select_stage_sp03_clear
+    outer:
+      serializedVersion: 2
+      x: 568
+      y: 461
+      width: 141
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 568
+      y: 461
+      width: 141
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: select_stage_boss003_locked
+    outer:
+      serializedVersion: 2
+      x: 568
+      y: 602
+      width: 141
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 568
+      y: 602
+      width: 141
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: select_stage_boss005_clear
+    outer:
+      serializedVersion: 2
+      x: 426
+      y: 655
+      width: 141
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 426
+      y: 655
+      width: 141
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: select_stage_sp04l_locked
+    outer:
+      serializedVersion: 2
+      x: 284
+      y: 655
+      width: 141
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 284
+      y: 655
+      width: 141
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: select_stage_sp02l_locked
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 514
+      width: 141
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 514
+      width: 141
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: select_stage_sp03l_locked
+    outer:
+      serializedVersion: 2
+      x: 852
+      y: 602
+      width: 141
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 852
+      y: 602
+      width: 141
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: select_stage_sp01l_locked
+    outer:
+      serializedVersion: 2
+      x: 710
+      y: 602
+      width: 141
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 710
+      y: 602
+      width: 141
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Hell_unselected
+    outer:
+      serializedVersion: 2
+      x: 251
+      y: 171
+      width: 242
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 251
+      y: 171
+      width: 242
+      height: 60
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Hell_selected
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 108
+      width: 250
+      height: 70
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 108
+      width: 250
+      height: 70
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Mode_Base005
+    outer:
+      serializedVersion: 2
+      x: 293
+      y: 937
+      width: 292
+      height: 87
+    inner:
+      serializedVersion: 2
+      x: 293
+      y: 937
+      width: 292
+      height: 87
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Mode_Base007
+    outer:
+      serializedVersion: 2
+      x: 318
+      y: 15
+      width: 23
+      height: 24
+    inner:
+      serializedVersion: 2
+      x: 318
+      y: 15
+      width: 23
+      height: 24
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Mode_Base006
+    outer:
+      serializedVersion: 2
+      x: 615
+      y: 59
+      width: 25
+      height: 18
+    inner:
+      serializedVersion: 2
+      x: 615
+      y: 59
+      width: 25
+      height: 18
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: select_stage_Gold001_Locked
+    outer:
+      serializedVersion: 2
+      x: 852
+      y: 188
+      width: 141
+      height: 131
+    inner:
+      serializedVersion: 2
+      x: 852
+      y: 188
+      width: 141
+      height: 131
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: select_stage_Gold001
+    outer:
+      serializedVersion: 2
+      x: 710
+      y: 188
+      width: 141
+      height: 131
+    inner:
+      serializedVersion: 2
+      x: 710
+      y: 188
+      width: 141
+      height: 131
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: select_stage_Material001_Locked
+    outer:
+      serializedVersion: 2
+      x: 852
+      y: 57
+      width: 141
+      height: 130
+    inner:
+      serializedVersion: 2
+      x: 852
+      y: 57
+      width: 141
+      height: 130
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: select_stage_Material001
+    outer:
+      serializedVersion: 2
+      x: 710
+      y: 57
+      width: 141
+      height: 130
+    inner:
+      serializedVersion: 2
+      x: 710
+      y: 57
+      width: 141
+      height: 130
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Mapselect_Notice_Black
+    outer:
+      serializedVersion: 2
+      x: 615
+      y: 26
+      width: 174
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 701
+      y: 26
+      width: 2
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Mapselect_Notice_Foot
+    outer:
+      serializedVersion: 2
+      x: 204
+      y: 83
+      width: 44
+      height: 24
+    inner:
+      serializedVersion: 2
+      x: 225
+      y: 83
+      width: 2
+      height: 24
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

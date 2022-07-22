@@ -1,0 +1,1102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Start_Arena_Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: b7ba6c5b92767e94abcddfa038d0ea3e, type: 2}
+  sprites:
+  - name: Left_User_Back02
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 874
+      width: 725
+      height: 150
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 908
+      width: 725
+      height: 2
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Left_User_Back01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 437
+      width: 684
+      height: 95
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 437
+      width: 684
+      height: 95
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Arena_Base_T01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 355
+      width: 517
+      height: 81
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 355
+      width: 517
+      height: 81
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Right_Info_Board
+    outer:
+      serializedVersion: 2
+      x: 518
+      y: 357
+      width: 492
+      height: 79
+    inner:
+      serializedVersion: 2
+      x: 518
+      y: 357
+      width: 492
+      height: 79
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Selected_Left06
+    outer:
+      serializedVersion: 2
+      x: 726
+      y: 861
+      width: 279
+      height: 81
+    inner:
+      serializedVersion: 2
+      x: 726
+      y: 861
+      width: 279
+      height: 81
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Selected_Right06
+    outer:
+      serializedVersion: 2
+      x: 726
+      y: 943
+      width: 279
+      height: 81
+    inner:
+      serializedVersion: 2
+      x: 726
+      y: 943
+      width: 279
+      height: 81
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Bonus_Board01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 134
+      width: 485
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 30
+      y: 134
+      width: 425
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Right_Btn_Back
+    outer:
+      serializedVersion: 2
+      x: 221
+      y: 48
+      width: 220
+      height: 85
+    inner:
+      serializedVersion: 2
+      x: 330
+      y: 48
+      width: 2
+      height: 85
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Right_Btn_Click_Back
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 48
+      width: 220
+      height: 85
+    inner:
+      serializedVersion: 2
+      x: 109
+      y: 48
+      width: 2
+      height: 85
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Right_Action_Back
+    outer:
+      serializedVersion: 2
+      x: 631
+      y: 188
+      width: 321
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 791
+      y: 188
+      width: 1
+      height: 56
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: DropDown_Menu_Back01
+    outer:
+      serializedVersion: 2
+      x: 958
+      y: 743
+      width: 60
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 987
+      y: 767
+      width: 2
+      height: 2
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Right_Info_Board_Icon01
+    outer:
+      serializedVersion: 2
+      x: 780
+      y: 314
+      width: 55
+      height: 42
+    inner:
+      serializedVersion: 2
+      x: 780
+      y: 314
+      width: 55
+      height: 42
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Right_Info_Board_Icon04
+    outer:
+      serializedVersion: 2
+      x: 724
+      y: 314
+      width: 55
+      height: 42
+    inner:
+      serializedVersion: 2
+      x: 724
+      y: 314
+      width: 55
+      height: 42
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Right_Info_Board_Icon03
+    outer:
+      serializedVersion: 2
+      x: 956
+      y: 41
+      width: 55
+      height: 42
+    inner:
+      serializedVersion: 2
+      x: 956
+      y: 41
+      width: 55
+      height: 42
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Right_Btn_Icon
+    outer:
+      serializedVersion: 2
+      x: 836
+      y: 308
+      width: 48
+      height: 48
+    inner:
+      serializedVersion: 2
+      x: 836
+      y: 308
+      width: 48
+      height: 48
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Right_Info_Board_Icon02
+    outer:
+      serializedVersion: 2
+      x: 898
+      y: 89
+      width: 44
+      height: 42
+    inner:
+      serializedVersion: 2
+      x: 898
+      y: 89
+      width: 44
+      height: 42
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Right_Action_Icon01
+    outer:
+      serializedVersion: 2
+      x: 956
+      y: 1
+      width: 41
+      height: 39
+    inner:
+      serializedVersion: 2
+      x: 956
+      y: 1
+      width: 41
+      height: 39
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Left_Top_Watch_Icon
+    outer:
+      serializedVersion: 2
+      x: 917
+      y: 150
+      width: 32
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 917
+      y: 150
+      width: 32
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Bonus_Back01_Board01
+    outer:
+      serializedVersion: 2
+      x: 998
+      y: 10
+      width: 20
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 998
+      y: 10
+      width: 20
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: DropDown_Menu_Block
+    outer:
+      serializedVersion: 2
+      x: 1012
+      y: 50
+      width: 10
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 1016
+      y: 50
+      width: 2
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: DropDown_Menu_Arrow_Up
+    outer:
+      serializedVersion: 2
+      x: 817
+      y: 104
+      width: 19
+      height: 14
+    inner:
+      serializedVersion: 2
+      x: 817
+      y: 104
+      width: 19
+      height: 14
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: DropDown_Menu_Arrow_Down
+    outer:
+      serializedVersion: 2
+      x: 917
+      y: 135
+      width: 19
+      height: 14
+    inner:
+      serializedVersion: 2
+      x: 917
+      y: 135
+      width: 19
+      height: 14
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Shop_Btn_Back_pressed
+    outer:
+      serializedVersion: 2
+      x: 707
+      y: 123
+      width: 98
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 707
+      y: 123
+      width: 98
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Shop_Btn_Back
+    outer:
+      serializedVersion: 2
+      x: 688
+      y: 24
+      width: 98
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 688
+      y: 24
+      width: 98
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Shop_Money03
+    outer:
+      serializedVersion: 2
+      x: 977
+      y: 162
+      width: 42
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 977
+      y: 162
+      width: 42
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Shop_Money02
+    outer:
+      serializedVersion: 2
+      x: 977
+      y: 125
+      width: 42
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 977
+      y: 125
+      width: 42
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Shop_Money01
+    outer:
+      serializedVersion: 2
+      x: 977
+      y: 88
+      width: 42
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 977
+      y: 88
+      width: 42
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Frame01-9
+    outer:
+      serializedVersion: 2
+      x: 947
+      y: 800
+      width: 60
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 976
+      y: 829
+      width: 2
+      height: 2
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Frame02-3
+    outer:
+      serializedVersion: 2
+      x: 958
+      y: 724
+      width: 30
+      height: 18
+    inner:
+      serializedVersion: 2
+      x: 972
+      y: 724
+      width: 2
+      height: 18
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Shop_Inventory_Frame02
+    outer:
+      serializedVersion: 2
+      x: 837
+      y: 12
+      width: 60
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 866
+      y: 23
+      width: 2
+      height: 1
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Btn_Tiny_Yellow01_pressed
+    outer:
+      serializedVersion: 2
+      x: 837
+      y: 63
+      width: 60
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 866
+      y: 63
+      width: 2
+      height: 55
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Btn_Tiny_Yellow01
+    outer:
+      serializedVersion: 2
+      x: 856
+      y: 132
+      width: 60
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 885
+      y: 132
+      width: 2
+      height: 55
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Frame_Yellow05
+    outer:
+      serializedVersion: 2
+      x: 953
+      y: 84
+      width: 23
+      height: 160
+    inner:
+      serializedVersion: 2
+      x: 964
+      y: 99
+      width: 1
+      height: 130
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Title_630
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 175
+      width: 630
+      height: 47
+    inner:
+      serializedVersion: 2
+      x: 1
+      y: 175
+      width: 628
+      height: 47
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Title_Back_723_53
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 301
+      width: 723
+      height: 53
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 301
+      width: 723
+      height: 53
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Wood_Base02
+    outer:
+      serializedVersion: 2
+      x: 685
+      y: 469
+      width: 325
+      height: 139
+    inner:
+      serializedVersion: 2
+      x: 685
+      y: 469
+      width: 325
+      height: 139
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: No
+    outer:
+      serializedVersion: 2
+      x: 917
+      y: 132
+      width: 2
+      height: 2
+    inner:
+      serializedVersion: 2
+      x: 917
+      y: 132
+      width: 2
+      height: 2
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Face_Assassin
+    outer:
+      serializedVersion: 2
+      x: 512
+      y: 536
+      width: 122
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 512
+      y: 536
+      width: 122
+      height: 72
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Face_Wizard
+    outer:
+      serializedVersion: 2
+      x: 565
+      y: 16
+      width: 122
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 565
+      y: 16
+      width: 122
+      height: 72
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Face_Warrior
+    outer:
+      serializedVersion: 2
+      x: 442
+      y: 16
+      width: 122
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 442
+      y: 16
+      width: 122
+      height: 72
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Info_IMG_Left_UserInfo
+    outer:
+      serializedVersion: 2
+      x: 898
+      y: 27
+      width: 57
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 898
+      y: 27
+      width: 57
+      height: 56
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Info_Frame_Ghost_Face
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 533
+      width: 511
+      height: 189
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 533
+      width: 511
+      height: 189
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Right_Btn_Yellow
+    outer:
+      serializedVersion: 2
+      x: 726
+      y: 775
+      width: 220
+      height: 85
+    inner:
+      serializedVersion: 2
+      x: 835
+      y: 775
+      width: 2
+      height: 85
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Right_Btn_Yellow_pressed
+    outer:
+      serializedVersion: 2
+      x: 486
+      y: 89
+      width: 220
+      height: 85
+    inner:
+      serializedVersion: 2
+      x: 595
+      y: 89
+      width: 2
+      height: 85
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Right_Info_Board01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 223
+      width: 492
+      height: 77
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 223
+      width: 492
+      height: 77
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Left_User_Back03
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 723
+      width: 725
+      height: 150
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 757
+      width: 725
+      height: 2
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Right_Action_Back01
+    outer:
+      serializedVersion: 2
+      x: 493
+      y: 245
+      width: 524
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 493
+      y: 245
+      width: 524
+      height: 55
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Right_Info_Board_Icon05
+    outer:
+      serializedVersion: 2
+      x: 977
+      y: 199
+      width: 38
+      height: 45
+    inner:
+      serializedVersion: 2
+      x: 977
+      y: 199
+      width: 38
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Right_Info_Board02
+    outer:
+      serializedVersion: 2
+      x: 512
+      y: 609
+      width: 492
+      height: 113
+    inner:
+      serializedVersion: 2
+      x: 512
+      y: 609
+      width: 492
+      height: 113
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Stamina01
+    outer:
+      serializedVersion: 2
+      x: 787
+      y: 84
+      width: 29
+      height: 34
+    inner:
+      serializedVersion: 2
+      x: 787
+      y: 84
+      width: 29
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Info_Record_Rank
+    outer:
+      serializedVersion: 2
+      x: 707
+      y: 96
+      width: 33
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 707
+      y: 96
+      width: 33
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Info_Record_Time
+    outer:
+      serializedVersion: 2
+      x: 898
+      y: 3
+      width: 21
+      height: 23
+    inner:
+      serializedVersion: 2
+      x: 898
+      y: 3
+      width: 21
+      height: 23
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Right_Btn_Yellow_In
+    outer:
+      serializedVersion: 2
+      x: 842
+      y: 728
+      width: 115
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 898
+      y: 728
+      width: 3
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Right_Btn_Back_In
+    outer:
+      serializedVersion: 2
+      x: 726
+      y: 728
+      width: 115
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 781
+      y: 728
+      width: 5
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Class_Icon01
+    outer:
+      serializedVersion: 2
+      x: 787
+      y: 15
+      width: 49
+      height: 68
+    inner:
+      serializedVersion: 2
+      x: 787
+      y: 15
+      width: 49
+      height: 68
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Class_Icon00
+    outer:
+      serializedVersion: 2
+      x: 635
+      y: 540
+      width: 49
+      height: 68
+    inner:
+      serializedVersion: 2
+      x: 635
+      y: 540
+      width: 49
+      height: 68
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Class_Icon02
+    outer:
+      serializedVersion: 2
+      x: 806
+      y: 119
+      width: 49
+      height: 68
+    inner:
+      serializedVersion: 2
+      x: 806
+      y: 119
+      width: 49
+      height: 68
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Profile_Empty
+    outer:
+      serializedVersion: 2
+      x: 442
+      y: 93
+      width: 40
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 442
+      y: 93
+      width: 40
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

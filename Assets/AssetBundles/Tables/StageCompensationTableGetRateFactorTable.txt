@@ -1,0 +1,9 @@
+﻿key,subkey,rate,old_key
+rate,0,1,ItemRate0_GetRate
+rate,1,0.75,ItemRate1_GetRate
+rate,2,0.5,ItemRate2_GetRate
+rate,3,0.12,ItemRate3_GetRate
+rate,4,0.04,ItemRate4_GetRate
+grade,0,1,ItemGrade0_GetRate
+grade,1,0.8,ItemGrade1_GetRate
+grade,2,0.6,ItemGrade2_GetRate

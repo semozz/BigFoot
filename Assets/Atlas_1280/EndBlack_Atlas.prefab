@@ -1,0 +1,688 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: EndBlack_Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: ca281bc2d8ccec84ab95cb8465806bc5, type: 2}
+  sprites:
+  - name: Black
+    outer:
+      serializedVersion: 2
+      x: 933
+      y: 67
+      width: 16
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 937
+      y: 71
+      width: 8
+      height: 8
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Bar_EXP
+    outer:
+      serializedVersion: 2
+      x: 549
+      y: 563
+      width: 303
+      height: 17
+    inner:
+      serializedVersion: 2
+      x: 559
+      y: 563
+      width: 283
+      height: 17
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Frame_Bar
+    outer:
+      serializedVersion: 2
+      x: 933
+      y: 84
+      width: 20
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 942
+      y: 84
+      width: 2
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Composition_Material_Base04
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 67
+      width: 583
+      height: 83
+    inner:
+      serializedVersion: 2
+      x: 10
+      y: 67
+      width: 563
+      height: 83
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Frame01-9
+    outer:
+      serializedVersion: 2
+      x: 515
+      y: 6
+      width: 60
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 544
+      y: 35
+      width: 2
+      height: 2
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Title_132
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 23
+      width: 132
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 1
+      y: 23
+      width: 130
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Frame02-3
+    outer:
+      serializedVersion: 2
+      x: 992
+      y: 632
+      width: 30
+      height: 18
+    inner:
+      serializedVersion: 2
+      x: 1006
+      y: 632
+      width: 2
+      height: 18
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Reward_Select_Icon02
+    outer:
+      serializedVersion: 2
+      x: 893
+      y: 850
+      width: 108
+      height: 174
+    inner:
+      serializedVersion: 2
+      x: 893
+      y: 850
+      width: 108
+      height: 174
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Reward_Select_Icon01
+    outer:
+      serializedVersion: 2
+      x: 893
+      y: 679
+      width: 108
+      height: 170
+    inner:
+      serializedVersion: 2
+      x: 893
+      y: 679
+      width: 108
+      height: 170
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Reward_Base01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 151
+      width: 650
+      height: 262
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 151
+      width: 650
+      height: 262
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Reward_Coin
+    outer:
+      serializedVersion: 2
+      x: 549
+      y: 581
+      width: 116
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 549
+      y: 581
+      width: 116
+      height: 72
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Reward_EXP
+    outer:
+      serializedVersion: 2
+      x: 549
+      y: 654
+      width: 116
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 549
+      y: 654
+      width: 116
+      height: 72
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Reward_ETC
+    outer:
+      serializedVersion: 2
+      x: 893
+      y: 479
+      width: 116
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 893
+      y: 479
+      width: 116
+      height: 72
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Reward_ETC_Gem
+    outer:
+      serializedVersion: 2
+      x: 893
+      y: 401
+      width: 94
+      height: 77
+    inner:
+      serializedVersion: 2
+      x: 893
+      y: 401
+      width: 94
+      height: 77
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Reward_ETC_Material
+    outer:
+      serializedVersion: 2
+      x: 893
+      y: 334
+      width: 83
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 893
+      y: 334
+      width: 83
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Reward_Buff_Icon02
+    outer:
+      serializedVersion: 2
+      x: 893
+      y: 182
+      width: 72
+      height: 75
+    inner:
+      serializedVersion: 2
+      x: 893
+      y: 182
+      width: 72
+      height: 75
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Reward_Buff_Icon01
+    outer:
+      serializedVersion: 2
+      x: 893
+      y: 258
+      width: 72
+      height: 75
+    inner:
+      serializedVersion: 2
+      x: 893
+      y: 258
+      width: 72
+      height: 75
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Btn_Default_Yellow001
+    outer:
+      serializedVersion: 2
+      x: 893
+      y: 70
+      width: 39
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 911
+      y: 70
+      width: 3
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Btn_Default_Red001
+    outer:
+      serializedVersion: 2
+      x: 893
+      y: 25
+      width: 39
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 911
+      y: 25
+      width: 3
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Reward_Base02
+    outer:
+      serializedVersion: 2
+      x: 933
+      y: 58
+      width: 8
+      height: 8
+    inner:
+      serializedVersion: 2
+      x: 936
+      y: 61
+      width: 2
+      height: 2
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Wood_Base04
+    outer:
+      serializedVersion: 2
+      x: 651
+      y: 161
+      width: 240
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 651
+      y: 161
+      width: 240
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Reward_Base00
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 727
+      width: 614
+      height: 297
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 727
+      width: 614
+      height: 297
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: EXPBar01
+    outer:
+      serializedVersion: 2
+      x: 549
+      y: 414
+      width: 181
+      height: 29
+    inner:
+      serializedVersion: 2
+      x: 549
+      y: 414
+      width: 181
+      height: 29
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: EXPBar02
+    outer:
+      serializedVersion: 2
+      x: 576
+      y: 9
+      width: 171
+      height: 17
+    inner:
+      serializedVersion: 2
+      x: 586
+      y: 9
+      width: 151
+      height: 17
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Price_money_jewel
+    outer:
+      serializedVersion: 2
+      x: 933
+      y: 10
+      width: 39
+      height: 31
+    inner:
+      serializedVersion: 2
+      x: 933
+      y: 10
+      width: 39
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Price_money_gold
+    outer:
+      serializedVersion: 2
+      x: 973
+      y: 12
+      width: 30
+      height: 29
+    inner:
+      serializedVersion: 2
+      x: 973
+      y: 12
+      width: 30
+      height: 29
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Btn_Default_Gray01_pressed
+    outer:
+      serializedVersion: 2
+      x: 893
+      y: 115
+      width: 60
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 922
+      y: 115
+      width: 2
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Reward_BaseDefence00
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 414
+      width: 548
+      height: 312
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 414
+      width: 548
+      height: 312
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Reward_BaseDefence01
+    outer:
+      serializedVersion: 2
+      x: 584
+      y: 27
+      width: 308
+      height: 123
+    inner:
+      serializedVersion: 2
+      x: 584
+      y: 27
+      width: 308
+      height: 123
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Result_Icon01
+    outer:
+      serializedVersion: 2
+      x: 893
+      y: 552
+      width: 98
+      height: 126
+    inner:
+      serializedVersion: 2
+      x: 893
+      y: 552
+      width: 98
+      height: 126
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Defence_NewRecord
+    outer:
+      serializedVersion: 2
+      x: 549
+      y: 444
+      width: 108
+      height: 107
+    inner:
+      serializedVersion: 2
+      x: 549
+      y: 444
+      width: 108
+      height: 107
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Result_Icon02
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 12
+      width: 514
+      height: 10
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 12
+      width: 514
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Result_Icon03
+    outer:
+      serializedVersion: 2
+      x: 133
+      y: 27
+      width: 104
+      height: 39
+    inner:
+      serializedVersion: 2
+      x: 183
+      y: 27
+      width: 4
+      height: 39
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Reward_BaseDefence02
+    outer:
+      serializedVersion: 2
+      x: 954
+      y: 42
+      width: 25
+      height: 139
+    inner:
+      serializedVersion: 2
+      x: 966
+      y: 42
+      width: 1
+      height: 139
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Result_Icon04
+    outer:
+      serializedVersion: 2
+      x: 992
+      y: 651
+      width: 24
+      height: 27
+    inner:
+      serializedVersion: 2
+      x: 992
+      y: 651
+      width: 24
+      height: 27
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

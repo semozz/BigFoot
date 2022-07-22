@@ -1,0 +1,616 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Shop_Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 47544924122508a409875ee13d419df7, type: 2}
+  sprites:
+  - name: Shop_Inventory_Frame02
+    outer:
+      serializedVersion: 2
+      x: 854
+      y: 178
+      width: 60
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 883
+      y: 188
+      width: 2
+      height: 1
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Shop_Navi01
+    outer:
+      serializedVersion: 2
+      x: 639
+      y: 69
+      width: 15
+      height: 15
+    inner:
+      serializedVersion: 2
+      x: 639
+      y: 69
+      width: 15
+      height: 15
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Shop_Navi02
+    outer:
+      serializedVersion: 2
+      x: 915
+      y: 213
+      width: 15
+      height: 15
+    inner:
+      serializedVersion: 2
+      x: 915
+      y: 213
+      width: 15
+      height: 15
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Info_IMG_Left_UserInfo
+    outer:
+      serializedVersion: 2
+      x: 918
+      y: 312
+      width: 73
+      height: 70
+    inner:
+      serializedVersion: 2
+      x: 918
+      y: 312
+      width: 73
+      height: 70
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Frame01-9
+    outer:
+      serializedVersion: 2
+      x: 475
+      y: 291
+      width: 60
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 504
+      y: 320
+      width: 2
+      height: 2
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Frame02-3
+    outer:
+      serializedVersion: 2
+      x: 992
+      y: 333
+      width: 30
+      height: 18
+    inner:
+      serializedVersion: 2
+      x: 1006
+      y: 333
+      width: 2
+      height: 18
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Btn_Tiny_Yellow01_pressed
+    outer:
+      serializedVersion: 2
+      x: 402
+      y: 29
+      width: 60
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 431
+      y: 29
+      width: 2
+      height: 55
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Btn_Tiny_Gray01
+    outer:
+      serializedVersion: 2
+      x: 524
+      y: 29
+      width: 60
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 553
+      y: 29
+      width: 2
+      height: 55
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Btn_Tiny_Yellow01
+    outer:
+      serializedVersion: 2
+      x: 463
+      y: 29
+      width: 60
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 492
+      y: 29
+      width: 2
+      height: 55
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Shop_Btn_Back
+    outer:
+      serializedVersion: 2
+      x: 918
+      y: 383
+      width: 98
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 918
+      y: 383
+      width: 98
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Shop_Btn_Back_pressed
+    outer:
+      serializedVersion: 2
+      x: 918
+      y: 448
+      width: 98
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 918
+      y: 448
+      width: 98
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Close
+    outer:
+      serializedVersion: 2
+      x: 585
+      y: 29
+      width: 53
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 585
+      y: 29
+      width: 53
+      height: 55
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Close_pressed
+    outer:
+      serializedVersion: 2
+      x: 639
+      y: 2
+      width: 53
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 639
+      y: 2
+      width: 53
+      height: 55
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Shop_Money02
+    outer:
+      serializedVersion: 2
+      x: 779
+      y: 21
+      width: 42
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 779
+      y: 21
+      width: 42
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Shop_Money03
+    outer:
+      serializedVersion: 2
+      x: 736
+      y: 21
+      width: 42
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 736
+      y: 21
+      width: 42
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Shop_Money01
+    outer:
+      serializedVersion: 2
+      x: 693
+      y: 21
+      width: 42
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 693
+      y: 21
+      width: 42
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Back_Paper01-0
+    outer:
+      serializedVersion: 2
+      x: 717
+      y: 312
+      width: 200
+      height: 200
+    inner:
+      serializedVersion: 2
+      x: 717
+      y: 312
+      width: 200
+      height: 200
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ItemInfo_Frame01
+    outer:
+      serializedVersion: 2
+      x: 992
+      y: 316
+      width: 16
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 996
+      y: 320
+      width: 8
+      height: 8
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Line_Info
+    outer:
+      serializedVersion: 2
+      x: 693
+      y: 18
+      width: 293
+      height: 2
+    inner:
+      serializedVersion: 2
+      x: 693
+      y: 18
+      width: 293
+      height: 2
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Black01
+    outer:
+      serializedVersion: 2
+      x: 992
+      y: 352
+      width: 30
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 996
+      y: 356
+      width: 22
+      height: 22
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Wood_Base_F
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 262
+      width: 474
+      height: 250
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 262
+      width: 474
+      height: 250
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Inven_Base_T01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 176
+      width: 716
+      height: 85
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 176
+      width: 716
+      height: 85
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Selected_Right05
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 2
+      width: 200
+      height: 82
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 2
+      width: 200
+      height: 82
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Selected_Left05
+    outer:
+      serializedVersion: 2
+      x: 201
+      y: 2
+      width: 200
+      height: 82
+    inner:
+      serializedVersion: 2
+      x: 201
+      y: 2
+      width: 200
+      height: 82
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Selected_Center05
+    outer:
+      serializedVersion: 2
+      x: 717
+      y: 229
+      width: 222
+      height: 82
+    inner:
+      serializedVersion: 2
+      x: 717
+      y: 229
+      width: 222
+      height: 82
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Frame_Expand
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 85
+      width: 667
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 85
+      width: 667
+      height: 90
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Btn_Default_Yellow01_pressed
+    outer:
+      serializedVersion: 2
+      x: 940
+      y: 245
+      width: 60
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 969
+      y: 245
+      width: 2
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Btn_Default_Yellow01
+    outer:
+      serializedVersion: 2
+      x: 940
+      y: 178
+      width: 60
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 969
+      y: 178
+      width: 2
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: costume_set_selected
+    outer:
+      serializedVersion: 2
+      x: 668
+      y: 58
+      width: 346
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 668
+      y: 58
+      width: 346
+      height: 117
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Title_Tile47
+    outer:
+      serializedVersion: 2
+      x: 717
+      y: 181
+      width: 136
+      height: 47
+    inner:
+      serializedVersion: 2
+      x: 718
+      y: 181
+      width: 134
+      height: 47
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Frame_Yellow05
+    outer:
+      serializedVersion: 2
+      x: 475
+      y: 352
+      width: 23
+      height: 160
+    inner:
+      serializedVersion: 2
+      x: 486
+      y: 364
+      width: 1
+      height: 136
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

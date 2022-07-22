@@ -1,0 +1,5158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400056}
+  m_Layer: 0
+  m_Name: body_link
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100002
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400014}
+  m_Layer: 0
+  m_Name: Bip001 R UpperArm_TW
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100004
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  m_Layer: 0
+  m_Name: Bone_WP1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100006
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400002}
+  m_Layer: 0
+  m_Name: Bip001 Prop1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100008
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400008}
+  m_Layer: 0
+  m_Name: Bip001 R Hand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100010
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400010}
+  m_Layer: 0
+  m_Name: Bip001 R Forearm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100012
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400012}
+  m_Layer: 0
+  m_Name: Bip001 R UpperArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100014
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400016}
+  m_Layer: 0
+  m_Name: Bip001 R Clavicle_TW
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100016
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400058}
+  m_Layer: 0
+  m_Name: Bip001 R Clavicle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100018
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400066}
+  m_Layer: 0
+  m_Name: head_link_wing
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100020
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400068}
+  m_Layer: 0
+  m_Name: head_link_cap
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100022
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400070}
+  m_Layer: 0
+  m_Name: head_link_bird
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100024
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400080}
+  - 15: {fileID: 1500000}
+  - 12: {fileID: 1200000}
+  - 26: {fileID: 2600000}
+  m_Layer: 0
+  m_Name: FX_warrior_berserker_paricle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100026
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400018}
+  m_Layer: 0
+  m_Name: Bone002
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100028
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400072}
+  m_Layer: 0
+  m_Name: Bone001
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100030
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400074}
+  m_Layer: 0
+  m_Name: Bip001 Eye_C
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100032
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400076}
+  m_Layer: 0
+  m_Name: Bip001 Eye_B
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100034
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400030}
+  m_Layer: 0
+  m_Name: Bip001 L UpperArm_TW
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100036
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400024}
+  m_Layer: 0
+  m_Name: Bip001 L Hand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100038
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400026}
+  m_Layer: 0
+  m_Name: Bip001 L Forearm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100040
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400028}
+  m_Layer: 0
+  m_Name: Bip001 L UpperArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100042
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400032}
+  m_Layer: 0
+  m_Name: Bip001 L Clavicle_TW
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100044
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400060}
+  m_Layer: 0
+  m_Name: Bip001 L Clavicle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100046
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400004}
+  m_Layer: 0
+  m_Name: Bip001 R Foot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100048
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400006}
+  m_Layer: 0
+  m_Name: Bip001 R Calf
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100050
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400048}
+  m_Layer: 0
+  m_Name: Bip001 R Thigh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100052
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400020}
+  m_Layer: 0
+  m_Name: Bip001 L Foot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100054
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400022}
+  m_Layer: 0
+  m_Name: Bip001 L Calf
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100056
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400050}
+  m_Layer: 0
+  m_Name: Bip001 L Thigh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100058
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400044}
+  m_Layer: 0
+  m_Name: FX_scale
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100060
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400034}
+  - 137: {fileID: 13700000}
+  m_Layer: 0
+  m_Name: Warrior_03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100062
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400036}
+  - 137: {fileID: 13700002}
+  m_Layer: 0
+  m_Name: Warrior_02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100064
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400038}
+  - 137: {fileID: 13700004}
+  m_Layer: 0
+  m_Name: Warrior_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100066
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400106}
+  m_Layer: 0
+  m_Name: Mesh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100068
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400108}
+  m_Layer: 0
+  m_Name: FX_Shadow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100070
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400040}
+  m_Layer: 0
+  m_Name: speak
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100072
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400042}
+  m_Layer: 0
+  m_Name: HP_Bar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100074
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400110}
+  m_Layer: 0
+  m_Name: FX_scale_02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100076
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400104}
+  m_Layer: 0
+  m_Name: Root
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100078
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400046}
+  m_Layer: 0
+  m_Name: Bip001
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100080
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400052}
+  m_Layer: 0
+  m_Name: Bip001 Pelvis
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100082
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400054}
+  m_Layer: 0
+  m_Name: Bip001 Spine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100084
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400062}
+  m_Layer: 0
+  m_Name: Bip001 Spine1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100086
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400064}
+  m_Layer: 0
+  m_Name: Bip001 Neck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100088
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400078}
+  m_Layer: 0
+  m_Name: Bip001 Head
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100090
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400082}
+  - 33: {fileID: 3300000}
+  - 23: {fileID: 2300000}
+  m_Layer: 0
+  m_Name: FX_warrior_berserker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100092
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400084}
+  - 65: {fileID: 6500000}
+  - 54: {fileID: 5400000}
+  - 82: {fileID: 8200000}
+  m_Layer: 12
+  m_Name: Weapon Collider10
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100094
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400086}
+  - 65: {fileID: 6500002}
+  - 54: {fileID: 5400002}
+  m_Layer: 12
+  m_Name: Weapon Collider06
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100096
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400088}
+  - 65: {fileID: 6500004}
+  - 54: {fileID: 5400004}
+  m_Layer: 12
+  m_Name: Weapon Collider05
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100098
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400090}
+  - 65: {fileID: 6500006}
+  - 54: {fileID: 5400006}
+  m_Layer: 12
+  m_Name: Weapon Collider07
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100100
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400092}
+  - 65: {fileID: 6500008}
+  - 54: {fileID: 5400008}
+  m_Layer: 12
+  m_Name: Weapon Collider04
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100102
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400094}
+  - 65: {fileID: 6500010}
+  - 54: {fileID: 5400010}
+  m_Layer: 12
+  m_Name: Weapon Collider03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100104
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400096}
+  - 65: {fileID: 6500012}
+  - 54: {fileID: 5400012}
+  m_Layer: 12
+  m_Name: Weapon Collider02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100106
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400098}
+  - 65: {fileID: 6500014}
+  - 54: {fileID: 5400014}
+  m_Layer: 12
+  m_Name: Weapon Collider01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100108
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400100}
+  - 135: {fileID: 13500000}
+  - 54: {fileID: 5400016}
+  m_Layer: 12
+  m_Name: Heavy Collider02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100110
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400102}
+  - 135: {fileID: 13500002}
+  - 54: {fileID: 5400018}
+  m_Layer: 12
+  m_Name: Heavy Collider01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100112
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400112}
+  - 114: {fileID: 11400004}
+  m_Layer: 0
+  m_Name: Collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100114
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400114}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: StateList
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100116
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400116}
+  - 111: {fileID: 11100000}
+  - 114: {fileID: 11400006}
+  m_Layer: 0
+  m_Name: Character
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100118
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400118}
+  m_Layer: 0
+  m_Name: _uiRoot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100120
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400120}
+  - 54: {fileID: 5400020}
+  - 114: {fileID: 11400024}
+  - 114: {fileID: 11400022}
+  - 114: {fileID: 11400020}
+  - 114: {fileID: 11400018}
+  - 114: {fileID: 11400016}
+  - 114: {fileID: 11400014}
+  - 114: {fileID: 11400012}
+  - 111: {fileID: 11100002}
+  - 65: {fileID: 6500016}
+  - 114: {fileID: 11400010}
+  - 114: {fileID: 11400008}
+  - 114: {fileID: 11400028}
+  - 114: {fileID: 11400026}
+  - 82: {fileID: 8200002}
+  - 114: {fileID: 11400002}
+  m_Layer: 10
+  m_Name: ArenaWarrior
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100122
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400122}
+  - 33: {fileID: 3300002}
+  - 23: {fileID: 2300002}
+  m_Layer: 0
+  m_Name: 10_10_Arena
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100124
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400124}
+  m_Layer: 0
+  m_Name: DamageUI_pos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100126
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400126}
+  m_Layer: 0
+  m_Name: Add_UI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100128
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400128}
+  m_Layer: 0
+  m_Name: head_link_Mouth
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100130
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400130}
+  m_Layer: 0
+  m_Name: head_link_arena
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100132
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400132}
+  m_Layer: 0
+  m_Name: body_link01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100134
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400134}
+  m_Layer: 0
+  m_Name: head_link_cap02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100136
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400136}
+  - 65: {fileID: 6500018}
+  - 54: {fileID: 5400022}
+  m_Layer: 11
+  m_Name: Weapon Collider08
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400002}
+  m_RootOrder: 0
+--- !u!4 &400002
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100006}
+  m_LocalRotation: {x: -.0304832868, y: .694863439, z: .0748460889, w: .714586318}
+  m_LocalPosition: {x: .044180274, y: -.291989118, z: -.0178847015}
+  m_LocalScale: {x: .999999881, y: .99999994, z: .99999994}
+  m_Children:
+  - {fileID: 400000}
+  m_Father: {fileID: 400008}
+  m_RootOrder: 0
+--- !u!4 &400004
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100046}
+  m_LocalRotation: {x: -.045393575, y: -.0718149915, z: -.0367369615, w: .995707035}
+  m_LocalPosition: {x: -.137308031, y: 0, z: -2.98023224e-08}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400006}
+  m_RootOrder: 0
+--- !u!4 &400006
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100048}
+  m_LocalRotation: {x: -5.30075495e-09, y: -1.48386059e-08, z: -.0120024215, w: .999927998}
+  m_LocalPosition: {x: -.179857239, y: 1.86264515e-09, z: 0}
+  m_LocalScale: {x: 1.00000012, y: 1, z: 1.00000012}
+  m_Children:
+  - {fileID: 400004}
+  m_Father: {fileID: 400048}
+  m_RootOrder: 0
+--- !u!4 &400008
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100008}
+  m_LocalRotation: {x: .693097174, y: .138740107, z: -.138629675, w: .693649292}
+  m_LocalPosition: {x: -.254305035, y: -1.49011612e-08, z: 0}
+  m_LocalScale: {x: .99999994, y: .99999994, z: .99999994}
+  m_Children:
+  - {fileID: 400002}
+  m_Father: {fileID: 400010}
+  m_RootOrder: 0
+--- !u!4 &400010
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100010}
+  m_LocalRotation: {x: 1.10006748e-09, y: -7.42754036e-09, z: .0226807222, w: .999742806}
+  m_LocalPosition: {x: -.286427438, y: 2.98023224e-08, z: 0}
+  m_LocalScale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
+  m_Children:
+  - {fileID: 400008}
+  m_Father: {fileID: 400012}
+  m_RootOrder: 0
+--- !u!4 &400012
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100012}
+  m_LocalRotation: {x: -.0768717006, y: .4521752, z: -.0514098629, w: .887121975}
+  m_LocalPosition: {x: -.37213257, y: -1.49011612e-08, z: 0}
+  m_LocalScale: {x: 1, y: 1.00000012, z: 1.00000012}
+  m_Children:
+  - {fileID: 400010}
+  - {fileID: 400014}
+  m_Father: {fileID: 400058}
+  m_RootOrder: 1
+--- !u!4 &400014
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_LocalRotation: {x: .135231331, y: -2.62705527e-07, z: -5.15606047e-08, w: .99081409}
+  m_LocalPosition: {x: .0220486522, y: -1.49011612e-08, z: 1.1920929e-07}
+  m_LocalScale: {x: 1.00000024, y: 1.00000048, z: 1.00000036}
+  m_Children: []
+  m_Father: {fileID: 400012}
+  m_RootOrder: 1
+--- !u!4 &400016
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100014}
+  m_LocalRotation: {x: .020381175, y: -.00360740861, z: -.0170965195, w: .99963963}
+  m_LocalPosition: {x: -.293914825, y: -5.96046448e-08, z: -1.1920929e-07}
+  m_LocalScale: {x: 1.00000036, y: 1.00000012, z: 1.00000036}
+  m_Children: []
+  m_Father: {fileID: 400058}
+  m_RootOrder: 0
+--- !u!4 &400018
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100026}
+  m_LocalRotation: {x: 7.20192901e-08, y: -8.21364381e-08, z: .576596439, w: .817029178}
+  m_LocalPosition: {x: -.120843291, y: 0, z: 3.12924158e-07}
+  m_LocalScale: {x: 1.00000072, y: .999999702, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400072}
+  m_RootOrder: 0
+--- !u!4 &400020
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100052}
+  m_LocalRotation: {x: .0453935787, y: .071814917, z: -.0367369652, w: .995707035}
+  m_LocalPosition: {x: -.137308031, y: 0, z: -2.98023224e-08}
+  m_LocalScale: {x: .99999994, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400022}
+  m_RootOrder: 0
+--- !u!4 &400022
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100054}
+  m_LocalRotation: {x: 3.72502207e-09, y: -4.47124907e-11, z: -.0120024178, w: .999927998}
+  m_LocalPosition: {x: -.179857254, y: -1.86264515e-09, z: 0}
+  m_LocalScale: {x: 1.00000012, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400020}
+  m_Father: {fileID: 400050}
+  m_RootOrder: 0
+--- !u!4 &400024
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100036}
+  m_LocalRotation: {x: -.693097174, y: -.138740093, z: -.13862966, w: .693649292}
+  m_LocalPosition: {x: -.254305065, y: 0, z: -1.1920929e-07}
+  m_LocalScale: {x: 1, y: 1, z: .99999994}
+  m_Children: []
+  m_Father: {fileID: 400026}
+  m_RootOrder: 0
+--- !u!4 &400026
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100038}
+  m_LocalRotation: {x: 2.92082136e-09, y: 1.49712598e-08, z: .022680724, w: .999742806}
+  m_LocalPosition: {x: -.286427438, y: 1.49011612e-08, z: 0}
+  m_LocalScale: {x: 1, y: 1.00000012, z: 1.00000012}
+  m_Children:
+  - {fileID: 400024}
+  m_Father: {fileID: 400028}
+  m_RootOrder: 0
+--- !u!4 &400028
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100040}
+  m_LocalRotation: {x: .076871708, y: -.45217517, z: -.0514098592, w: .887121975}
+  m_LocalPosition: {x: -.37213257, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: .99999994, z: 1.00000012}
+  m_Children:
+  - {fileID: 400026}
+  - {fileID: 400030}
+  m_Father: {fileID: 400060}
+  m_RootOrder: 1
+--- !u!4 &400030
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100034}
+  m_LocalRotation: {x: -.13523148, y: -1.66577621e-07, z: -4.67042831e-08, w: .99081403}
+  m_LocalPosition: {x: .0223324895, y: -1.49011612e-08, z: -5.96046448e-08}
+  m_LocalScale: {x: 1.00000012, y: 1.00000024, z: 1.00000012}
+  m_Children: []
+  m_Father: {fileID: 400028}
+  m_RootOrder: 1
+--- !u!4 &400032
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100042}
+  m_LocalRotation: {x: -.0203812607, y: .00360752945, z: -.0170965139, w: .99963963}
+  m_LocalPosition: {x: -.293914855, y: -2.98023224e-08, z: 0}
+  m_LocalScale: {x: 1.00000024, y: .999999881, z: .999999881}
+  m_Children: []
+  m_Father: {fileID: 400060}
+  m_RootOrder: 0
+--- !u!4 &400034
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100060}
+  m_LocalRotation: {x: -.707106829, y: 0, z: 0, w: .707106829}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400106}
+  m_RootOrder: 2
+--- !u!4 &400036
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100062}
+  m_LocalRotation: {x: -.707106829, y: 0, z: 0, w: .707106829}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400106}
+  m_RootOrder: 1
+--- !u!4 &400038
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100064}
+  m_LocalRotation: {x: -.707106829, y: 0, z: 0, w: .707106829}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400106}
+  m_RootOrder: 0
+--- !u!4 &400040
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100070}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1, y: 1.80000019, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400110}
+  m_RootOrder: 1
+--- !u!4 &400042
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100072}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.79999995, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400110}
+  m_RootOrder: 0
+--- !u!4 &400044
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100058}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.02999997, y: 1.02999997, z: 1.02999997}
+  m_Children: []
+  m_Father: {fileID: 400104}
+  m_RootOrder: 1
+--- !u!4 &400046
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100078}
+  m_LocalRotation: {x: 0, y: 0, z: .707106352, w: .707107306}
+  m_LocalPosition: {x: 6.37893127e-10, y: .014593333, z: .382255077}
+  m_LocalScale: {x: .99999994, y: .99999994, z: 1}
+  m_Children:
+  - {fileID: 400052}
+  m_Father: {fileID: 400104}
+  m_RootOrder: 0
+--- !u!4 &400048
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100050}
+  m_LocalRotation: {x: .0486852415, y: .995194316, z: -.046252992, w: -.0712656528}
+  m_LocalPosition: {x: -2.98023224e-07, y: -3.13855708e-07, z: -.210065514}
+  m_LocalScale: {x: .99999994, y: .99999994, z: .99999994}
+  m_Children:
+  - {fileID: 400006}
+  m_Father: {fileID: 400052}
+  m_RootOrder: 1
+--- !u!4 &400050
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100056}
+  m_LocalRotation: {x: .048685208, y: .995194435, z: .046251528, w: .0712642297}
+  m_LocalPosition: {x: 2.98023224e-07, y: 2.69152224e-07, z: .210065544}
+  m_LocalScale: {x: .99999994, y: 1, z: .999999881}
+  m_Children:
+  - {fileID: 400022}
+  m_Father: {fileID: 400052}
+  m_RootOrder: 0
+--- !u!4 &400052
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100080}
+  m_LocalRotation: {x: -.499999642, y: .500000358, z: .499999642, w: .500000358}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: .99999994, z: .99999994}
+  m_Children:
+  - {fileID: 400050}
+  - {fileID: 400048}
+  - {fileID: 400054}
+  m_Father: {fileID: 400046}
+  m_RootOrder: 0
+--- !u!4 &400054
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100082}
+  m_LocalRotation: {x: -2.08047595e-06, y: 6.93675986e-07, z: -.000398158998, w: .99999994}
+  m_LocalPosition: {x: 5.96046448e-08, y: 3.18977982e-05, z: -4.42810233e-11}
+  m_LocalScale: {x: 1, y: .99999994, z: .99999994}
+  m_Children:
+  - {fileID: 400062}
+  m_Father: {fileID: 400052}
+  m_RootOrder: 2
+--- !u!4 &400056
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 3.748975e-05, y: -2.73283217e-06, z: .0436197817, w: .999048233}
+  m_LocalPosition: {x: -.0753687769, y: -.171088472, z: -0}
+  m_LocalScale: {x: 1.30000114, y: 1.30000079, z: 1.30000055}
+  m_Children: []
+  m_Father: {fileID: 400062}
+  m_RootOrder: 3
+--- !u!4 &400058
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100016}
+  m_LocalRotation: {x: .558624804, y: .000221193375, z: .829420447, w: -.000331070565}
+  m_LocalPosition: {x: -.48470664, y: -.0899732485, z: -.0964314267}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400016}
+  - {fileID: 400012}
+  m_Father: {fileID: 400062}
+  m_RootOrder: 2
+--- !u!4 &400060
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100044}
+  m_LocalRotation: {x: -.558624744, y: -.000223490686, z: .829420447, w: -.000329516479}
+  m_LocalPosition: {x: -.48470664, y: -.089973785, z: .096430935}
+  m_LocalScale: {x: .99999994, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400032}
+  - {fileID: 400028}
+  m_Father: {fileID: 400062}
+  m_RootOrder: 0
+--- !u!4 &400062
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100084}
+  m_LocalRotation: {x: -5.19671789e-14, y: -2.31517646e-07, z: .0834718794, w: .996510148}
+  m_LocalPosition: {x: -.233980924, y: -.000321960077, z: -8.92992347e-10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400060}
+  - {fileID: 400064}
+  - {fileID: 400058}
+  - {fileID: 400056}
+  - {fileID: 400132}
+  m_Father: {fileID: 400054}
+  m_RootOrder: 0
+--- !u!4 &400064
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100086}
+  m_LocalRotation: {x: 8.06123097e-08, y: 9.71781446e-07, z: -.41336742, w: .910564363}
+  m_LocalPosition: {x: -.557548046, y: .0236829966, z: 6.5687118e-08}
+  m_LocalScale: {x: 1.00000012, y: 1.00000012, z: .99999994}
+  m_Children:
+  - {fileID: 400078}
+  m_Father: {fileID: 400062}
+  m_RootOrder: 1
+--- !u!4 &400066
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100018}
+  m_LocalRotation: {x: -7.9265071e-08, y: -3.44246672e-07, z: -2.36481469e-07, w: 1}
+  m_LocalPosition: {x: -.223239332, y: -.0760604069, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400078}
+  m_RootOrder: 9
+--- !u!4 &400068
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100020}
+  m_LocalRotation: {x: 9.3998942e-08, y: -1.02019419e-06, z: .377505839, w: .926007271}
+  m_LocalPosition: {x: -.149489626, y: -.214768812, z: -0}
+  m_LocalScale: {x: 1, y: 1.18000066, z: 1.18000078}
+  m_Children: []
+  m_Father: {fileID: 400078}
+  m_RootOrder: 6
+--- !u!4 &400070
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100022}
+  m_LocalRotation: {x: -5.90343063e-07, y: 5.41215911e-07, z: .173647791, w: .984807849}
+  m_LocalPosition: {x: -.0934762061, y: .0621593483, z: -0}
+  m_LocalScale: {x: 1.25000072, y: 1.25000083, z: 1.2500006}
+  m_Children: []
+  m_Father: {fileID: 400078}
+  m_RootOrder: 5
+--- !u!4 &400072
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100028}
+  m_LocalRotation: {x: 1.32559833e-07, y: -1.27896172e-07, z: .716368914, w: .69772172}
+  m_LocalPosition: {x: -.179952383, y: -.456230223, z: -1.51991833e-06}
+  m_LocalScale: {x: 1.00000024, y: .999999166, z: 1.00000095}
+  m_Children:
+  - {fileID: 400018}
+  m_Father: {fileID: 400078}
+  m_RootOrder: 2
+--- !u!4 &400074
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100030}
+  m_LocalRotation: {x: -2.8421706e-14, y: -5.68434121e-14, z: 1.49011594e-08, w: 1}
+  m_LocalPosition: {x: -.224999905, y: -.0700000525, z: 0}
+  m_LocalScale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
+  m_Children: []
+  m_Father: {fileID: 400078}
+  m_RootOrder: 1
+--- !u!4 &400076
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100032}
+  m_LocalRotation: {x: -6.61742521e-22, y: 3.55270826e-14, z: 1.86264231e-08, w: 1}
+  m_LocalPosition: {x: -.108819604, y: -.150852799, z: 2.27373675e-13}
+  m_LocalScale: {x: .100000151, y: .100000143, z: .100000151}
+  m_Children: []
+  m_Father: {fileID: 400078}
+  m_RootOrder: 0
+--- !u!4 &400078
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100088}
+  m_LocalRotation: {x: -1.34182926e-07, y: -1.02447551e-07, z: .0866679773, w: .996237278}
+  m_LocalPosition: {x: -.131491184, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400076}
+  - {fileID: 400074}
+  - {fileID: 400072}
+  - {fileID: 400082}
+  - {fileID: 400130}
+  - {fileID: 400070}
+  - {fileID: 400068}
+  - {fileID: 400134}
+  - {fileID: 400128}
+  - {fileID: 400066}
+  m_Father: {fileID: 400064}
+  m_RootOrder: 0
+--- !u!4 &400080
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100024}
+  m_LocalRotation: {x: 0, y: 0, z: 3.2584137e-07, w: -1}
+  m_LocalPosition: {x: -.200000003, y: -.200000003, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400082}
+  m_RootOrder: 0
+--- !u!4 &400082
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100090}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400080}
+  m_Father: {fileID: 400078}
+  m_RootOrder: 3
+--- !u!4 &400084
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100092}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400112}
+  m_RootOrder: 10
+--- !u!4 &400086
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100094}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400112}
+  m_RootOrder: 8
+--- !u!4 &400088
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100096}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400112}
+  m_RootOrder: 7
+--- !u!4 &400090
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100098}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400112}
+  m_RootOrder: 6
+--- !u!4 &400092
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100100}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400112}
+  m_RootOrder: 5
+--- !u!4 &400094
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100102}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400112}
+  m_RootOrder: 4
+--- !u!4 &400096
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100104}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400112}
+  m_RootOrder: 3
+--- !u!4 &400098
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100106}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400112}
+  m_RootOrder: 2
+--- !u!4 &400100
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100108}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: .099999994, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400112}
+  m_RootOrder: 1
+--- !u!4 &400102
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100110}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: .099999994, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400112}
+  m_RootOrder: 0
+--- !u!4 &400104
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100076}
+  m_LocalRotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: .999999821, z: .999999821}
+  m_Children:
+  - {fileID: 400046}
+  - {fileID: 400044}
+  m_Father: {fileID: 400116}
+  m_RootOrder: 4
+--- !u!4 &400106
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100066}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400038}
+  - {fileID: 400036}
+  - {fileID: 400034}
+  m_Father: {fileID: 400116}
+  m_RootOrder: 3
+--- !u!4 &400108
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100068}
+  m_LocalRotation: {x: -.379928172, y: .596367896, z: .379928261, w: .596367717}
+  m_LocalPosition: {x: 0, y: .0299999993, z: .0199999996}
+  m_LocalScale: {x: 1.60000002, y: 1.60000002, z: 1.60000002}
+  m_Children: []
+  m_Father: {fileID: 400116}
+  m_RootOrder: 2
+--- !u!4 &400110
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100074}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.04999995, y: 1.04999995, z: 1.04999995}
+  m_Children:
+  - {fileID: 400042}
+  - {fileID: 400040}
+  m_Father: {fileID: 400116}
+  m_RootOrder: 1
+--- !u!4 &400112
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100112}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400102}
+  - {fileID: 400100}
+  - {fileID: 400098}
+  - {fileID: 400096}
+  - {fileID: 400094}
+  - {fileID: 400092}
+  - {fileID: 400090}
+  - {fileID: 400088}
+  - {fileID: 400086}
+  - {fileID: 400136}
+  - {fileID: 400084}
+  m_Father: {fileID: 400116}
+  m_RootOrder: 0
+--- !u!4 &400114
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100114}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400120}
+  m_RootOrder: 3
+--- !u!4 &400116
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100116}
+  m_LocalRotation: {x: 0, y: .707106829, z: 0, w: .707106829}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400112}
+  - {fileID: 400110}
+  - {fileID: 400108}
+  - {fileID: 400106}
+  - {fileID: 400104}
+  m_Father: {fileID: 400120}
+  m_RootOrder: 1
+--- !u!4 &400118
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100118}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.5, z: -9}
+  m_LocalScale: {x: .00999999978, y: .00999999978, z: .00999999978}
+  m_Children:
+  - {fileID: 400122}
+  m_Father: {fileID: 400120}
+  m_RootOrder: 0
+--- !u!4 &400120
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100120}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400118}
+  - {fileID: 400116}
+  - {fileID: 400124}
+  - {fileID: 400114}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!4 &400122
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100122}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: -4.37113883e-08}
+  m_LocalPosition: {x: 0, y: 65, z: 600}
+  m_LocalScale: {x: 3.79999995, y: 2.9000001, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400118}
+  m_RootOrder: 0
+--- !u!4 &400124
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100124}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: .800000012, z: -8.80000019}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400126}
+  m_Father: {fileID: 400120}
+  m_RootOrder: 2
+--- !u!4 &400126
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100126}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: .800000012, z: 0}
+  m_LocalScale: {x: .00999999978, y: .00999999978, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400124}
+  m_RootOrder: 0
+--- !u!4 &400128
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100128}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .0250000004, y: .0500000007, z: -.100000001}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400078}
+  m_RootOrder: 8
+--- !u!4 &400130
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100130}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.280000001, y: -.100000001, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400078}
+  m_RootOrder: 4
+--- !u!4 &400132
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100132}
+  m_LocalRotation: {x: 0, y: 0, z: .0436193869, w: .999048233}
+  m_LocalPosition: {x: -.0753683671, y: -.171088293, z: 0}
+  m_LocalScale: {x: 1.30000019, y: 1.30000019, z: 1.30000007}
+  m_Children: []
+  m_Father: {fileID: 400062}
+  m_RootOrder: 4
+--- !u!4 &400134
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100134}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.229000002, y: -.0719999969, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400078}
+  m_RootOrder: 7
+--- !u!4 &400136
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100136}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400112}
+  m_RootOrder: 9
+--- !u!12 &1200000
+ParticleAnimator:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100024}
+  Does Animate Color?: 1
+  colorAnimation[0]:
+    serializedVersion: 2
+    rgba: 1694498815
+  colorAnimation[1]:
+    serializedVersion: 2
+    rgba: 3358733055
+  colorAnimation[2]:
+    serializedVersion: 2
+    rgba: 4288059135
+  colorAnimation[3]:
+    serializedVersion: 2
+    rgba: 2030043135
+  colorAnimation[4]:
+    serializedVersion: 2
+    rgba: 855638015
+  worldRotationAxis: {x: 0, y: 0, z: 0}
+  localRotationAxis: {x: 0, y: 0, z: 0}
+  sizeGrow: 1
+  rndForce: {x: 0, y: 0, z: 0}
+  force: {x: 0, y: 0, z: 0}
+  damping: .0500000007
+  stopSimulation: 0
+  autodestruct: 0
+--- !u!15 &1500000
+EllipsoidParticleEmitter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100024}
+  serializedVersion: 2
+  m_Enabled: 1
+  m_Emit: 1
+  minSize: .400000006
+  maxSize: .400000006
+  minEnergy: .449999988
+  maxEnergy: .449999988
+  minEmission: 5
+  maxEmission: 5
+  worldVelocity: {x: 0, y: 1.5, z: 0}
+  localVelocity: {x: 0, y: 0, z: 0}
+  rndVelocity: {x: 1.5, y: 1.5, z: 1.5}
+  emitterVelocityScale: 0
+  tangentVelocity: {x: 0, y: 0, z: .800000012}
+  angularVelocity: 0
+  rndAngularVelocity: 0
+  rndRotation: 1
+  Simulate in Worldspace?: 1
+  m_OneShot: 1
+  m_Ellipsoid: {x: .150000006, y: .150000006, z: .150000006}
+  m_MinEmitterRange: .0500000007
+--- !u!23 &2300000
+Renderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100090}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 483eb62b554aa6d4a8f552941bafcaaa, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!23 &2300002
+Renderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100122}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: ce29e02a5d886b34da797485966a1e62, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!26 &2600000
+ParticleRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100024}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: ef2191e59af23214fad50d36f179b39c, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_CameraVelocityScale: 0
+  m_StretchParticles: 0
+  m_LengthScale: 2
+  m_VelocityScale: 0
+  m_MaxParticleSize: .25
+  UV Animation:
+    x Tile: 1
+    y Tile: 1
+    cycles: 1
+--- !u!33 &3300000
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100090}
+  m_Mesh: {fileID: 4300000, guid: daf1dbc7ef1c69d4ca223f7a577ef19c, type: 3}
+--- !u!33 &3300002
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100122}
+  m_Mesh: {fileID: 4300000, guid: dd4cde7ea4f3c524ca9f96b36f5b7ed2, type: 3}
+--- !u!54 &5400000
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100092}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!54 &5400002
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100094}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!54 &5400004
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100096}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!54 &5400006
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100098}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!54 &5400008
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100100}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!54 &5400010
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100102}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!54 &5400012
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100104}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!54 &5400014
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100106}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!54 &5400016
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100108}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!54 &5400018
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100110}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!54 &5400020
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100120}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 120
+  m_CollisionDetection: 0
+--- !u!54 &5400022
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100136}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &6500000
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100092}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 6.4000001, z: 11.3999996}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &6500002
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100094}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: .800000012, z: 3.5}
+  m_Center: {x: 0, y: .400000006, z: .100000001}
+--- !u!65 &6500004
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100096}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1.39999998, z: 7}
+  m_Center: {x: 0, y: .899999976, z: .200000003}
+--- !u!65 &6500006
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100098}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 5, z: 3}
+  m_Center: {x: 0, y: 2.5, z: 1.5}
+--- !u!65 &6500008
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100100}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1.44000006, z: 3.0999999}
+  m_Center: {x: 0, y: .720000029, z: 0}
+--- !u!65 &6500010
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100102}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 2.79999995, z: 2.79999995}
+  m_Center: {x: 0, y: .800000012, z: 1.29999995}
+--- !u!65 &6500012
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100104}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1.79999995, z: 2}
+  m_Center: {x: 0, y: .899999976, z: 1}
+--- !u!65 &6500014
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100106}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 2, z: 2.4000001}
+  m_Center: {x: 0, y: 1, z: 1.14999998}
+--- !u!65 &6500016
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100120}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1.5, z: .649999976}
+  m_Center: {x: 0, y: .699999988, z: 0}
+--- !u!65 &6500018
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100136}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 2, z: 1.39999998}
+  m_Center: {x: 0, y: 1, z: .5}
+--- !u!82 &8200000
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100092}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!82 &8200002
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100120}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 0
+  DopplerLevel: 1
+  MinDistance: 6
+  MaxDistance: 12
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!111 &11100000
+Animation:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100116}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 7400000, guid: 46a3df274d6cfb64c9275dcfd33f3e98, type: 2}
+  - {fileID: 7400000, guid: ee8cfc6cec906d64d84cc7f9c879433b, type: 2}
+  - {fileID: 7400000, guid: 5d160a76115839942b199d53af05eda6, type: 2}
+  - {fileID: 7400000, guid: e132f1143def41744acd53e21d0e32bf, type: 2}
+  - {fileID: 7400000, guid: 8bad18ddc83fe664eabdd5e0f0d36825, type: 2}
+  - {fileID: 7400000, guid: 55e86596d62610f4d8113fcf28c59f30, type: 2}
+  - {fileID: 7400000, guid: b9160d1c80688fd439dea2764d670e1e, type: 2}
+  - {fileID: 7400000, guid: d5db83bee284a304f9b3c9aa1a460cb2, type: 2}
+  - {fileID: 7400000, guid: 9dc80b8de13efc24087cc03b3369a257, type: 2}
+  - {fileID: 7400000, guid: fa99d20faea9a0b4e9a2283f8d1f4226, type: 2}
+  - {fileID: 7400000, guid: 5dd5036a080906b44912dd619b08926c, type: 2}
+  - {fileID: 7400000, guid: 20ce3bc96bfc74c42833664c952e58ad, type: 2}
+  - {fileID: 7400000, guid: 997b3c54261966b4daa0b3bcd2067c57, type: 2}
+  - {fileID: 7400000, guid: 6bde6aec6000b5541911a7c81db14bc5, type: 2}
+  - {fileID: 7400000, guid: 9aaec6c5aec7943468f369806a1132b0, type: 2}
+  - {fileID: 7400000, guid: b422696a0f002f04197b947f2b51655b, type: 2}
+  - {fileID: 7400000, guid: 43e656fd64ade1d41b806f9c6cbb97dd, type: 2}
+  - {fileID: 7400000, guid: 263ea9731c6144c43b13f8d2bd89f0ca, type: 2}
+  - {fileID: 7400000, guid: 43d4590da79e74047875c8d366d875e4, type: 2}
+  - {fileID: 7400000, guid: 5d6aeab70bd9af8438f1c5da1f729323, type: 2}
+  - {fileID: 7400000, guid: a32697960c6d6014eb5bc4eeb32538b4, type: 2}
+  - {fileID: 7400000, guid: 1e0eff78fbb0dd1408a6f567c14c48b9, type: 2}
+  - {fileID: 7400000, guid: b7fb99bf73fbba442be9dcd50b2676dd, type: 2}
+  - {fileID: 7400000, guid: f42fd36839f13b7448e1c4bb744a0954, type: 2}
+  - {fileID: 7400000, guid: fa9e9b44f0d2fc84c84610ce6ec3f29f, type: 2}
+  - {fileID: 7400000, guid: 6140da12277dc80409c3bc09a11859fe, type: 2}
+  - {fileID: 7400000, guid: b7bbc56458449ff489eb3e0055126e49, type: 2}
+  - {fileID: 7400000, guid: 8748d191770c80543985d4a2b7b24be6, type: 2}
+  - {fileID: 7400000, guid: d57955c4f28742743b45d5caf4539946, type: 2}
+  - {fileID: 7400000, guid: 6c2f35b98526a35458ee6c6d72bfb83f, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!111 &11100002
+Animation:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100120}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 3dd72828324291b40ac115e42df51ef6, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 3dd72828324291b40ac115e42df51ef6, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 576ea622c31cb4b4c8180a3b2ac13ea1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animObj: {fileID: 11100000}
+  stateList:
+  - baseState:
+      state: 0
+      animationClip: Stand
+    stateInfo:
+      attackType: 0
+      attackState: 0
+      defenseState: 0
+      knockDir: {x: 0, y: 0, z: 0}
+      knockDir_Air: {x: 0, y: 0, z: 0}
+      knockPower: 0
+      attackRate: 1
+      addAttackRate: 0
+      painValue: 0
+      addCriticalHitRate: 0
+      stunRate: 0
+      addStunRate: 0
+      stunTime: 1
+      fxObjectName: 
+      effectType: 0
+      effectScale: 1
+      acquireAbility: 0
+      requireAbilityValue: 0
+      addAcquireAbility: 0
+      addRequireAbility: 0
+      addAcquireAbilityRate: 0
+      addRequireAbilityRate: 0
+      soundFile: 
+      isWeaponAttack: 1
+    collisionInfoList: []
+    chainAttack: 0
+    cantChangeDir: 0
+    patienceFactor: 1
+    walkingEventMoveSpeed: 0
+    walkingStep: 0
+    walkingSpeedList:
+    - 0
+    moveType: 2
+  - baseState:
+      state: 1
+      animationClip: Run
+    stateInfo:
+      attackType: 0
+      attackState: 0
+      defenseState: 0
+      knockDir: {x: 0, y: 0, z: 0}
+      knockDir_Air: {x: 0, y: 0, z: 0}
+      knockPower: 0
+      attackRate: 1
+      addAttackRate: 0
+      painValue: 0
+      addCriticalHitRate: 0
+      stunRate: 0
+      addStunRate: 0
+      stunTime: 1
+      fxObjectName: 
+      effectType: 0
+      effectScale: 1
+      acquireAbility: 0
+      requireAbilityValue: 0
+      addAcquireAbility: 0
+      addRequireAbility: 0
+      addAcquireAbilityRate: 0
+      addRequireAbilityRate: 0
+      soundFile: 
+      isWeaponAttack: 1
+    collisionInfoList: []
+    chainAttack: 0
+    cantChangeDir: 0
+    patienceFactor: 1
+    walkingEventMoveSpeed: 0
+    walkingStep: 0
+    walkingSpeedList:
+    - 0
+    moveType: 0
+  - baseState:
+      state: 2
+      animationClip: Dash
+    stateInfo:
+      attackType: 0
+      attackState: 0
+      defenseState: 0
+      knockDir: {x: 0, y: 0, z: 0}
+      knockDir_Air: {x: 0, y: 0, z: 0}
+      knockPower: 0
+      attackRate: 1
+      addAttackRate: 0
+      painValue: 0
+      addCriticalHitRate: 0
+      stunRate: 0
+      addStunRate: 0
+      stunTime: 1
+      fxObjectName: 
+      effectType: 0
+      effectScale: 1
+      acquireAbility: 0
+      requireAbilityValue: 0
+      addAcquireAbility: 0
+      addRequireAbility: 0
+      addAcquireAbilityRate: 0
+      addRequireAbilityRate: 0
+      soundFile: 
+      isWeaponAttack: 1
+    collisionInfoList: []
+    chainAttack: 0
+    cantChangeDir: 0
+    patienceFactor: 1
+    walkingEventMoveSpeed: 0
+    walkingStep: 0
+    walkingSpeedList:
+    - 0
+    moveType: 1
+  - baseState:
+      state: 11
+      animationClip: Dash_Attack
+    stateInfo:
+      attackType: 1
+      attackState: 2
+      defenseState: 0
+      knockDir: {x: 0, y: 0, z: 0}
+      knockDir_Air: {x: 0, y: 0, z: 0}
+      knockPower: 0
+      attackRate: 1
+      addAttackRate: 0
+      painValue: 450
+      addCriticalHitRate: 0
+      stunRate: 0
+      addStunRate: 0
+      stunTime: 1
+      fxObjectName: FX_warrior_dash_attack
+      effectType: 1
+      effectScale: 1
+      acquireAbility: 3
+      requireAbilityValue: 0
+      addAcquireAbility: 0
+      addRequireAbility: 0
+      addAcquireAbilityRate: 0
+      addRequireAbilityRate: 0
+      soundFile: 
+      isWeaponAttack: 1
+    collisionInfoList:
+    - colliderName: Weapon Collider03
+      stateInfo:
+        attackType: 1
+        attackState: 2
+        defenseState: 0
+        knockDir: {x: 1.60000002, y: 7.0999999, z: 0}
+        knockDir_Air: {x: 1.60000002, y: 7.0999999, z: 0}
+        knockPower: 0
+        attackRate: 1
+        addAttackRate: 0
+        painValue: 450
+        addCriticalHitRate: 0
+        stunRate: 0
+        addStunRate: 0
+        stunTime: 1.79999995
+        fxObjectName: FX_target_warrior 01
+        effectType: 0
+        effectScale: 1
+        acquireAbility: 0
+        requireAbilityValue: 0
+        addAcquireAbility: 0
+        addRequireAbility: 0
+        addAcquireAbilityRate: 0
+        addRequireAbilityRate: 0
+        soundFile: 
+        isWeaponAttack: 1
+    chainAttack: 0
+    cantChangeDir: 1
+    patienceFactor: 1
+    walkingEventMoveSpeed: 5
+    walkingStep: 0
+    walkingSpeedList:
+    - 5
+    moveType: 2
+  - baseState:
+      state: 12
+      animationClip: Attack_1
+    stateInfo:
+      attackType: 1
+      attackState: 1
+      defenseState: 0
+      knockDir: {x: 0, y: 0, z: 0}
+      knockDir_Air: {x: 0, y: 0, z: 0}
+      knockPower: 0
+      attackRate: 1
+      addAttackRate: 0
+      painValue: 120
+      addCriticalHitRate: 0
+      stunRate: 0
+      addStunRate: 0
+      stunTime: 1
+      fxObjectName: 
+      effectType: 0
+      effectScale: 1
+      acquireAbility: 2
+      requireAbilityValue: 0
+      addAcquireAbility: 0
+      addRequireAbility: 0
+      addAcquireAbilityRate: 0
+      addRequireAbilityRate: 0
+      soundFile: 
+      isWeaponAttack: 1
+    collisionInfoList:
+    - colliderName: Weapon Collider01
+      stateInfo:
+        attackType: 1
+        attackState: 1
+        defenseState: 0
+        knockDir: {x: 1.39999998, y: 5.19999981, z: 0}
+        knockDir_Air: {x: 1.39999998, y: 5.19999981, z: 0}
+        knockPower: 0
+        attackRate: 1
+        addAttackRate: 0
+        painValue: 120
+        addCriticalHitRate: 0
+        stunRate: 0
+        addStunRate: 0
+        stunTime: 1.79999995
+        fxObjectName: FX_target_warrior 01
+        effectType: 0
+        effectScale: .899999976
+        acquireAbility: 0
+        requireAbilityValue: 0
+        addAcquireAbility: 0
+        addRequireAbility: 0
+        addAcquireAbilityRate: 0
+        addRequireAbilityRate: 0
+        soundFile: damage01
+        isWeaponAttack: 1
+    chainAttack: 1
+    cantChangeDir: 1
+    patienceFactor: 1
+    walkingEventMoveSpeed: 5
+    walkingStep: 0
+    walkingSpeedList:
+    - 5
+    moveType: 2
+  - baseState:
+      state: 13
+      animationClip: Attack_2
+    stateInfo:
+      attackType: 1
+      attackState: 1
+      defenseState: 0
+      knockDir: {x: 0, y: 0, z: 0}
+      knockDir_Air: {x: 0, y: 0, z: 0}
+      knockPower: 0
+      attackRate: 1.20000005
+      addAttackRate: 0
+      painValue: 160
+      addCriticalHitRate: 0
+      stunRate: 0
+      addStunRate: 0
+      stunTime: 1
+      fxObjectName: 
+      effectType: 0
+      effectScale: 1
+      acquireAbility: 3
+      requireAbilityValue: 0
+      addAcquireAbility: 0
+      addRequireAbility: 0
+      addAcquireAbilityRate: 0
+      addRequireAbilityRate: 0
+      soundFile: 
+      isWeaponAttack: 1
+    collisionInfoList:
+    - colliderName: Weapon Collider02
+      stateInfo:
+        attackType: 1
+        attackState: 1
+        defenseState: 0
+        knockDir: {x: 1.5, y: 5.80000019, z: 0}
+        knockDir_Air: {x: 1.5, y: 5.80000019, z: 0}
+        knockPower: 0
+        attackRate: 1.20000005
+        addAttackRate: 0
+        painValue: 160
+        addCriticalHitRate: 0
+        stunRate: 0
+        addStunRate: 0
+        stunTime: 1.79999995
+        fxObjectName: FX_target_warrior 02
+        effectType: 0
+        effectScale: 1
+        acquireAbility: 0
+        requireAbilityValue: 0
+        addAcquireAbility: 0
+        addRequireAbility: 0
+        addAcquireAbilityRate: 0
+        addRequireAbilityRate: 0
+        soundFile: damage01
+        isWeaponAttack: 1
+    chainAttack: 1
+    cantChangeDir: 1
+    patienceFactor: 1
+    walkingEventMoveSpeed: 3.0999999
+    walkingStep: 0
+    walkingSpeedList:
+    - 3.0999999
+    moveType: 2
+  - baseState:
+      state: 15
+      animationClip: Attack_3
+    stateInfo:
+      attackType: 1
+      attackState: 1
+      defenseState: 0
+      knockDir: {x: 0, y: 0, z: 0}
+      knockDir_Air: {x: 0, y: 0, z: 0}
+      knockPower: 0
+      attackRate: 1.79999995
+      addAttackRate: 0
+      painValue: 200
+      addCriticalHitRate: 0
+      stunRate: 0
+      addStunRate: 0
+      stunTime: 1
+      fxObjectName: 
+      effectType: 0
+      effectScale: 1
+      acquireAbility: 5
+      requireAbilityValue: 0
+      addAcquireAbility: 0
+      addRequireAbility: 0
+      addAcquireAbilityRate: 0
+      addRequireAbilityRate: 0
+      soundFile: 
+      isWeaponAttack: 1
+    collisionInfoList:
+    - colliderName: Weapon Collider01
+      stateInfo:
+        attackType: 1
+        attackState: 1
+        defenseState: 0
+        knockDir: {x: 4, y: 5, z: 0}
+        knockDir_Air: {x: 4, y: 5, z: 0}
+        knockPower: 0
+        attackRate: 1.79999995
+        addAttackRate: 0
+        painValue: 200
+        addCriticalHitRate: 0
+        stunRate: 0
+        addStunRate: 0
+        stunTime: 1.79999995
+        fxObjectName: FX_target_warrior 01
+        effectType: 0
+        effectScale: 1.20000005
+        acquireAbility: 0
+        requireAbilityValue: 0
+        addAcquireAbility: 0
+        addRequireAbility: 0
+        addAcquireAbilityRate: 0
+        addRequireAbilityRate: 0
+        soundFile: damage02
+        isWeaponAttack: 1
+    chainAttack: 0
+    cantChangeDir: 1
+    patienceFactor: 1
+    walkingEventMoveSpeed: 4
+    walkingStep: 0
+    walkingSpeedList:
+    - 4
+    moveType: 2
+  - baseState:
+      state: 14
+      animationClip: Attack_2_1
+    stateInfo:
+      attackType: 2
+      attackState: 1
+      defenseState: 3
+      knockDir: {x: 0, y: 0, z: 0}
+      knockDir_Air: {x: 0, y: 0, z: 0}
+      knockPower: 0
+      attackRate: 2.20000005
+      addAttackRate: 0
+      painValue: 360
+      addCriticalHitRate: 0
+      stunRate: 0
+      addStunRate: 0
+      stunTime: 1
+      fxObjectName: FX_warrior_Att2_1
+      effectType: 1
+      effectScale: 1
+      acquireAbility: 7
+      requireAbilityValue: 0
+      addAcquireAbility: 0
+      addRequireAbility: 0
+      addAcquireAbilityRate: 0
+      addRequireAbilityRate: 0
+      soundFile: 
+      isWeaponAttack: 1
+    collisionInfoList:
+    - colliderName: Weapon Collider02
+      stateInfo:
+        attackType: 2
+        attackState: 1
+        defenseState: 3
+        knockDir: {x: 2.4000001, y: 6, z: 0}
+        knockDir_Air: {x: 2.4000001, y: 6, z: 0}
+        knockPower: 0
+        attackRate: 2.20000005
+        addAttackRate: 0
+        painValue: 360
+        addCriticalHitRate: 0
+        stunRate: .5
+        addStunRate: 0
+        stunTime: 1.79999995
+        fxObjectName: FX_target_warrior 01
+        effectType: 0
+        effectScale: 1.29999995
+        acquireAbility: 0
+        requireAbilityValue: 0
+        addAcquireAbility: 0
+        addRequireAbility: 0
+        addAcquireAbilityRate: 0
+        addRequireAbilityRate: 0
+        soundFile: damage02
+        isWeaponAttack: 1
+    chainAttack: 0
+    cantChangeDir: 1
+    patienceFactor: 1
+    walkingEventMoveSpeed: 10
+    walkingStep: 0
+    walkingSpeedList:
+    - 10
+    moveType: 2
+  - baseState:
+      state: 16
+      animationClip: Heavy_Attack
+    stateInfo:
+      attackType: 2
+      attackState: 1
+      defenseState: 3
+      knockDir: {x: 0, y: 0, z: 0}
+      knockDir_Air: {x: 0, y: 0, z: 0}
+      knockPower: 0
+      attackRate: 1
+      addAttackRate: 0
+      painValue: 200
+      addCriticalHitRate: 0
+      stunRate: 0
+      addStunRate: 0
+      stunTime: 1
+      fxObjectName: FX_warrior_Xstrom
+      effectType: 1
+      effectScale: 1
+      acquireAbility: 2
+      requireAbilityValue: 40
+      addAcquireAbility: 0
+      addRequireAbility: 0
+      addAcquireAbilityRate: 0
+      addRequireAbilityRate: 0
+      soundFile: 
+      isWeaponAttack: 1
+    collisionInfoList:
+    - colliderName: Heavy Collider01
+      stateInfo:
+        attackType: 2
+        attackState: 1
+        defenseState: 3
+        knockDir: {x: .200000003, y: .5, z: 0}
+        knockDir_Air: {x: .200000003, y: .5, z: 0}
+        knockPower: 0
+        attackRate: 1
+        addAttackRate: 0
+        painValue: 250
+        addCriticalHitRate: 0
+        stunRate: 0
+        addStunRate: 0
+        stunTime: 0
+        fxObjectName: FX_target_warrior 01
+        effectType: 0
+        effectScale: 1.10000002
+        acquireAbility: 0
+        requireAbilityValue: 0
+        addAcquireAbility: 0
+        addRequireAbility: 0
+        addAcquireAbilityRate: 0
+        addRequireAbilityRate: 0
+        soundFile: damage01
+        isWeaponAttack: 1
+    - colliderName: Heavy Collider01
+      stateInfo:
+        attackType: 2
+        attackState: 1
+        defenseState: 3
+        knockDir: {x: 2.4000001, y: -5, z: 0}
+        knockDir_Air: {x: 2.4000001, y: -5, z: 0}
+        knockPower: 0
+        attackRate: 1.5
+        addAttackRate: 0
+        painValue: 250
+        addCriticalHitRate: 0
+        stunRate: 0
+        addStunRate: 0
+        stunTime: 0
+        fxObjectName: FX_target_warrior 02
+        effectType: 0
+        effectScale: 1.25
+        acquireAbility: 0
+        requireAbilityValue: 0
+        addAcquireAbility: 0
+        addRequireAbility: 0
+        addAcquireAbilityRate: 0
+        addRequireAbilityRate: 0
+        soundFile: damage01
+        isWeaponAttack: 1
+    - colliderName: Heavy Collider02
+      stateInfo:
+        attackType: 2
+        attackState: 2
+        defenseState: 3
+        knockDir: {x: 2.20000005, y: 6.5, z: 0}
+        knockDir_Air: {x: 2.20000005, y: 6.5, z: 0}
+        knockPower: 0
+        attackRate: 3
+        addAttackRate: 0
+        painValue: 750
+        addCriticalHitRate: 0
+        stunRate: 0
+        addStunRate: 0
+        stunTime: 0
+        fxObjectName: FX_target_warrior 01
+        effectType: 0
+        effectScale: 1.39999998
+        acquireAbility: 0
+        requireAbilityValue: 0
+        addAcquireAbility: 0
+        addRequireAbility: 0
+        addAcquireAbilityRate: 0
+        addRequireAbilityRate: 0
+        soundFile: damage02
+        isWeaponAttack: 1
+    chainAttack: 0
+    cantChangeDir: 1
+    patienceFactor: 1
+    walkingEventMoveSpeed: 6
+    walkingStep: 0
+    walkingSpeedList:
+    - 6
+    moveType: 2
+  - baseState:
+      state: 3
+      animationClip: Jump_Start
+    stateInfo:
+      attackType: 0
+      attackState: 0
+      defenseState: 2
+      knockDir: {x: 0, y: 0, z: 0}
+      knockDir_Air: {x: 0, y: 0, z: 0}
+      knockPower: 0
+      attackRate: 1
+      addAttackRate: 0
+      painValue: 0
+      addCriticalHitRate: 0
+      stunRate: 0
+      addStunRate: 0
+      stunTime: 1
+      fxObjectName: 
+      effectType: 0
+      effectScale: 1
+      acquireAbility: 0
+      requireAbilityValue: 0
+      addAcquireAbility: 0
+      addRequireAbility: 0
+      addAcquireAbilityRate: 0
+      addRequireAbilityRate: 0
+      soundFile: 
+      isWeaponAttack: 1
+    collisionInfoList: []
+    chainAttack: 0
+    cantChangeDir: 0
+    patienceFactor: 1
+    walkingEventMoveSpeed: 0
+    walkingStep: 0
+    walkingSpeedList:
+    - 0
+    moveType: 3
+  - baseState:
+      state: 5
+      animationClip: Jump_Fall
+    stateInfo:
+      attackType: 0
+      attackState: 0
+      defenseState: 2
+      knockDir: {x: 0, y: 0, z: 0}
+      knockDir_Air: {x: 0, y: 0, z: 0}
+      knockPower: 0
+      attackRate: 1
+      addAttackRate: 0
+      painValue: 0
+      addCriticalHitRate: 0
+      stunRate: 0
+      addStunRate: 0
+      stunTime: 1
+      fxObjectName: 
+      effectType: 0
+      effectScale: 1
+      acquireAbility: 0
+      requireAbilityValue: 0
+      addAcquireAbility: 0
+      addRequireAbility: 0
+      addAcquireAbilityRate: 0
+      addRequireAbilityRate: 0
+      soundFile: 
+      isWeaponAttack: 1
+    collisionInfoList: []
+    chainAttack: 0
+    cantChangeDir: 0
+    patienceFactor: 1
+    walkingEventMoveSpeed: 0
+    walkingStep: 0
+    walkingSpeedList:
+    - 0
+    moveType: 3
+  - baseState:
+      state: 4
+      animationClip: Jump_Landing
+    stateInfo:
+      attackType: 0
+      attackState: 0
+      defenseState: 0
+      knockDir: {x: 0, y: 0, z: 0}
+      knockDir_Air: {x: 0, y: 0, z: 0}
+      knockPower: 0
+      attackRate: 1
+      addAttackRate: 0
+      painValue: 0
+      addCriticalHitRate: 0
+      stunRate: 0
+      addStunRate: 0
+      stunTime: 1
+      fxObjectName: 
+      effectType: 0
+      effectScale: 1
+      acquireAbility: 0
+      requireAbilityValue: 0
+      addAcquireAbility: 0
+      addRequireAbility: 0
+      addAcquireAbilityRate: 0
+      addRequireAbilityRate: 0
+      soundFile: 
+      isWeaponAttack: 1
+    collisionInfoList: []
+    chainAttack: 0
+    cantChangeDir: 0
+    patienceFactor: 1
+    walkingEventMoveSpeed: 0
+    walkingStep: 0
+    walkingSpeedList:
+    - 0
+    moveType: 2
+  - baseState:
+      state: 6
+      animationClip: Jump_Downward
+    stateInfo:
+      attackType: 0
+      attackState: 0
+      defenseState: 2
+      knockDir: {x: 0, y: 0, z: 0}
+      knockDir_Air: {x: 0, y: 0, z: 0}
+      knockPower: 0
+      attackRate: 1
+      addAttackRate: 0
+      painValue: 0
+      addCriticalHitRate: 0
+      stunRate: 0
+      addStunRate: 0
+      stunTime: 1
+      fxObjectName: 
+      effectType: 0
+      effectScale: 1
+      acquireAbility: 0
+      requireAbilityValue: 0
+      addAcquireAbility: 0
+      addRequireAbility: 0
+      addAcquireAbilityRate: 0
+      addRequireAbilityRate: 0
+      soundFile: 
+      isWeaponAttack: 1
+    collisionInfoList: []
+    chainAttack: 0
+    cantChangeDir: 0
+    patienceFactor: 1
+    walkingEventMoveSpeed: 0
+    walkingStep: 0
+    walkingSpeedList:
+    - 0
+    moveType: 2
+  - baseState:
+      state: 17
+      animationClip: Jump_Blow
+    stateInfo:
+      attackType: 1
+      attackState: 2
+      defenseState: 0
+      knockDir: {x: 0, y: 0, z: 0}
+      knockDir_Air: {x: 0, y: 0, z: 0}
+      knockPower: 0
+      attackRate: 1
+      addAttackRate: 0
+      painValue: 450
+      addCriticalHitRate: 0
+      stunRate: 0
+      addStunRate: 0
+      stunTime: 1
+      fxObjectName: FX_blow
+      effectType: 1
+      effectScale: 1
+      acquireAbility: 3
+      requireAbilityValue: 0
+      addAcquireAbility: 0
+      addRequireAbility: 0
+      addAcquireAbilityRate: 0
+      addRequireAbilityRate: 0
+      soundFile: 
+      isWeaponAttack: 1
+    collisionInfoList:
+    - colliderName: Weapon Collider04
+      stateInfo:
+        attackType: 1
+        attackState: 2
+        defenseState: 0
+        knockDir: {x: 3.70000005, y: 6.0999999, z: 0}
+        knockDir_Air: {x: 3.70000005, y: 6.0999999, z: 0}
+        knockPower: 0
+        attackRate: 1
+        addAttackRate: 0
+        painValue: 480
+        addCriticalHitRate: 0
+        stunRate: 0
+        addStunRate: 0
+        stunTime: 1.79999995
+        fxObjectName: FX_target_public 02
+        effectType: 0
+        effectScale: 1
+        acquireAbility: 0
+        requireAbilityValue: 0
+        addAcquireAbility: 0
+        addRequireAbility: 0
+        addAcquireAbilityRate: 0
+        addRequireAbilityRate: 0
+        soundFile: damage_normal01
+        isWeaponAttack: 0
+    chainAttack: 0
+    cantChangeDir: 1
+    patienceFactor: 1
+    walkingEventMoveSpeed: 0
+    walkingStep: 0
+    walkingSpeedList:
+    - 0
+    moveType: 2
+  - baseState:
+      state: 18
+      animationClip: Jump_Attack
+    stateInfo:
+      attackType: 1
+      attackState: 1
+      defenseState: 0
+      knockDir: {x: 0, y: 0, z: 0}
+      knockDir_Air: {x: 0, y: 0, z: 0}
+      knockPower: 0
+      attackRate: 1
+      addAttackRate: 0
+      painValue: 120
+      addCriticalHitRate: 0
+      stunRate: 0
+      addStunRate: 0
+      stunTime: 1
+      fxObjectName: FX_warrior_jump_att
+      effectType: 1
+      effectScale: 1
+      acquireAbility: 4
+      requireAbilityValue: 0
+      addAcquireAbility: 0
+      addRequireAbility: 0
+      addAcquireAbilityRate: 0
+      addRequireAbilityRate: 0
+      soundFile: 
+      isWeaponAttack: 1
+    collisionInfoList:
+    - colliderName: Weapon Collider03
+      stateInfo:
+        attackType: 1
+        attackState: 1
+        defenseState: 0
+        knockDir: {x: 2.79999995, y: 6, z: 0}
+        knockDir_Air: {x: 2.79999995, y: 6, z: 0}
+        knockPower: 0
+        attackRate: 2.25
+        addAttackRate: 0
+        painValue: 460
+        addCriticalHitRate: 0
+        stunRate: 0
+        addStunRate: 0
+        stunTime: 1.79999995
+        fxObjectName: FX_target_warrior 02
+        effectType: 0
+        effectScale: 1.14999998
+        acquireAbility: 0
+        requireAbilityValue: 0
+        addAcquireAbility: 0
+        addRequireAbility: 0
+        addAcquireAbilityRate: 0
+        addRequireAbilityRate: 0
+        soundFile: damage02
+        isWeaponAttack: 1
+    chainAttack: 0
+    cantChangeDir: 0
+    patienceFactor: 1
+    walkingEventMoveSpeed: 0
+    walkingStep: 0
+    walkingSpeedList:
+    - 0
+    moveType: 3
+  - baseState:
+      state: 19
+      animationClip: Skill01
+    stateInfo:
+      attackType: 0
+      attackState: 0
+      defenseState: 3
+      knockDir: {x: 0, y: 0, z: 0}
+      knockDir_Air: {x: 0, y: 0, z: 0}
+      knockPower: 0
+      attackRate: 1
+      addAttackRate: 0
+      painValue: 0
+      addCriticalHitRate: 0
+      stunRate: 0
+      addStunRate: 0
+      stunTime: 1
+      fxObjectName: FX_warrior_skill01
+      effectType: 2
+      effectScale: 1
+      acquireAbility: 0
+      requireAbilityValue: 70
+      addAcquireAbility: 0
+      addRequireAbility: 0
+      addAcquireAbilityRate: 0
+      addRequireAbilityRate: 0
+      soundFile: 
+      isWeaponAttack: 1
+    collisionInfoList:
+    - colliderName: Weapon Collider10
+      stateInfo:
+        attackType: 2
+        attackState: 1
+        defenseState: 3
+        knockDir: {x: 3, y: 5.5, z: 0}
+        knockDir_Air: {x: 3, y: 5.5, z: 0}
+        knockPower: 0
+        attackRate: 3
+        addAttackRate: 0
+        painValue: 750
+        addCriticalHitRate: 0
+        stunRate: 1
+        addStunRate: 0
+        stunTime: 1.79999995
+        fxObjectName: FX_target_public 02
+        effectType: 0
+        effectScale: 1
+        acquireAbility: 0
+        requireAbilityValue: 0
+        addAcquireAbility: 0
+        addRequireAbility: 0
+        addAcquireAbilityRate: 0
+        addRequireAbilityRate: 0
+        soundFile: damage_normal01
+        isWeaponAttack: 0
+    - colliderName: Weapon Collider10
+      stateInfo:
+        attackType: 2
+        attackState: 1
+        defenseState: 3
+        knockDir: {x: 3.5, y: 6, z: 0}
+        knockDir_Air: {x: 3.5, y: 6, z: 0}
+        knockPower: 0
+        attackRate: 3
+        addAttackRate: 0
+        painValue: 750
+        addCriticalHitRate: 0
+        stunRate: 1
+        addStunRate: 0
+        stunTime: 1.79999995
+        fxObjectName: FX_target_public 02
+        effectType: 0
+        effectScale: 1.20000005
+        acquireAbility: 0
+        requireAbilityValue: 0
+        addAcquireAbility: 0
+        addRequireAbility: 0
+        addAcquireAbilityRate: 0
+        addRequireAbilityRate: 0
+        soundFile: damage_normal01
+        isWeaponAttack: 0
+    - colliderName: Weapon Collider10
+      stateInfo:
+        attackType: 2
+        attackState: 1
+        defenseState: 3
+        knockDir: {x: 4, y: 6.5, z: 0}
+        knockDir_Air: {x: 4, y: 6.5, z: 0}
+        knockPower: 0
+        attackRate: 3
+        addAttackRate: 0
+        painValue: 750
+        addCriticalHitRate: 0
+        stunRate: 1
+        addStunRate: 0
+        stunTime: 1.79999995
+        fxObjectName: FX_target_public 02
+        effectType: 0
+        effectScale: 1.39999998
+        acquireAbility: 0
+        requireAbilityValue: 0
+        addAcquireAbility: 0
+        addRequireAbility: 0
+        addAcquireAbilityRate: 0
+        addRequireAbilityRate: 0
+        soundFile: damage_normal02
+        isWeaponAttack: 0
+    chainAttack: 0
+    cantChangeDir: 1
+    patienceFactor: 1
+    walkingEventMoveSpeed: 0
+    walkingStep: 0
+    walkingSpeedList:
+    - 0
+    moveType: 2
+  - baseState:
+      state: 20
+      animationClip: Skill02
+    stateInfo:
+      attackType: 2
+      attackState: 2
+      defenseState: 4
+      knockDir: {x: 0, y: 0, z: 0}
+      knockDir_Air: {x: 0, y: 0, z: 0}
+      knockPower: 0
+      attackRate: .5
+      addAttackRate: 0
+      painValue: 600
+      addCriticalHitRate: 0
+      stunRate: 0
+      addStunRate: 0
+      stunTime: 1
+      fxObjectName: FX_warrior_skill02
+      effectType: 1
+      effectScale: 1
+      acquireAbility: 0
+      requireAbilityValue: 30
+      addAcquireAbility: 0
+      addRequireAbility: 0
+      addAcquireAbilityRate: 0
+      addRequireAbilityRate: 0
+      soundFile: 
+      isWeaponAttack: 1
+    collisionInfoList:
+    - colliderName: Weapon Collider06
+      stateInfo:
+        attackType: 2
+        attackState: 2
+        defenseState: 4
+        knockDir: {x: 10.5, y: .769999981, z: 0}
+        knockDir_Air: {x: 6, y: .0500000007, z: 0}
+        knockPower: 0
+        attackRate: .300000012
+        addAttackRate: 0
+        painValue: 240
+        addCriticalHitRate: 0
+        stunRate: 0
+        addStunRate: 0
+        stunTime: 0
+        fxObjectName: FX_target_warrior 02
+        effectType: 0
+        effectScale: .949999988
+        acquireAbility: 0
+        requireAbilityValue: 0
+        addAcquireAbility: 0
+        addRequireAbility: 0
+        addAcquireAbilityRate: 0
+        addRequireAbilityRate: 0
+        soundFile: damage01
+        isWeaponAttack: 1
+    - colliderName: Weapon Collider05
+      stateInfo:
+        attackType: 2
+        attackState: 2
+        defenseState: 4
+        knockDir: {x: -7, y: 1.79999995, z: 0}
+        knockDir_Air: {x: -9, y: 2, z: 0}
+        knockPower: 0
+        attackRate: 1.10000002
+        addAttackRate: 0
+        painValue: 750
+        addCriticalHitRate: 0
+        stunRate: 1
+        addStunRate: 0
+        stunTime: 1.5
+        fxObjectName: FX_target_warrior 01
+        effectType: 0
+        effectScale: 1.10000002
+        acquireAbility: 0
+        requireAbilityValue: 0
+        addAcquireAbility: 0
+        addRequireAbility: 0
+        addAcquireAbilityRate: 0
+        addRequireAbilityRate: 0
+        soundFile: damage02
+        isWeaponAttack: 1
+    chainAttack: 0
+    cantChangeDir: 1
+    patienceFactor: 1
+    walkingEventMoveSpeed: 0
+    walkingStep: 0
+    walkingSpeedList:
+    - 0
+    moveType: 2
+  - baseState:
+      state: 22
+      animationClip: Damage
+    stateInfo:
+      attackType: 0
+      attackState: 0
+      defenseState: 0
+      knockDir: {x: 0, y: 0, z: 0}
+      knockDir_Air: {x: 0, y: 0, z: 0}
+      knockPower: 0
+      attackRate: 1
+      addAttackRate: 0
+      painValue: 0
+      addCriticalHitRate: 0
+      stunRate: 0
+      addStunRate: 0
+      stunTime: 1
+      fxObjectName: 
+      effectType: 0
+      effectScale: 1
+      acquireAbility: 0
+      requireAbilityValue: 0
+      addAcquireAbility: 0
+      addRequireAbility: 0
+      addAcquireAbilityRate: 0
+      addRequireAbilityRate: 0
+      soundFile: 
+      isWeaponAttack: 1
+    collisionInfoList: []
+    chainAttack: 0
+    cantChangeDir: 1
+    patienceFactor: 1
+    walkingEventMoveSpeed: -3
+    walkingStep: 0
+    walkingSpeedList:
+    - -3
+    moveType: 2
+  - baseState:
+      state: 7
+      animationClip: KnockDown_Start
+    stateInfo:
+      attackType: 0
+      attackState: 0
+      defenseState: 2
+      knockDir: {x: 0, y: 0, z: 0}
+      knockDir_Air: {x: 0, y: 0, z: 0}
+      knockPower: 0
+      attackRate: 1
+      addAttackRate: 0
+      painValue: 0
+      addCriticalHitRate: 0
+      stunRate: 0
+      addStunRate: 0
+      stunTime: 1
+      fxObjectName: 
+      effectType: 0
+      effectScale: 1
+      acquireAbility: 0
+      requireAbilityValue: 0
+      addAcquireAbility: 0
+      addRequireAbility: 0
+      addAcquireAbilityRate: 0
+      addRequireAbilityRate: 0
+      soundFile: 
+      isWeaponAttack: 1
+    collisionInfoList: []
+    chainAttack: 0
+    cantChangeDir: 1
+    patienceFactor: 1
+    walkingEventMoveSpeed: 0
+    walkingStep: 0
+    walkingSpeedList:
+    - 0
+    moveType: 3
+  - baseState:
+      state: 8
+      animationClip: KnockDown_Fall
+    stateInfo:
+      attackType: 0
+      attackState: 0
+      defenseState: 2
+      knockDir: {x: 0, y: 0, z: 0}
+      knockDir_Air: {x: 0, y: 0, z: 0}
+      knockPower: 0
+      attackRate: 1
+      addAttackRate: 0
+      painValue: 0
+      addCriticalHitRate: 0
+      stunRate: 0
+      addStunRate: 0
+      stunTime: 1
+      fxObjectName: 
+      effectType: 0
+      effectScale: 1
+      acquireAbility: 0
+      requireAbilityValue: 0
+      addAcquireAbility: 0
+      addRequireAbility: 0
+      addAcquireAbilityRate: 0
+      addRequireAbilityRate: 0
+      soundFile: 
+      isWeaponAttack: 1
+    collisionInfoList: []
+    chainAttack: 0
+    cantChangeDir: 1
+    patienceFactor: 1
+    walkingEventMoveSpeed: 0
+    walkingStep: 0
+    walkingSpeedList:
+    - 0
+    moveType: 3
+  - baseState:
+      state: 9
+      animationClip: KnockDown_Landing
+    stateInfo:
+      attackType: 0
+      attackState: 0
+      defenseState: 0
+      knockDir: {x: 0, y: 0, z: 0}
+      knockDir_Air: {x: 0, y: 0, z: 0}
+      knockPower: 0
+      attackRate: 1
+      addAttackRate: 0
+      painValue: 0
+      addCriticalHitRate: 0
+      stunRate: 0
+      addStunRate: 0
+      stunTime: 1
+      fxObjectName: 
+      effectType: 0
+      effectScale: 1
+      acquireAbility: 0
+      requireAbilityValue: 0
+      addAcquireAbility: 0
+      addRequireAbility: 0
+      addAcquireAbilityRate: 0
+      addRequireAbilityRate: 0
+      soundFile: 
+      isWeaponAttack: 1
+    collisionInfoList: []
+    chainAttack: 0
+    cantChangeDir: 1
+    patienceFactor: 1
+    walkingEventMoveSpeed: -5
+    walkingStep: 0
+    walkingSpeedList:
+    - -5
+    moveType: 2
+  - baseState:
+      state: 23
+      animationClip: Die
+    stateInfo:
+      attackType: 0
+      attackState: 0
+      defenseState: 0
+      knockDir: {x: 0, y: 0, z: 0}
+      knockDir_Air: {x: 0, y: 0, z: 0}
+      knockPower: 0
+      attackRate: 1
+      addAttackRate: 0
+      painValue: 0
+      addCriticalHitRate: 0
+      stunRate: 0
+      addStunRate: 0
+      stunTime: 1
+      fxObjectName: 
+      effectType: 0
+      effectScale: 1
+      acquireAbility: 0
+      requireAbilityValue: 0
+      addAcquireAbility: 0
+      addRequireAbility: 0
+      addAcquireAbilityRate: 0
+      addRequireAbilityRate: 0
+      soundFile: 
+      isWeaponAttack: 1
+    collisionInfoList: []
+    chainAttack: 0
+    cantChangeDir: 1
+    patienceFactor: 1
+    walkingEventMoveSpeed: 0
+    walkingStep: 0
+    walkingSpeedList:
+    - 0
+    moveType: 2
+  - baseState:
+      state: 38
+      animationClip: KnockDown_Die
+    stateInfo:
+      attackType: 0
+      attackState: 0
+      defenseState: 2
+      knockDir: {x: 0, y: 0, z: 0}
+      knockDir_Air: {x: 0, y: 0, z: 0}
+      knockPower: 0
+      attackRate: 1
+      addAttackRate: 0
+      painValue: 0
+      addCriticalHitRate: 0
+      stunRate: 0
+      addStunRate: 0
+      stunTime: 1
+      fxObjectName: 
+      effectType: 0
+      effectScale: 1
+      acquireAbility: 0
+      requireAbilityValue: 0
+      addAcquireAbility: 0
+      addRequireAbility: 0
+      addAcquireAbilityRate: 0
+      addRequireAbilityRate: 0
+      soundFile: 
+      isWeaponAttack: 1
+    collisionInfoList: []
+    chainAttack: 0
+    cantChangeDir: 1
+    patienceFactor: 1
+    walkingEventMoveSpeed: 0
+    walkingStep: 0
+    walkingSpeedList:
+    - 0
+    moveType: 2
+  - baseState:
+      state: 24
+      animationClip: stun
+    stateInfo:
+      attackType: 0
+      attackState: 0
+      defenseState: 0
+      knockDir: {x: 0, y: 0, z: 0}
+      knockDir_Air: {x: 0, y: 0, z: 0}
+      knockPower: 0
+      attackRate: 1
+      addAttackRate: 0
+      painValue: 0
+      addCriticalHitRate: 0
+      stunRate: 0
+      addStunRate: 0
+      stunTime: 1
+      fxObjectName: FX_stun
+      effectType: 0
+      effectScale: 1
+      acquireAbility: 0
+      requireAbilityValue: 0
+      addAcquireAbility: 0
+      addRequireAbility: 0
+      addAcquireAbilityRate: 0
+      addRequireAbilityRate: 0
+      soundFile: 
+      isWeaponAttack: 1
+    collisionInfoList: []
+    chainAttack: 0
+    cantChangeDir: 0
+    patienceFactor: 1
+    walkingEventMoveSpeed: 0
+    walkingStep: 0
+    walkingSpeedList:
+    - 0
+    moveType: 2
+  - baseState:
+      state: 28
+      animationClip: end
+    stateInfo:
+      attackType: 0
+      attackState: 0
+      defenseState: 4
+      knockDir: {x: 0, y: 0, z: 0}
+      knockDir_Air: {x: 0, y: 0, z: 0}
+      knockPower: 0
+      attackRate: 1
+      addAttackRate: 0
+      painValue: 0
+      addCriticalHitRate: 0
+      stunRate: 0
+      addStunRate: 0
+      stunTime: 1
+      fxObjectName: 
+      effectType: 0
+      effectScale: 1
+      acquireAbility: 0
+      requireAbilityValue: 0
+      addAcquireAbility: 0
+      addRequireAbility: 0
+      addAcquireAbilityRate: 0
+      addRequireAbilityRate: 0
+      soundFile: 
+      isWeaponAttack: 1
+    collisionInfoList: []
+    chainAttack: 0
+    cantChangeDir: 0
+    patienceFactor: 1
+    walkingEventMoveSpeed: 0
+    walkingStep: 0
+    walkingSpeedList:
+    - 0
+    moveType: 2
+  - baseState:
+      state: 29
+      animationClip: end_stand
+    stateInfo:
+      attackType: 0
+      attackState: 0
+      defenseState: 4
+      knockDir: {x: 0, y: 0, z: 0}
+      knockDir_Air: {x: 0, y: 0, z: 0}
+      knockPower: 0
+      attackRate: 1
+      addAttackRate: 0
+      painValue: 0
+      addCriticalHitRate: 0
+      stunRate: 0
+      addStunRate: 0
+      stunTime: 1
+      fxObjectName: 
+      effectType: 0
+      effectScale: 1
+      acquireAbility: 0
+      requireAbilityValue: 0
+      addAcquireAbility: 0
+      addRequireAbility: 0
+      addAcquireAbilityRate: 0
+      addRequireAbilityRate: 0
+      soundFile: 
+      isWeaponAttack: 1
+    collisionInfoList: []
+    chainAttack: 0
+    cantChangeDir: 0
+    patienceFactor: 1
+    walkingEventMoveSpeed: 0
+    walkingStep: 0
+    walkingSpeedList:
+    - 0
+    moveType: 2
+  - baseState:
+      state: 41
+      animationClip: silence_hammer
+    stateInfo:
+      attackType: 0
+      attackState: 0
+      defenseState: 3
+      knockDir: {x: 0, y: 0, z: 0}
+      knockDir_Air: {x: 0, y: 0, z: 0}
+      knockPower: 0
+      attackRate: 1
+      addAttackRate: 0
+      painValue: 0
+      addCriticalHitRate: 0
+      stunRate: 0
+      addStunRate: 0
+      stunTime: 1
+      fxObjectName: FX_silence_hammer
+      effectType: 1
+      effectScale: 1
+      acquireAbility: 0
+      requireAbilityValue: 40
+      addAcquireAbility: 0
+      addRequireAbility: 0
+      addAcquireAbilityRate: 0
+      addRequireAbilityRate: 0
+      soundFile: 
+      isWeaponAttack: 1
+    collisionInfoList:
+    - colliderName: Weapon Collider07
+      stateInfo:
+        attackType: 2
+        attackState: 2
+        defenseState: 3
+        knockDir: {x: 1.5, y: 9, z: 0}
+        knockDir_Air: {x: 1.5, y: 9, z: 0}
+        knockPower: 0
+        attackRate: 5.5999999
+        addAttackRate: 0
+        painValue: 1000
+        addCriticalHitRate: 0
+        stunRate: 1
+        addStunRate: 0
+        stunTime: 2.5
+        fxObjectName: FX_target_warrior 01
+        effectType: 0
+        effectScale: 1.45000005
+        acquireAbility: 0
+        requireAbilityValue: 0
+        addAcquireAbility: 0
+        addRequireAbility: 0
+        addAcquireAbilityRate: 0
+        addRequireAbilityRate: 0
+        soundFile: damage02
+        isWeaponAttack: 1
+    chainAttack: 0
+    cantChangeDir: 0
+    patienceFactor: 1
+    walkingEventMoveSpeed: 5
+    walkingStep: 0
+    walkingSpeedList:
+    - 5
+    moveType: 2
+  - baseState:
+      state: 42
+      animationClip: shock_wave
+    stateInfo:
+      attackType: 0
+      attackState: 0
+      defenseState: 3
+      knockDir: {x: 0, y: 0, z: 0}
+      knockDir_Air: {x: 0, y: 0, z: 0}
+      knockPower: 0
+      attackRate: 1
+      addAttackRate: 0
+      painValue: 0
+      addCriticalHitRate: 0
+      stunRate: 0
+      addStunRate: 0
+      stunTime: 1
+      fxObjectName: 
+      effectType: 1
+      effectScale: 1
+      acquireAbility: 0
+      requireAbilityValue: 40
+      addAcquireAbility: 0
+      addRequireAbility: 0
+      addAcquireAbilityRate: 0
+      addRequireAbilityRate: 0
+      soundFile: 
+      isWeaponAttack: 1
+    collisionInfoList: []
+    chainAttack: 0
+    cantChangeDir: 0
+    patienceFactor: 1
+    walkingEventMoveSpeed: 0
+    walkingStep: 0
+    walkingSpeedList:
+    - 0
+    moveType: 2
+  - baseState:
+      state: 40
+      animationClip: Heavy_Attack
+    stateInfo:
+      attackType: 0
+      attackState: 0
+      defenseState: 3
+      knockDir: {x: 0, y: 0, z: 0}
+      knockDir_Air: {x: 0, y: 0, z: 0}
+      knockPower: 0
+      attackRate: 1
+      addAttackRate: 0
+      painValue: 0
+      addCriticalHitRate: 0
+      stunRate: 0
+      addStunRate: 0
+      stunTime: 1
+      fxObjectName: FX_warrior_Xstrom
+      effectType: 0
+      effectScale: 1
+      acquireAbility: 3
+      requireAbilityValue: 40
+      addAcquireAbility: 0
+      addRequireAbility: 0
+      addAcquireAbilityRate: 0
+      addRequireAbilityRate: 0
+      soundFile: 
+      isWeaponAttack: 1
+    collisionInfoList:
+    - colliderName: Heavy Collider01
+      stateInfo:
+        attackType: 2
+        attackState: 1
+        defenseState: 3
+        knockDir: {x: .100000001, y: .200000003, z: 0}
+        knockDir_Air: {x: .100000001, y: .200000003, z: 0}
+        knockPower: 0
+        attackRate: 1
+        addAttackRate: 0
+        painValue: 250
+        addCriticalHitRate: 0
+        stunRate: 0
+        addStunRate: 0
+        stunTime: 0
+        fxObjectName: FX_target_warrior 01
+        effectType: 0
+        effectScale: 1.10000002
+        acquireAbility: 0
+        requireAbilityValue: 0
+        addAcquireAbility: 0
+        addRequireAbility: 0
+        addAcquireAbilityRate: 0
+        addRequireAbilityRate: 0
+        soundFile: damage01
+        isWeaponAttack: 1
+    - colliderName: Heavy Collider01
+      stateInfo:
+        attackType: 2
+        attackState: 1
+        defenseState: 3
+        knockDir: {x: 2.20000005, y: .5, z: 0}
+        knockDir_Air: {x: 2.20000005, y: .5, z: 0}
+        knockPower: 0
+        attackRate: 1.5
+        addAttackRate: 0
+        painValue: 250
+        addCriticalHitRate: 0
+        stunRate: 0
+        addStunRate: 0
+        stunTime: 0
+        fxObjectName: FX_target_warrior 01
+        effectType: 0
+        effectScale: 1.25
+        acquireAbility: 0
+        requireAbilityValue: 0
+        addAcquireAbility: 0
+        addRequireAbility: 0
+        addAcquireAbilityRate: 0
+        addRequireAbilityRate: 0
+        soundFile: damage01
+        isWeaponAttack: 1
+    - colliderName: Heavy Collider01
+      stateInfo:
+        attackType: 2
+        attackState: 2
+        defenseState: 3
+        knockDir: {x: 2.20000005, y: 6.5, z: 0}
+        knockDir_Air: {x: 2.20000005, y: 6.5, z: 0}
+        knockPower: 0
+        attackRate: 3
+        addAttackRate: 0
+        painValue: 750
+        addCriticalHitRate: 0
+        stunRate: 0
+        addStunRate: 0
+        stunTime: 0
+        fxObjectName: FX_target_warrior 01
+        effectType: 0
+        effectScale: 1.39999998
+        acquireAbility: 0
+        requireAbilityValue: 0
+        addAcquireAbility: 0
+        addRequireAbility: 0
+        addAcquireAbilityRate: 0
+        addRequireAbilityRate: 0
+        soundFile: damage02
+        isWeaponAttack: 1
+    chainAttack: 0
+    cantChangeDir: 1
+    patienceFactor: 1
+    walkingEventMoveSpeed: 6
+    walkingStep: 0
+    walkingSpeedList:
+    - 6
+    moveType: 2
+  defaultState: 0
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cf4e49c94a96b64794f2178534451fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  curLevel: 0
+  skillPoint: 0
+  giftPoint: 0
+  canBuyPoint: 0
+  buyPoint: 0
+  usedPoint: 0
+  lifeManager: {fileID: 0}
+--- !u!114 &11400004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f98b445ae98b468db0c527ba5db2e67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ownerActor: {fileID: 100120}
+  colliderStep: 0
+--- !u!114 &11400006
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9389049dd3dcd4b269cc14044f1d6e56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11400008
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b37ba6145c512e24abe52bff128c9f28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseCapacity: 9
+  addCapacity: 0
+--- !u!114 &11400010
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa49c725a33d4ad47a1fd52507f5f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  applyEquipItems: []
+  equipItems: []
+--- !u!114 &11400012
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32fc248250ec8498cafa7a03671ea4e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ownerActor: {fileID: 11400016}
+  berserkModeAttackRate: 0
+  changeBuffColorCooTime: .5
+  changeBuffColorDelayTime: 0
+  currentBuffColor: {r: .5, g: .5, b: .5, a: 1}
+  poisonStartSound: poison_start
+  poisonLoopSound: poison_looping
+  curseStartSound: curse_start
+  curseLoopSound: curse_looping
+  manaShieldStartSound: manaShield_start
+  manaShieldLoopSound: manaShield_looping
+  infectionDist: 1.5
+--- !u!114 &11400014
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68b544fde60394a5eb542ed29691f7c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myInfo: {fileID: 11400022}
+  classType: 0
+  stateController: {fileID: 11400018}
+  animEventTrigger: {fileID: 11400006}
+  moveController: {fileID: 11400020}
+  buffManager: {fileID: 11400012}
+  lifeManager: {fileID: 11400016}
+  attack3StartState: 15
+  actionBStartState: 16
+  actionBState: 16
+  addFXActionBState: FX_character_s_att_warrior
+  input: {fileID: 11400026}
+  chainAttack: 0
+  strongAttack: 0
+  actionBCoolTime: 8
+  actionBCoolTimeAdjust: 0
+  actionBDelayTime: 0
+  skill1CoolTime: 12
+  skill1CoolTimeAdjust: 0
+  skill1DelayTime: 0
+  potion1CoolTime: 10
+  potion2CoolTime: 10
+  potion1DelayTime: 0
+  potion2DelayTime: 0
+  skill2CoolTime: 2
+  skill2CoolTimeAdjust: 0
+  skill2DelayTime: 0
+  targetInfo: {fileID: 0}
+  counterAttackInfo:
+    attackHorizontalRange: {x: 0, y: 0}
+    attackVerticalRange: {x: 0, y: 0}
+    attackDelayTime: 0
+    attackCoolTime: 2
+    attackProbability: 100
+    priority: 1
+    availableSameGround: 1
+    bRankAdjust: 0
+    rankAdjustRate: 0
+    attackState: 12
+    ignoreDamageState: 0
+  enableCounterAttack: 0
+  fxManaShield: FX_mana_shield_01
+  fxCurseTarget: FX_curse_target_particle
+  fxPoisonTarget: FX_poison_target_particle
+  fxDamage: FX_character_damage
+  fxReflect: FX_Reaction
+  defaultCameraAnim: Camera_shake_De
+  baseAttack21Rate: 0
+  addAttack21Rate: 0
+  addRequireAbilityRate: 0
+  baseRequireSkill02: 0
+  abilityUI: {fileID: 0}
+  abilityInfoLabel: {fileID: 0}
+  hpUI: {fileID: 0}
+  hpInfoLabel: {fileID: 0}
+  myStatusInfo: {fileID: 0}
+  charLevelLabel: {fileID: 0}
+  abilityValueType: 11
+  abilityRegenType: 13
+  attributeTableID: 1
+  destroyDelayTime: -1
+  ActionA_Progress: {fileID: 100000, guid: fc9cdc5227e6d7e44ac6f97c9daa62cd, type: 2}
+  ActionB_Progress: {fileID: 100002, guid: d505d2dd5467cd649b484b61943f1df9, type: 2}
+  Skill1_Progress: {fileID: 100006, guid: 48c660c9cc6fddc45be82a496de34db3, type: 2}
+  Skill2_Progress: {fileID: 100004, guid: b5b31dc54023b91408eb67e2af69d6ab, type: 2}
+  isAIMode: 1
+  isAutoMode: 0
+  isAutoPotionMode: 0
+  playerControls: {fileID: 0}
+  audioSource: {fileID: 0}
+  attackTargetInfo: {fileID: 0}
+  avoidSoundFile: 
+  isEventMode: 0
+  revivalController: {fileID: 0}
+  slowTimeRate: .300000012
+  slowDelayTime: 1
+  isRunawayMode: 0
+  hpCheckCoolTime: 10
+  hpCheckDelayTime: 0
+  runAwayRate: .150000006
+  adjustRunAwayRate: -.0500000007
+  runAwayTime: {x: .5, y: 4}
+  runAwayDelayTime: 10
+  arrowEvadeDistance: 3
+  projectileEvadeDistance: 3
+  projectileEvadeRateByJump: .75
+  adjustProjectileEvadeRateByJump: .0250000004
+  projectileEvadeRateBySkill02: .200000003
+  attackCheckCoolTime: .349999994
+  moveCheckCoolTime: 1
+  jumpRateAfterAttack2: .860000014
+  adjustJumpRateAfterAttack2: .0599999987
+  jumpRateAfterDashAttack: .850000024
+  adjustJumpRateAfterDashAttack: .0500000007
+  jumpRateAfterSkill02: 0
+  adjustJumpRateAfterSkill02: 0
+  bJumpTriggerByTargetHit: 0
+  targetHitActor: {fileID: 0}
+  limitFollowRate: {x: .600000024, y: .800000012}
+  limitFollowLength: 2
+  followDelayTime: .5
+  followCoolTime: .5
+  limitObstacleLength: 7
+  limitTargetLength: 5
+  dashRateValue: 40
+  adjustDashRate: .0599999987
+  dashRateValueWhenRunawayMode: 96
+  adjustDashRateValueWhenRunawayMode: .0599999987
+  autoPotion1Rate: .600000024
+  autoPotion2Rate: .400000006
+  runawayTargetWayMgr: {fileID: 0}
+  runAwayPos: {x: 0, y: 0, z: 0}
+  jumpCoolTime: 2
+  jumpDelayTime: 0
+  jumpRateOnNormalMode: 22
+  jumpRateOnRunawayMode: 30
+  adjustJumpRate: .0199999996
+  curWayPoint: {fileID: 0}
+  curWayIndex: -1
+  curWayInfo: {fileID: 0}
+  myWayTypeMask: 0
+  bSetIdleTargetPos: 0
+  idleTargetPos: {x: 0, y: 0, z: 0}
+  idleTargetPosResetTime: 1
+  limitTargetFarLength: 10
+  attackList:
+  - attackHorizontalRange: {x: 0, y: 1.20000005}
+    attackVerticalRange: {x: -.5, y: 1.20000005}
+    attackDelayTime: 0
+    attackCoolTime: 0
+    attackProbability: 100
+    priority: 1
+    availableSameGround: 0
+    bRankAdjust: 0
+    rankAdjustRate: 0
+    attackState: 12
+    ignoreDamageState: 0
+  - attackHorizontalRange: {x: 0, y: 1.10000002}
+    attackVerticalRange: {x: -.5, y: 2.5}
+    attackDelayTime: 0
+    attackCoolTime: 0
+    attackProbability: 100
+    priority: 1
+    availableSameGround: 0
+    bRankAdjust: 0
+    rankAdjustRate: 0
+    attackState: 13
+    ignoreDamageState: 0
+  - attackHorizontalRange: {x: 0, y: 2.20000005}
+    attackVerticalRange: {x: -.5, y: 2.5}
+    attackDelayTime: 0
+    attackCoolTime: 0
+    attackProbability: 100
+    priority: 1
+    availableSameGround: 0
+    bRankAdjust: 0
+    rankAdjustRate: 0
+    attackState: 15
+    ignoreDamageState: 0
+  - attackHorizontalRange: {x: 0, y: 2.5}
+    attackVerticalRange: {x: -.5, y: 2.5}
+    attackDelayTime: 0
+    attackCoolTime: 0
+    attackProbability: 53
+    priority: 2
+    availableSameGround: 0
+    bRankAdjust: 1
+    rankAdjustRate: .0299999993
+    attackState: 14
+    ignoreDamageState: 0
+  - attackHorizontalRange: {x: -1.5, y: 1.5}
+    attackVerticalRange: {x: -4, y: 1.5}
+    attackDelayTime: 0
+    attackCoolTime: 0
+    attackProbability: 89
+    priority: 7
+    availableSameGround: 0
+    bRankAdjust: 1
+    rankAdjustRate: .0399999991
+    attackState: 6
+    ignoreDamageState: 0
+  - attackHorizontalRange: {x: -.5, y: 2.4000001}
+    attackVerticalRange: {x: -1.60000002, y: 2}
+    attackDelayTime: 0
+    attackCoolTime: 0
+    attackProbability: 88
+    priority: 8
+    availableSameGround: 0
+    bRankAdjust: 1
+    rankAdjustRate: .0799999982
+    attackState: 18
+    ignoreDamageState: 0
+  - attackHorizontalRange: {x: .400000006, y: 3.29999995}
+    attackVerticalRange: {x: -.5, y: 2.5}
+    attackDelayTime: 0
+    attackCoolTime: 0
+    attackProbability: 72
+    priority: 3
+    availableSameGround: 0
+    bRankAdjust: 1
+    rankAdjustRate: .0199999996
+    attackState: 11
+    ignoreDamageState: 0
+  - attackHorizontalRange: {x: 0, y: 2.79999995}
+    attackVerticalRange: {x: -.5, y: 1.20000005}
+    attackDelayTime: 0
+    attackCoolTime: 0
+    attackProbability: 52
+    priority: 4
+    availableSameGround: 0
+    bRankAdjust: 1
+    rankAdjustRate: .0199999996
+    attackState: 40
+    ignoreDamageState: 1
+  - attackHorizontalRange: {x: 0, y: 5}
+    attackVerticalRange: {x: -.5, y: 1.20000005}
+    attackDelayTime: 0
+    attackCoolTime: 0
+    attackProbability: 52
+    priority: 4
+    availableSameGround: 0
+    bRankAdjust: 1
+    rankAdjustRate: .0199999996
+    attackState: 41
+    ignoreDamageState: 1
+  - attackHorizontalRange: {x: 0, y: 5.5}
+    attackVerticalRange: {x: 0, y: 0}
+    attackDelayTime: 0
+    attackCoolTime: 0
+    attackProbability: 52
+    priority: 4
+    availableSameGround: 0
+    bRankAdjust: 1
+    rankAdjustRate: .0199999996
+    attackState: 42
+    ignoreDamageState: 1
+  - attackHorizontalRange: {x: 0, y: 3.0999999}
+    attackVerticalRange: {x: -.5, y: 1.20000005}
+    attackDelayTime: 0
+    attackCoolTime: 2
+    attackProbability: 6
+    priority: 4
+    availableSameGround: 0
+    bRankAdjust: 1
+    rankAdjustRate: .00200000009
+    attackState: 20
+    ignoreDamageState: 1
+  - attackHorizontalRange: {x: 2, y: 6}
+    attackVerticalRange: {x: -.5, y: 1.5}
+    attackDelayTime: 0
+    attackCoolTime: 0
+    attackProbability: 10
+    priority: 6
+    availableSameGround: 0
+    bRankAdjust: 0
+    rankAdjustRate: 0
+    attackState: 19
+    ignoreDamageState: 0
+  - attackHorizontalRange: {x: 0, y: 5}
+    attackVerticalRange: {x: 1.5, y: 3.5}
+    attackDelayTime: 0
+    attackCoolTime: 0
+    attackProbability: 50
+    priority: 9
+    availableSameGround: 0
+    bRankAdjust: 0
+    rankAdjustRate: 0
+    attackState: 19
+    ignoreDamageState: 0
+  - attackHorizontalRange: {x: 0, y: 3.0999999}
+    attackVerticalRange: {x: .5, y: 1.20000005}
+    attackDelayTime: 0
+    attackCoolTime: 0
+    attackProbability: 55
+    priority: 10
+    availableSameGround: 0
+    bRankAdjust: 0
+    rankAdjustRate: 0
+    attackState: 20
+    ignoreDamageState: 1
+  - attackHorizontalRange: {x: -8, y: 8}
+    attackVerticalRange: {x: 0, y: 0}
+    attackDelayTime: 0
+    attackCoolTime: 0
+    attackProbability: 30
+    priority: 1
+    availableSameGround: 0
+    bRankAdjust: 0
+    rankAdjustRate: 0
+    attackState: 6
+    ignoreDamageState: 0
+  - attackHorizontalRange: {x: 0, y: 5}
+    attackVerticalRange: {x: -1.5, y: -.5}
+    attackDelayTime: 0
+    attackCoolTime: 0
+    attackProbability: 50
+    priority: 1
+    availableSameGround: 0
+    bRankAdjust: 0
+    rankAdjustRate: 0
+    attackState: 19
+    ignoreDamageState: 0
+  myRankValue: 0
+  addSpecialRateWhenStunOrDamage: 2
+  aiSkill02RateWhenTargetSkill01: .219999999
+  potionSound1: Battle_ItemUse_Potion
+  potionSound2: Battle_ItemUse_Meat
+  charDialogInfos: []
+  revivalCheckCollider: {fileID: 0}
+  revivalKnockDir: {x: 0, y: 4, z: 0}
+  dieSoundFile: Mulaco_die
+  fxBerserk: {fileID: 100090}
+  abilityResetCoolTime: 3
+  abilityResetDelay: 0
+  decAbilityMode: 0
+  decAbilityValue: 0
+  decAbilityCoolTime: .100000001
+  decAbilityDelayTime: 0
+  limitAbilityValue: 50
+  berserkDeleteTime: 2
+  startAbilitValue: 0
+  startMaxAbilityValue: 100
+  addAbilityByDefault: 6
+  addAbilityByDamage: 10
+  addAbilityByKnockDown: 14
+  baseBerserkAttackRate: .100000001
+  addBerserkAttackRate: 0
+  shockWavePrefabPath: NewAsset/Others/ArenaWarrior_ShockWave
+  shockWaveStateInfo:
+    attackType: 2
+    attackState: 2
+    defenseState: 3
+    knockDir: {x: 2.5999999, y: 6, z: 0}
+    knockDir_Air: {x: 2.5999999, y: 6, z: 0}
+    knockPower: 0
+    attackRate: 4
+    addAttackRate: 0
+    painValue: 750
+    addCriticalHitRate: 0
+    stunRate: 0
+    addStunRate: 0
+    stunTime: 1
+    fxObjectName: FX_target_warrior 01
+    effectType: 1
+    effectScale: 1.25
+    acquireAbility: 0
+    requireAbilityValue: 0
+    addAcquireAbility: 0
+    addRequireAbility: 0
+    addAcquireAbilityRate: 0
+    addRequireAbilityRate: 0
+    soundFile: 
+    isWeaponAttack: 1
+--- !u!114 &11400016
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74946cd3fedcf416890f27bf0f993ad4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stateController: {fileID: 11400018}
+  moveController: {fileID: 11400020}
+  defaultWeaponLayerName: Weapon
+  weaponLayerName: PlayerWeapon
+  projectileLayerName: PlayerProjectile
+  defaultWeaponLayer: 0
+  weaponLayer: 0
+  projectileLayer: 0
+  attributeManager:
+    basicAttributeTypeList: 
+    abilityUI: {fileID: 0}
+    abilityInfoLabel: {fileID: 0}
+    hpUI: {fileID: 0}
+    hpInfoLabel: {fileID: 0}
+  masteryManager:
+    masteries: []
+    maxLevel: 0
+    lifeManager: {fileID: 0}
+  masteryManager_New:
+    totalList: []
+    maxLevel: 0
+    lifeManager: {fileID: 0}
+    activeMastery:
+      method: 0
+      methodArg: 
+      activeType: 0
+      id: 0
+      groupID: 0
+      maxPoint: 0
+      curPoint: 0
+      addPoint: 0
+      needGroupID: 0
+      needGroupPoint: 0
+      needMasteryIDs: 
+      iconName: 
+      name: 
+      desc: 
+      formatString: 
+      unitString: 
+      incValue: 0
+      manager:
+        totalList: []
+        maxLevel: 0
+        lifeManager: {fileID: 0}
+        activeMastery:
+          method: 0
+          methodArg: 
+          activeType: 0
+          id: 0
+          groupID: 0
+          maxPoint: 0
+          curPoint: 0
+          addPoint: 0
+          needGroupID: 0
+          needGroupPoint: 0
+          needMasteryIDs: 
+          iconName: 
+          name: 
+          desc: 
+          formatString: 
+          unitString: 
+          incValue: 0
+          manager:
+            totalList: []
+            maxLevel: 0
+            lifeManager: {fileID: 0}
+            activeMastery:
+              method: 0
+              methodArg: 
+              activeType: 0
+              id: 0
+              groupID: 0
+              maxPoint: 0
+              curPoint: 0
+              addPoint: 0
+              needGroupID: 0
+              needGroupPoint: 0
+              needMasteryIDs: 
+              iconName: 
+              name: 
+              desc: 
+              formatString: 
+              unitString: 
+              incValue: 0
+              manager:
+                totalList: []
+                maxLevel: 0
+                lifeManager: {fileID: 0}
+                activeMastery:
+                  method: 0
+                  methodArg: 
+                  activeType: 0
+                  id: 0
+                  groupID: 0
+                  maxPoint: 0
+                  curPoint: 0
+                  addPoint: 0
+                  needGroupID: 0
+                  needGroupPoint: 0
+                  iconName: 
+                  name: 
+                  desc: 
+                  formatString: 
+                  unitString: 
+                  incValue: 0
+  buffManager: {fileID: 11400012}
+  targetActor: {fileID: 0}
+  patience_Normal: 100
+  patience_Weak: 33
+  patience_SuperAmmor: 500
+  patience_BerserkRate: 2
+  patienceFactor: .99000001
+  receivePainValue: 0
+  painResetDelayTime: 0
+  painResetCoolTime: 1
+  stunDelayTime: 0
+  hitObjectList: []
+  damageEffect: []
+  fxDamageName: 
+  fxPoisonBomb: FX_Poison_Bomb
+  equipManager: {fileID: 0}
+  inventoryManager: {fileID: 0}
+  awakeningLevelManager: {fileID: 0}
+  skillPoint: 0
+  staminaValue: {x: 100, y: 100}
+  myActorInfo: {fileID: 0}
+  meshNode: {fileID: 0}
+  ignoreHitActor: 0
+  bSuperAmmor: 0
+  isBossRaidMonster: 0
+  isPhase2: 0
+  phase2Value: .300000012
+  audioSource: {fileID: 0}
+  hpRegenCoolTime: 1
+  hpRegenDelayTime: 1
+  absorbSoundFile: 
+  damageUIPrefabPath: UI/DamageUI/DamageUI
+  damageUIRootName: DamageUI_pos
+  damageUIRoot: {fileID: 0}
+  uiRootName2: Add_UI
+  damageUIRoot2: {fileID: 0}
+  dropGoldUIPrefab: UI/DamageUI/DropGoldUI
+  etcDamageUIPrefabPath: UI/DamageUI/EtcDamageUI
+  isSkipApplyMonsterSkill: 0
+  uiRoot: {fileID: 400118}
+  chatDialog: {fileID: 0}
+  bHPCheck: 1
+  charLevel: 0
+  charLevelLabel: {fileID: 0}
+  defaultWeapon: {fileID: 100000, guid: 595a7f30a75a75742b154c3bf1a8d49a, type: 2}
+  weaponNodes:
+  - {fileID: 400000}
+  weaponList: []
+  equipWeaponID: -1
+  costumeBack: {fileID: 0}
+  costumeHead: {fileID: 0}
+  costumeBackID: -1
+  costumeHeadID: -1
+  costumeBodyID: -1
+  defaultCostumeTexture: {fileID: 2800000, guid: 9deb1475dd9bf10468c16f33213eec63,
+    type: 3}
+  costumeTexture: {fileID: 0}
+  warningPhase2Prefab: UI/Boss/Warning_Boss_Rage
+  warningLifeTime: 3
+  comboUIPrefabPath: UI/DamageUI/ComboCountUI
+--- !u!114 &11400018
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639276d726e304844b98404c85dbb7a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stateList: {fileID: 11400000}
+  animationController: {fileID: 11400024}
+  colliderManager: {fileID: 11400004}
+  currentState: -1
+  preState: 0
+  curStateInfo:
+    baseState:
+      state: 0
+      animationClip: None
+    stateInfo:
+      attackType: 0
+      attackState: 0
+      defenseState: 0
+      knockDir: {x: 0, y: 0, z: 0}
+      knockDir_Air: {x: 0, y: 0, z: 0}
+      knockPower: 0
+      attackRate: 1
+      addAttackRate: 0
+      painValue: 0
+      addCriticalHitRate: 0
+      stunRate: 0
+      addStunRate: 0
+      stunTime: 1
+      fxObjectName: 
+      effectType: 0
+      effectScale: 1
+      acquireAbility: 0
+      requireAbilityValue: 0
+      addAcquireAbility: 0
+      addRequireAbility: 0
+      addAcquireAbilityRate: 0
+      addRequireAbilityRate: 0
+      soundFile: 
+      isWeaponAttack: 1
+    collisionInfoList: []
+    chainAttack: 0
+    cantChangeDir: 0
+    patienceFactor: 1
+    walkingEventMoveSpeed: 0
+    walkingStep: 0
+    walkingSpeedList: []
+    moveType: 2
+  standUpAnim: stand02
+  standDownAnim: stand03
+  stageManager: {fileID: 0}
+  beginState: 0
+  soundManager: {fileID: 0}
+--- !u!114 &11400020
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35bf47c9fccf942e881378484ffab838, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weightType: 1
+  prevMoveSpeed: 0
+  moveDir: {x: 1, y: 0, z: 0}
+  moveSpeed: 0
+  defaultMoveSpeed: 4.5
+  dashMoveSpeed: 5.80000019
+  jumpPower: {x: 0, y: 1, z: 0}
+  jumpPowerFactor: 740
+  root: {fileID: 100116}
+  shadowObj: {fileID: 0}
+  shadowNode: {fileID: 400108}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 1049856
+  enemyLayerMask:
+    serializedVersion: 2
+    m_Bits: 512
+  defaultLayer: 0
+  jumpLayer: 0
+  hideBodyLayer: 0
+  hideBodyLayerName: HideBody
+  defaultLayerName: MonsterBody
+  jumpLayerName: JumpMonsterBody
+  skinWidth: .0299999993
+  colliderRadius: .5
+  colliderHeight: 1
+  isMovable: 1
+  stageManager: {fileID: 0}
+  ignoreMonsterBody: 0
+  groundCollider: {fileID: 0}
+  fallDamageMinDistance: 10
+  fallDamageMaxDistance: 30
+  fallDamageRate: .5
+  jumpStartPosition: {x: 0, y: 0, z: 0}
+--- !u!114 &11400022
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f36a184603ad4648ae92aa8cce57b55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actorType: 3
+  myTeam: 2
+  enemyTeam: 1
+  monsterType: 0
+  colliderRadius: .5
+--- !u!114 &11400024
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8f143bdf824748f497dd970c226abfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animBlendInfoPath: NewAsset/Character/AnimBlendInfos/Warrior_BlendInfo
+  animationBlendInfo: {fileID: 11400000, guid: e8fb44aa2fd5f425787daa33ce89b809, type: 2}
+  currentAnimationName: 
+  animationEndTime: 0
+  isAnimationPlaying: 0
+  anim: {fileID: 11100000}
+--- !u!114 &11400026
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91a23bc219f5d4d499dd075d15ba9fb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mMoveKey: {x: 0, y: 0}
+  mActionAKey: 0
+  mActionBKey: 0
+  mSkillKey: 0
+  mSkill1Button: 0
+  mSkill2Button: 0
+  enableAttackInput: 0
+  mJumpKey: 0
+  jumpBlowAttack: 0
+  jumpBlowAttackCount: 0
+  curLookDir: 0
+  UseKeyboard: 1
+  lastMoveDir: {x: 0, y: 0, z: 0}
+  bActionAKeyPress: 0
+  bActionAKeyRelease: 0
+  bActionAKeyChanged: 0
+  bCanBreakState: 0
+  bCanChangeDir: 1
+  ignoreActionKeyChange: 0
+  enableJump: 1
+  target: {fileID: 0}
+--- !u!114 &11400028
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 072e2e67383b0874ca67840bef7139e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  searchMinLegnth: 0
+  searchLimitLength: 100
+  bLimitLength: 1
+  arenaInput: {fileID: 11400026}
+  player: {fileID: 11400014}
+  searchDelay: .5
+  delayTime: 0
+  myActorInfo: {fileID: 11400022}
+--- !u!135 &13500000
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100108}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.39999998
+  m_Center: {x: 0, y: .699999988, z: .699999988}
+--- !u!135 &13500002
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100110}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.5
+  m_Center: {x: 0, y: .699999988, z: .100000001}
+--- !u!137 &13700000
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100060}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: c3b9fc73108ac8c4aaa78e601626177d, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 2
+  m_UpdateWhenOffscreen: 0
+  m_Mesh: {fileID: 4300024, guid: 65702b9834c37da418ec2f330f6958db, type: 3}
+  m_Bones:
+  - {fileID: 400078}
+  - {fileID: 400076}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 400104}
+  m_AABB:
+    m_Center: {x: 0, y: 0, z: 1.70000005}
+    m_Extent: {x: 1.79999995, y: 1.89999998, z: 1.75}
+  m_DirtyAABB: 0
+--- !u!137 &13700002
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100062}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: c3b9fc73108ac8c4aaa78e601626177d, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 2
+  m_UpdateWhenOffscreen: 0
+  m_Mesh: {fileID: 4300022, guid: 65702b9834c37da418ec2f330f6958db, type: 3}
+  m_Bones:
+  - {fileID: 400078}
+  - {fileID: 400074}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 400104}
+  m_AABB:
+    m_Center: {x: 0, y: 0, z: 1.70000005}
+    m_Extent: {x: 1.79999995, y: 1.89999998, z: 1.75}
+  m_DirtyAABB: 0
+--- !u!137 &13700004
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100064}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: c3b9fc73108ac8c4aaa78e601626177d, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 4
+  m_UpdateWhenOffscreen: 0
+  m_Mesh: {fileID: 4300018, guid: 65702b9834c37da418ec2f330f6958db, type: 3}
+  m_Bones:
+  - {fileID: 400078}
+  - {fileID: 400062}
+  - {fileID: 400060}
+  - {fileID: 400032}
+  - {fileID: 400030}
+  - {fileID: 400028}
+  - {fileID: 400054}
+  - {fileID: 400026}
+  - {fileID: 400024}
+  - {fileID: 400052}
+  - {fileID: 400050}
+  - {fileID: 400048}
+  - {fileID: 400022}
+  - {fileID: 400020}
+  - {fileID: 400072}
+  - {fileID: 400018}
+  - {fileID: 400058}
+  - {fileID: 400016}
+  - {fileID: 400014}
+  - {fileID: 400012}
+  - {fileID: 400010}
+  - {fileID: 400008}
+  - {fileID: 400006}
+  - {fileID: 400004}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 400104}
+  m_AABB:
+    m_Center: {x: 0, y: 0, z: 1.70000005}
+    m_Extent: {x: 1.79999995, y: 1.89999998, z: 1.75}
+  m_DirtyAABB: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100120}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

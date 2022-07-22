@@ -1,0 +1,832 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Start_Defence_Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: bece901550331e846b2d7d7b02ead713, type: 2}
+  sprites:
+  - name: Big_Button_Selected
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 761
+      width: 704
+      height: 131
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 761
+      width: 704
+      height: 131
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Tower_Frame_Base01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 893
+      width: 704
+      height: 131
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 893
+      width: 704
+      height: 131
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Left_Eq_Back01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 690
+      width: 730
+      height: 70
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 758
+      width: 730
+      height: 1
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Tower_Stone
+    outer:
+      serializedVersion: 2
+      x: 731
+      y: 713
+      width: 285
+      height: 132
+    inner:
+      serializedVersion: 2
+      x: 731
+      y: 713
+      width: 285
+      height: 132
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Tower_Iron
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 557
+      width: 285
+      height: 132
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 557
+      width: 285
+      height: 132
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Tower_Wood
+    outer:
+      serializedVersion: 2
+      x: 731
+      y: 580
+      width: 285
+      height: 132
+    inner:
+      serializedVersion: 2
+      x: 731
+      y: 580
+      width: 285
+      height: 132
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Left_Eq_Btn02
+    outer:
+      serializedVersion: 2
+      x: 286
+      y: 597
+      width: 197
+      height: 92
+    inner:
+      serializedVersion: 2
+      x: 376
+      y: 597
+      width: 17
+      height: 92
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Left_Eq_Btn01
+    outer:
+      serializedVersion: 2
+      x: 484
+      y: 597
+      width: 197
+      height: 92
+    inner:
+      serializedVersion: 2
+      x: 574
+      y: 597
+      width: 17
+      height: 92
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Frame_Yellow_Ver02
+    outer:
+      serializedVersion: 2
+      x: 1000
+      y: 389
+      width: 23
+      height: 190
+    inner:
+      serializedVersion: 2
+      x: 1011
+      y: 389
+      width: 1
+      height: 190
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Left_Eq_Icon02
+    outer:
+      serializedVersion: 2
+      x: 386
+      y: 275
+      width: 59
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 386
+      y: 275
+      width: 59
+      height: 50
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Left_Eq_Icon01
+    outer:
+      serializedVersion: 2
+      x: 326
+      y: 275
+      width: 59
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 326
+      y: 275
+      width: 59
+      height: 50
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Frame_Yellow05
+    outer:
+      serializedVersion: 2
+      x: 1000
+      y: 228
+      width: 23
+      height: 160
+    inner:
+      serializedVersion: 2
+      x: 1011
+      y: 243
+      width: 1
+      height: 130
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Title_630
+    outer:
+      serializedVersion: 2
+      x: 286
+      y: 532
+      width: 630
+      height: 47
+    inner:
+      serializedVersion: 2
+      x: 286
+      y: 532
+      width: 630
+      height: 47
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Wood_Base02
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 211
+      width: 325
+      height: 17
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 211
+      width: 325
+      height: 17
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Buff_Frame_Base01
+    outer:
+      serializedVersion: 2
+      x: 962
+      y: 929
+      width: 60
+      height: 95
+    inner:
+      serializedVersion: 2
+      x: 991
+      y: 929
+      width: 2
+      height: 95
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Buff_Button_Health
+    outer:
+      serializedVersion: 2
+      x: 860
+      y: 423
+      width: 139
+      height: 108
+    inner:
+      serializedVersion: 2
+      x: 860
+      y: 423
+      width: 139
+      height: 108
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Buff_Button_Offense
+    outer:
+      serializedVersion: 2
+      x: 860
+      y: 314
+      width: 139
+      height: 108
+    inner:
+      serializedVersion: 2
+      x: 860
+      y: 314
+      width: 139
+      height: 108
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Buff_Button_Defense
+    outer:
+      serializedVersion: 2
+      x: 322
+      y: 382
+      width: 139
+      height: 108
+    inner:
+      serializedVersion: 2
+      x: 322
+      y: 382
+      width: 139
+      height: 108
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Stage_Start_Button_Pressed
+    outer:
+      serializedVersion: 2
+      x: 604
+      y: 320
+      width: 141
+      height: 85
+    inner:
+      serializedVersion: 2
+      x: 674
+      y: 320
+      width: 1
+      height: 85
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Stage_Start_Button
+    outer:
+      serializedVersion: 2
+      x: 462
+      y: 405
+      width: 141
+      height: 85
+    inner:
+      serializedVersion: 2
+      x: 532
+      y: 405
+      width: 1
+      height: 85
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Stamina_Bar_Frame
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 434
+      width: 321
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 135
+      y: 434
+      width: 1
+      height: 56
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Stamina_Bar
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 405
+      width: 251
+      height: 28
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 405
+      width: 251
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Buff_Frame_Base02
+    outer:
+      serializedVersion: 2
+      x: 917
+      y: 551
+      width: 57
+      height: 28
+    inner:
+      serializedVersion: 2
+      x: 932
+      y: 551
+      width: 2
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Buff_Frame_Base01_gray
+    outer:
+      serializedVersion: 2
+      x: 746
+      y: 224
+      width: 60
+      height: 181
+    inner:
+      serializedVersion: 2
+      x: 775
+      y: 244
+      width: 2
+      height: 11
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Big_Button_Selected2
+    outer:
+      serializedVersion: 2
+      x: 705
+      y: 406
+      width: 154
+      height: 125
+    inner:
+      serializedVersion: 2
+      x: 705
+      y: 496
+      width: 154
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Buff_Nothing_IMG01
+    outer:
+      serializedVersion: 2
+      x: 547
+      y: 340
+      width: 51
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 547
+      y: 340
+      width: 51
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Shop_Btn_Back_pressed
+    outer:
+      serializedVersion: 2
+      x: 604
+      y: 426
+      width: 98
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 604
+      y: 426
+      width: 98
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Shop_Btn_Back
+    outer:
+      serializedVersion: 2
+      x: 632
+      y: 255
+      width: 98
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 632
+      y: 255
+      width: 98
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Shop_Money03
+    outer:
+      serializedVersion: 2
+      x: 698
+      y: 218
+      width: 42
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 698
+      y: 218
+      width: 42
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Shop_Money02
+    outer:
+      serializedVersion: 2
+      x: 682
+      y: 653
+      width: 42
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 682
+      y: 653
+      width: 42
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Shop_Money01
+    outer:
+      serializedVersion: 2
+      x: 682
+      y: 616
+      width: 42
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 682
+      y: 616
+      width: 42
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Left_Top_Watch_Icon
+    outer:
+      serializedVersion: 2
+      x: 807
+      y: 368
+      width: 32
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 807
+      y: 368
+      width: 32
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Title_704_40
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 491
+      width: 704
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 491
+      width: 704
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Frame01-9
+    outer:
+      serializedVersion: 2
+      x: 962
+      y: 868
+      width: 60
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 991
+      y: 897
+      width: 2
+      height: 2
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Stamina01
+    outer:
+      serializedVersion: 2
+      x: 682
+      y: 581
+      width: 29
+      height: 34
+    inner:
+      serializedVersion: 2
+      x: 682
+      y: 581
+      width: 29
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Black01
+    outer:
+      serializedVersion: 2
+      x: 807
+      y: 337
+      width: 30
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 811
+      y: 341
+      width: 22
+      height: 22
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Btn_Plus01
+    outer:
+      serializedVersion: 2
+      x: 318
+      y: 326
+      width: 65
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 318
+      y: 326
+      width: 65
+      height: 55
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Btn_Minus02
+    outer:
+      serializedVersion: 2
+      x: 252
+      y: 378
+      width: 65
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 252
+      y: 378
+      width: 65
+      height: 55
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Btn_Minus01
+    outer:
+      serializedVersion: 2
+      x: 384
+      y: 326
+      width: 65
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 384
+      y: 326
+      width: 65
+      height: 55
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Btn_Plus02
+    outer:
+      serializedVersion: 2
+      x: 632
+      y: 199
+      width: 65
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 632
+      y: 199
+      width: 65
+      height: 55
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Buff_Frame_Base03
+    outer:
+      serializedVersion: 2
+      x: 705
+      y: 846
+      width: 256
+      height: 178
+    inner:
+      serializedVersion: 2
+      x: 705
+      y: 846
+      width: 256
+      height: 178
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: potion01
+    outer:
+      serializedVersion: 2
+      x: 547
+      y: 229
+      width: 84
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 547
+      y: 229
+      width: 84
+      height: 90
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: potion02
+    outer:
+      serializedVersion: 2
+      x: 462
+      y: 314
+      width: 84
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 462
+      y: 314
+      width: 84
+      height: 90
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

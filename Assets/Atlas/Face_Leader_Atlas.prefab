@@ -1,0 +1,814 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Face_Leader_Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 864025d5021ef444c9d198383e4ef346, type: 2}
+  sprites:
+  - name: face_M_wizard02
+    outer:
+      serializedVersion: 2
+      x: 296
+      y: 179
+      width: 147
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 296
+      y: 179
+      width: 147
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: face_M_defender02
+    outer:
+      serializedVersion: 2
+      x: 148
+      y: 38
+      width: 147
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 148
+      y: 38
+      width: 147
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: face_M_lancer02
+    outer:
+      serializedVersion: 2
+      x: 148
+      y: 179
+      width: 147
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 148
+      y: 179
+      width: 147
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: face_M_soldier01
+    outer:
+      serializedVersion: 2
+      x: 296
+      y: 602
+      width: 147
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 296
+      y: 602
+      width: 147
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: face_M_priest02
+    outer:
+      serializedVersion: 2
+      x: 592
+      y: 602
+      width: 147
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 592
+      y: 602
+      width: 147
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: face_M_assassin01
+    outer:
+      serializedVersion: 2
+      x: 444
+      y: 602
+      width: 147
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 444
+      y: 602
+      width: 147
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: face_M_archer01
+    outer:
+      serializedVersion: 2
+      x: 740
+      y: 320
+      width: 147
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 740
+      y: 320
+      width: 147
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: face_M_berserk01
+    outer:
+      serializedVersion: 2
+      x: 592
+      y: 320
+      width: 147
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 592
+      y: 320
+      width: 147
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: face_M_lancer01
+    outer:
+      serializedVersion: 2
+      x: 592
+      y: 38
+      width: 147
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 592
+      y: 38
+      width: 147
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: face_M_defender01
+    outer:
+      serializedVersion: 2
+      x: 592
+      y: 179
+      width: 147
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 592
+      y: 179
+      width: 147
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: face_M_soldier02
+    outer:
+      serializedVersion: 2
+      x: 592
+      y: 461
+      width: 147
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 592
+      y: 461
+      width: 147
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: face_M_assassin02
+    outer:
+      serializedVersion: 2
+      x: 444
+      y: 461
+      width: 147
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 444
+      y: 461
+      width: 147
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: face_M_archer02
+    outer:
+      serializedVersion: 2
+      x: 740
+      y: 461
+      width: 147
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 740
+      y: 461
+      width: 147
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: face_F_B_berserk
+    outer:
+      serializedVersion: 2
+      x: 444
+      y: 179
+      width: 147
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 444
+      y: 179
+      width: 147
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: face_F_B_priest02
+    outer:
+      serializedVersion: 2
+      x: 444
+      y: 320
+      width: 147
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 444
+      y: 320
+      width: 147
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: face_M_berserk02
+    outer:
+      serializedVersion: 2
+      x: 444
+      y: 38
+      width: 147
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 444
+      y: 38
+      width: 147
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: face_M_B_archer
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 743
+      width: 147
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 743
+      width: 147
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: face_M_B_assassin
+    outer:
+      serializedVersion: 2
+      x: 740
+      y: 884
+      width: 147
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 740
+      y: 884
+      width: 147
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: face_M_wizard04
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 602
+      width: 147
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 602
+      width: 147
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: face_M_priest03
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 320
+      width: 147
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 320
+      width: 147
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: face_M_lancer04
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 461
+      width: 147
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 461
+      width: 147
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: face_M_defender03
+    outer:
+      serializedVersion: 2
+      x: 148
+      y: 884
+      width: 147
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 148
+      y: 884
+      width: 147
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: face_F_B_paladin
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 884
+      width: 147
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 884
+      width: 147
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: face_M_wizard03
+    outer:
+      serializedVersion: 2
+      x: 296
+      y: 884
+      width: 147
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 296
+      y: 884
+      width: 147
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: face_M_B_wizard
+    outer:
+      serializedVersion: 2
+      x: 592
+      y: 884
+      width: 147
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 592
+      y: 884
+      width: 147
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: face_M_assassin03
+    outer:
+      serializedVersion: 2
+      x: 444
+      y: 884
+      width: 147
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 444
+      y: 884
+      width: 147
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: face_M_lancer03
+    outer:
+      serializedVersion: 2
+      x: 740
+      y: 743
+      width: 147
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 740
+      y: 743
+      width: 147
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: face_M_soldier04
+    outer:
+      serializedVersion: 2
+      x: 740
+      y: 180
+      width: 147
+      height: 139
+    inner:
+      serializedVersion: 2
+      x: 740
+      y: 180
+      width: 147
+      height: 139
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .00719424477
+    paddingBottom: 0
+  - name: face_F_B_devil
+    outer:
+      serializedVersion: 2
+      x: 592
+      y: 743
+      width: 147
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 592
+      y: 743
+      width: 147
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: face_M_paladin04
+    outer:
+      serializedVersion: 2
+      x: 148
+      y: 602
+      width: 147
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 148
+      y: 602
+      width: 147
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: face_F_B_wizard
+    outer:
+      serializedVersion: 2
+      x: 148
+      y: 320
+      width: 147
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 148
+      y: 320
+      width: 147
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: face_M_soldier03
+    outer:
+      serializedVersion: 2
+      x: 740
+      y: 41
+      width: 147
+      height: 138
+    inner:
+      serializedVersion: 2
+      x: 740
+      y: 41
+      width: 147
+      height: 138
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0144927539
+    paddingBottom: 0
+  - name: face_M_berserk04
+    outer:
+      serializedVersion: 2
+      x: 148
+      y: 461
+      width: 147
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 148
+      y: 461
+      width: 147
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: face_M_archer03
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 38
+      width: 147
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 38
+      width: 147
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: face_M_assassin04
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 179
+      width: 147
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 179
+      width: 147
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: face_M_archer04
+    outer:
+      serializedVersion: 2
+      x: 148
+      y: 743
+      width: 147
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 148
+      y: 743
+      width: 147
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: face_M_B_paladin
+    outer:
+      serializedVersion: 2
+      x: 444
+      y: 743
+      width: 147
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 444
+      y: 743
+      width: 147
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: face_L_Butcher
+    outer:
+      serializedVersion: 2
+      x: 296
+      y: 743
+      width: 147
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 296
+      y: 743
+      width: 147
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: face_M_Pirate01
+    outer:
+      serializedVersion: 2
+      x: 296
+      y: 461
+      width: 147
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 296
+      y: 461
+      width: 147
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: face_M_Pirate02
+    outer:
+      serializedVersion: 2
+      x: 296
+      y: 320
+      width: 147
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 296
+      y: 320
+      width: 147
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: face_M_Pirate01_01
+    outer:
+      serializedVersion: 2
+      x: 740
+      y: 602
+      width: 147
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 740
+      y: 602
+      width: 147
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: face_M_Pirate02_01
+    outer:
+      serializedVersion: 2
+      x: 296
+      y: 38
+      width: 147
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 296
+      y: 38
+      width: 147
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

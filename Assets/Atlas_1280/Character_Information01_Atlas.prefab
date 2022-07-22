@@ -1,0 +1,454 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Character_Information01_Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: dc11af6d103c311458a680fac6aafec1, type: 2}
+  sprites:
+  - name: Frame_Left_Base
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 512
+      width: 447
+      height: 512
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 512
+      width: 447
+      height: 512
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Character_Frame_selected
+    outer:
+      serializedVersion: 2
+      x: 172
+      y: 84
+      width: 171
+      height: 176
+    inner:
+      serializedVersion: 2
+      x: 172
+      y: 84
+      width: 171
+      height: 176
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Character_Frame_unselected
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 84
+      width: 171
+      height: 176
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 84
+      width: 171
+      height: 176
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Character_worrior_selected
+    outer:
+      serializedVersion: 2
+      x: 448
+      y: 752
+      width: 153
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 448
+      y: 752
+      width: 153
+      height: 90
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Character_wizard_selected
+    outer:
+      serializedVersion: 2
+      x: 448
+      y: 661
+      width: 153
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 448
+      y: 661
+      width: 153
+      height: 90
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Character_assassin_unselected
+    outer:
+      serializedVersion: 2
+      x: 448
+      y: 570
+      width: 153
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 448
+      y: 570
+      width: 153
+      height: 90
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Character_worrior_unselected
+    outer:
+      serializedVersion: 2
+      x: 448
+      y: 843
+      width: 153
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 448
+      y: 843
+      width: 153
+      height: 90
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Character_assassin_selected
+    outer:
+      serializedVersion: 2
+      x: 344
+      y: 170
+      width: 153
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 344
+      y: 170
+      width: 153
+      height: 90
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Character_wizard_unselected
+    outer:
+      serializedVersion: 2
+      x: 448
+      y: 934
+      width: 153
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 448
+      y: 934
+      width: 153
+      height: 90
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Frame01-9
+    outer:
+      serializedVersion: 2
+      x: 405
+      y: 109
+      width: 60
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 434
+      y: 138
+      width: 2
+      height: 2
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Close_pressed
+    outer:
+      serializedVersion: 2
+      x: 522
+      y: 357
+      width: 53
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 522
+      y: 357
+      width: 53
+      height: 55
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Close
+    outer:
+      serializedVersion: 2
+      x: 522
+      y: 413
+      width: 53
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 522
+      y: 413
+      width: 53
+      height: 55
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Frame_Yellow01
+    outer:
+      serializedVersion: 2
+      x: 498
+      y: 99
+      width: 23
+      height: 369
+    inner:
+      serializedVersion: 2
+      x: 509
+      y: 114
+      width: 1
+      height: 339
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Title_630
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 36
+      width: 630
+      height: 47
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 36
+      width: 630
+      height: 47
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Back_Paper01-1
+    outer:
+      serializedVersion: 2
+      x: 475
+      y: 469
+      width: 100
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 475
+      y: 469
+      width: 100
+      height: 100
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ItemInfo_Frame01
+    outer:
+      serializedVersion: 2
+      x: 466
+      y: 103
+      width: 16
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 469
+      y: 106
+      width: 10
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Btn_Default_Yellow01
+    outer:
+      serializedVersion: 2
+      x: 344
+      y: 103
+      width: 60
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 373
+      y: 103
+      width: 2
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Btn_Default_Yellow01_01
+    outer:
+      serializedVersion: 2
+      x: 522
+      y: 312
+      width: 40
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 541
+      y: 312
+      width: 2
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Black01
+    outer:
+      serializedVersion: 2
+      x: 466
+      y: 139
+      width: 30
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 470
+      y: 143
+      width: 22
+      height: 22
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Friend_Base_C
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 261
+      width: 474
+      height: 250
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 261
+      width: 474
+      height: 250
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Frame02-3
+    outer:
+      serializedVersion: 2
+      x: 466
+      y: 120
+      width: 30
+      height: 18
+    inner:
+      serializedVersion: 2
+      x: 480
+      y: 120
+      width: 2
+      height: 18
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Line_Info
+    outer:
+      serializedVersion: 2
+      x: 344
+      y: 96
+      width: 293
+      height: 2
+    inner:
+      serializedVersion: 2
+      x: 344
+      y: 96
+      width: 293
+      height: 2
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

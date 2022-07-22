@@ -1,0 +1,325 @@
+fileFormatVersion: 2
+guid: 92d6c3a18c1afd644b905bbe62deb7ee
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Plane018
+    100004: Plane019
+    100006: Plane020
+    100008: Plane021
+    100010: Rotate
+    100012: Bip002
+    100014: Bip002 Footsteps
+    100016: Bip002 Head
+    100018: Bip002 HeadNub
+    100020: Bip002 L Calf
+    100022: Bip002 L Clavicle
+    100024: Bip002 L Finger0
+    100026: Bip002 L Finger0Nub
+    100028: Bip002 L Finger1
+    100030: Bip002 L Finger1Nub
+    100032: Bip002 L Finger2
+    100034: Bip002 L Finger2Nub
+    100036: Bip002 L Finger3
+    100038: Bip002 L Finger3Nub
+    100040: Bip002 L Foot
+    100042: Bip002 L Forearm
+    100044: Bip002 L Hand
+    100046: Bip002 L Thigh
+    100048: Bip002 L Toe0
+    100050: Bip002 L Toe0Nub
+    100052: Bip002 L UpperArm
+    100054: Bip002 LUpArmTwist
+    100056: Bip002 Neck
+    100058: Bip002 Pelvis
+    100060: Bip002 R Calf
+    100062: Bip002 R Clavicle
+    100064: Bip002 R Finger0
+    100066: Bip002 R Finger0Nub
+    100068: Bip002 R Finger1
+    100070: Bip002 R Finger1Nub
+    100072: Bip002 R Finger2
+    100074: Bip002 R Finger2Nub
+    100076: Bip002 R Finger3
+    100078: Bip002 R Finger3Nub
+    100080: Bip002 R Foot
+    100082: Bip002 R Forearm
+    100084: Bip002 R Hand
+    100086: Bip002 R Thigh
+    100088: Bip002 R Toe0
+    100090: Bip002 R Toe0Nub
+    100092: Bip002 R UpperArm
+    100094: Bip002 RUpArmTwist
+    100096: Bip002 Spine
+    100098: Bip002 Spine1
+    100100: Bone001
+    100102: Bone002
+    100104: Bone_Br
+    100106: Bone_E
+    100108: Bone_M
+    100110: Bone_WP
+    100112: DEL_Bip002 LUpArmTwist1
+    100114: DEL_Bip002 LUpArmTwist2
+    100116: DEL_Bip002 RUpArmTwist1
+    100118: DEL_Bip002 RUpArmTwist2
+    100120: FX_Root
+    100122: Plane010
+    100124: Plane011
+    100126: Plane014
+    100128: Plane015
+    100130: Plane016
+    100132: Plane017
+    100134: Root
+    100136: Shaman_V
+    100138: Slider001
+    100140: Slider002
+    100142: Wizard
+    100144: Wizard__P
+    100146: Wizard_D
+    100148: Wizard_E
+    100150: Wizard_L
+    100152: Wizard_M
+    100154: Wizard_T
+    100156: Wizard_V
+    100158: Wizard_WP
+    400000: //RootNode
+    400002: Plane018
+    400004: Plane019
+    400006: Plane020
+    400008: Plane021
+    400010: Rotate
+    400012: Bip002
+    400014: Bip002 Footsteps
+    400016: Bip002 Head
+    400018: Bip002 HeadNub
+    400020: Bip002 L Calf
+    400022: Bip002 L Clavicle
+    400024: Bip002 L Finger0
+    400026: Bip002 L Finger0Nub
+    400028: Bip002 L Finger1
+    400030: Bip002 L Finger1Nub
+    400032: Bip002 L Finger2
+    400034: Bip002 L Finger2Nub
+    400036: Bip002 L Finger3
+    400038: Bip002 L Finger3Nub
+    400040: Bip002 L Foot
+    400042: Bip002 L Forearm
+    400044: Bip002 L Hand
+    400046: Bip002 L Thigh
+    400048: Bip002 L Toe0
+    400050: Bip002 L Toe0Nub
+    400052: Bip002 L UpperArm
+    400054: Bip002 LUpArmTwist
+    400056: Bip002 Neck
+    400058: Bip002 Pelvis
+    400060: Bip002 R Calf
+    400062: Bip002 R Clavicle
+    400064: Bip002 R Finger0
+    400066: Bip002 R Finger0Nub
+    400068: Bip002 R Finger1
+    400070: Bip002 R Finger1Nub
+    400072: Bip002 R Finger2
+    400074: Bip002 R Finger2Nub
+    400076: Bip002 R Finger3
+    400078: Bip002 R Finger3Nub
+    400080: Bip002 R Foot
+    400082: Bip002 R Forearm
+    400084: Bip002 R Hand
+    400086: Bip002 R Thigh
+    400088: Bip002 R Toe0
+    400090: Bip002 R Toe0Nub
+    400092: Bip002 R UpperArm
+    400094: Bip002 RUpArmTwist
+    400096: Bip002 Spine
+    400098: Bip002 Spine1
+    400100: Bone001
+    400102: Bone002
+    400104: Bone_Br
+    400106: Bone_E
+    400108: Bone_M
+    400110: Bone_WP
+    400112: DEL_Bip002 LUpArmTwist1
+    400114: DEL_Bip002 LUpArmTwist2
+    400116: DEL_Bip002 RUpArmTwist1
+    400118: DEL_Bip002 RUpArmTwist2
+    400120: FX_Root
+    400122: Plane010
+    400124: Plane011
+    400126: Plane014
+    400128: Plane015
+    400130: Plane016
+    400132: Plane017
+    400134: Root
+    400136: Shaman_V
+    400138: Slider001
+    400140: Slider002
+    400142: Wizard
+    400144: Wizard__P
+    400146: Wizard_D
+    400148: Wizard_E
+    400150: Wizard_L
+    400152: Wizard_M
+    400154: Wizard_T
+    400156: Wizard_V
+    400158: Wizard_WP
+    2300000: //RootNode
+    2300002: Plane018
+    2300004: Plane019
+    2300006: Plane020
+    2300008: Plane021
+    2300010: Rotate
+    2300012: FX_Root
+    2300014: Plane010
+    2300016: Plane011
+    2300018: Plane014
+    2300020: Plane015
+    2300022: Plane016
+    2300024: Plane017
+    2300026: Root
+    2300028: Shaman_V
+    3300000: //RootNode
+    3300002: Plane018
+    3300004: Plane019
+    3300006: Plane020
+    3300008: Plane021
+    3300010: Rotate
+    3300012: FX_Root
+    3300014: Plane010
+    3300016: Plane011
+    3300018: Plane014
+    3300020: Plane015
+    3300022: Plane016
+    3300024: Plane017
+    3300026: Root
+    3300028: Shaman_V
+    4300000: FX_Root
+    4300002: Rotate
+    4300004: Plane019
+    4300006: Plane020
+    4300008: Plane021
+    4300010: Plane018
+    4300012: Wizard
+    4300014: Plane010
+    4300016: Plane011
+    4300018: Root
+    4300020: Plane016
+    4300022: Plane017
+    4300024: Shaman_V
+    4300026: Wizard_V
+    4300028: Wizard_L
+    4300030: Wizard_D
+    4300032: Plane014
+    4300034: Plane015
+    4300036: Wizard_WP
+    4300038: Wizard_E
+    4300040: Wizard_M
+    4300042: Wizard__P
+    4300044: Wizard_T
+    7400000: Reaction
+    7400002: Reaction01
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Wizard
+    13700002: Wizard__P
+    13700004: Wizard_D
+    13700006: Wizard_E
+    13700008: Wizard_L
+    13700010: Wizard_M
+    13700012: Wizard_T
+    13700014: Wizard_V
+    13700016: Wizard_WP
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 8
+    clipAnimations:
+    - name: Reaction
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 69
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: Reaction01
+      takeName: Take 001
+      firstFrame: 60
+      lastFrame: 69
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

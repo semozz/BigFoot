@@ -1,0 +1,580 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: IllustratedBook_Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 555b92ad6879d2e4f86848807c36d5ff, type: 2}
+  sprites:
+  - name: Title_948
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 30
+      width: 948
+      height: 47
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 30
+      width: 948
+      height: 47
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IllustratedBook_Base_T01
+    outer:
+      serializedVersion: 2
+      x: 280
+      y: 388
+      width: 475
+      height: 137
+    inner:
+      serializedVersion: 2
+      x: 280
+      y: 388
+      width: 475
+      height: 137
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: NPC_left_bottom
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 664
+      width: 312
+      height: 360
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 664
+      width: 312
+      height: 360
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Pop_Up_Happy
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 273
+      width: 279
+      height: 390
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 273
+      width: 279
+      height: 390
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Locked
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 78
+      width: 451
+      height: 194
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 78
+      width: 451
+      height: 194
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Selected_Left07
+    outer:
+      serializedVersion: 2
+      x: 280
+      y: 293
+      width: 495
+      height: 94
+    inner:
+      serializedVersion: 2
+      x: 280
+      y: 293
+      width: 495
+      height: 94
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Selected_Right07
+    outer:
+      serializedVersion: 2
+      x: 452
+      y: 198
+      width: 494
+      height: 94
+    inner:
+      serializedVersion: 2
+      x: 452
+      y: 198
+      width: 494
+      height: 94
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IllustratedBook_Base_T02
+    outer:
+      serializedVersion: 2
+      x: 280
+      y: 526
+      width: 475
+      height: 137
+    inner:
+      serializedVersion: 2
+      x: 280
+      y: 526
+      width: 475
+      height: 137
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IllustratedBook_monster_base01
+    outer:
+      serializedVersion: 2
+      x: 452
+      y: 125
+      width: 475
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 452
+      y: 125
+      width: 475
+      height: 72
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IllustratedBook_button_pressed
+    outer:
+      serializedVersion: 2
+      x: 756
+      y: 468
+      width: 108
+      height: 48
+    inner:
+      serializedVersion: 2
+      x: 806
+      y: 468
+      width: 8
+      height: 48
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IllustratedBook_button_default
+    outer:
+      serializedVersion: 2
+      x: 756
+      y: 419
+      width: 108
+      height: 48
+    inner:
+      serializedVersion: 2
+      x: 806
+      y: 419
+      width: 8
+      height: 48
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: flag_s02
+    outer:
+      serializedVersion: 2
+      x: 947
+      y: 345
+      width: 60
+      height: 85
+    inner:
+      serializedVersion: 2
+      x: 947
+      y: 345
+      width: 60
+      height: 85
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: flag_s01
+    outer:
+      serializedVersion: 2
+      x: 949
+      y: 26
+      width: 60
+      height: 85
+    inner:
+      serializedVersion: 2
+      x: 949
+      y: 26
+      width: 60
+      height: 85
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: flag_s04
+    outer:
+      serializedVersion: 2
+      x: 947
+      y: 431
+      width: 60
+      height: 85
+    inner:
+      serializedVersion: 2
+      x: 947
+      y: 431
+      width: 60
+      height: 85
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: flag_s03
+    outer:
+      serializedVersion: 2
+      x: 928
+      y: 112
+      width: 60
+      height: 85
+    inner:
+      serializedVersion: 2
+      x: 928
+      y: 112
+      width: 60
+      height: 85
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IllustratedBook_Monster_Base
+    outer:
+      serializedVersion: 2
+      x: 776
+      y: 379
+      width: 77
+      height: 39
+    inner:
+      serializedVersion: 2
+      x: 836
+      y: 379
+      width: 7
+      height: 39
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IllustratedBook_monster_hard
+    outer:
+      serializedVersion: 2
+      x: 1001
+      y: 257
+      width: 22
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 1001
+      y: 257
+      width: 22
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IllustratedBook_monster_normal
+    outer:
+      serializedVersion: 2
+      x: 989
+      y: 133
+      width: 23
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 989
+      y: 133
+      width: 23
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Close
+    outer:
+      serializedVersion: 2
+      x: 947
+      y: 228
+      width: 53
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 947
+      y: 228
+      width: 53
+      height: 55
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Close_pressed
+    outer:
+      serializedVersion: 2
+      x: 854
+      y: 363
+      width: 53
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 854
+      y: 363
+      width: 53
+      height: 55
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Frame01-9
+    outer:
+      serializedVersion: 2
+      x: 947
+      y: 284
+      width: 60
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 976
+      y: 313
+      width: 2
+      height: 2
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Frame02-3
+    outer:
+      serializedVersion: 2
+      x: 989
+      y: 154
+      width: 30
+      height: 18
+    inner:
+      serializedVersion: 2
+      x: 1003
+      y: 154
+      width: 2
+      height: 18
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Frame_Yellow01
+    outer:
+      serializedVersion: 2
+      x: 947
+      y: 517
+      width: 23
+      height: 369
+    inner:
+      serializedVersion: 2
+      x: 958
+      y: 532
+      width: 1
+      height: 339
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Title_948_01
+    outer:
+      serializedVersion: 2
+      x: 313
+      y: 832
+      width: 474
+      height: 54
+    inner:
+      serializedVersion: 2
+      x: 313
+      y: 832
+      width: 474
+      height: 54
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ItemInfo_Frame01
+    outer:
+      serializedVersion: 2
+      x: 756
+      y: 402
+      width: 16
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 760
+      y: 406
+      width: 8
+      height: 8
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Speak_N
+    outer:
+      serializedVersion: 2
+      x: 756
+      y: 887
+      width: 256
+      height: 137
+    inner:
+      serializedVersion: 2
+      x: 756
+      y: 887
+      width: 256
+      height: 137
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Black01
+    outer:
+      serializedVersion: 2
+      x: 989
+      y: 173
+      width: 30
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 993
+      y: 177
+      width: 22
+      height: 22
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Gradient01
+    outer:
+      serializedVersion: 2
+      x: 947
+      y: 204
+      width: 60
+      height: 23
+    inner:
+      serializedVersion: 2
+      x: 976
+      y: 204
+      width: 2
+      height: 23
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Back_Paper01-1
+    outer:
+      serializedVersion: 2
+      x: 313
+      y: 924
+      width: 100
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 313
+      y: 924
+      width: 100
+      height: 100
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

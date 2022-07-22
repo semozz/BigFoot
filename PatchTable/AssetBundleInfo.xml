@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AssetBundleVersion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <assetBundleURL>http://monsterside.ipdisk.co.kr:8000/patch</assetBundleURL>
+  <resourceLoadImage>LoadingBackground.png</resourceLoadImage>
+  <resourceLoadImageVersion>1</resourceLoadImageVersion>
+  <startPageBundle>
+    <assetBundleName>StartPage</assetBundleName>
+    <pathName />
+    <desc />
+    <version>50</version>
+    <preLoading>false</preLoading>
+    <filterType>Type_Scene</filterType>
+  </startPageBundle>
+  <assetBundlInfos>
+    <AssetBundleInfo>
+      <assetBundleName>Tables</assetBundleName>
+      <pathName>Tables/</pathName>
+      <desc />
+      <version>62</version>
+      <preLoading>true</preLoading>
+      <filterType>Type_TextAsset</filterType>
+    </AssetBundleInfo>
+    <AssetBundleInfo>
+      <assetBundleName>FXObjects</assetBundleName>
+      <pathName>FXObjects/</pathName>
+      <desc />
+      <version>37</version>
+      <preLoading>true</preLoading>
+      <filterType>Type_Prefab</filterType>
+    </AssetBundleInfo>
+    <AssetBundleInfo>
+      <assetBundleName>Sounds</assetBundleName>
+      <pathName>Sounds/</pathName>
+      <desc />
+      <version>39</version>
+      <preLoading>true</preLoading>
+      <filterType>Type_Audio</filterType>
+    </AssetBundleInfo>
+    <AssetBundleInfo>
+      <assetBundleName>UI</assetBundleName>
+      <pathName>UI/</pathName>
+      <desc />
+      <version>85</version>
+      <preLoading>true</preLoading>
+      <filterType>Type_Prefab</filterType>
+    </AssetBundleInfo>
+    <AssetBundleInfo>
+      <assetBundleName>WP</assetBundleName>
+      <pathName>WP/</pathName>
+      <desc />
+      <version>38</version>
+      <preLoading>true</preLoading>
+      <filterType>Type_Prefab</filterType>
+    </AssetBundleInfo>
+    <AssetBundleInfo>
+      <assetBundleName>IMG</assetBundleName>
+      <pathName>IMG/</pathName>
+      <desc />
+      <version>40</version>
+      <preLoading>true</preLoading>
+      <filterType>Type_Texture</filterType>
+    </AssetBundleInfo>
+    <AssetBundleInfo>
+      <assetBundleName>Effect</assetBundleName>
+      <pathName>NewAsset/Effect/</pathName>
+      <desc />
+      <version>37</version>
+      <preLoading>true</preLoading>
+      <filterType>Type_Prefab</filterType>
+    </AssetBundleInfo>
+    <AssetBundleInfo>
+      <assetBundleName>Character</assetBundleName>
+      <pathName>NewAsset/Character/</pathName>
+      <desc />
+      <version>49</version>
+      <preLoading>true</preLoading>
+      <filterType>Type_Prefab</filterType>
+    </AssetBundleInfo>
+    <AssetBundleInfo>
+      <assetBundleName>BossRaid</assetBundleName>
+      <pathName>NewAsset/BossRaidMonster/</pathName>
+      <desc />
+      <version>35</version>
+      <preLoading>true</preLoading>
+      <filterType>Type_Prefab</filterType>
+    </AssetBundleInfo>
+    <AssetBundleInfo>
+      <assetBundleName>ArenaMonster</assetBundleName>
+      <pathName>NewAsset/ArenaMonster/</pathName>
+      <desc />
+      <version>45</version>
+      <preLoading>true</preLoading>
+      <filterType>Type_Prefab</filterType>
+    </AssetBundleInfo>
+    <AssetBundleInfo>
+      <assetBundleName>Avatar</assetBundleName>
+      <pathName>NewAsset/Avatar/</pathName>
+      <desc />
+      <version>38</version>
+      <preLoading>true</preLoading>
+      <filterType>Type_Prefab</filterType>
+    </AssetBundleInfo>
+    <AssetBundleInfo>
+      <assetBundleName>NPC</assetBundleName>
+      <pathName>NPC/</pathName>
+      <desc />
+      <version>40</version>
+      <preLoading>true</preLoading>
+      <filterType>Type_Prefab</filterType>
+    </AssetBundleInfo>
+    <AssetBundleInfo>
+      <assetBundleName>Wave</assetBundleName>
+      <pathName>NewAsset/Wave/</pathName>
+      <desc />
+      <version>40</version>
+      <preLoading>true</preLoading>
+      <filterType>Type_Prefab</filterType>
+    </AssetBundleInfo>
+    <AssetBundleInfo>
+      <assetBundleName>Others</assetBundleName>
+      <pathName>NewAsset/Others/</pathName>
+      <desc />
+      <version>41</version>
+      <preLoading>true</preLoading>
+      <filterType>Type_Prefab</filterType>
+    </AssetBundleInfo>
+    <AssetBundleInfo>
+      <assetBundleName>Costume</assetBundleName>
+      <pathName>NewAsset/Costume/</pathName>
+      <desc />
+      <version>40</version>
+      <preLoading>true</preLoading>
+      <filterType>Type_Prefab_Texture</filterType>
+    </AssetBundleInfo>
+    <AssetBundleInfo>
+      <assetBundleName>PreLoadingScene</assetBundleName>
+      <desc />
+      <version>65</version>
+      <preLoading>true</preLoading>
+      <filterType>Type_Scene</filterType>
+    </AssetBundleInfo>
+    <AssetBundleInfo>
+      <assetBundleName>EventScene</assetBundleName>
+      <desc />
+      <version>45</version>
+      <preLoading>false</preLoading>
+      <filterType>Type_Scene</filterType>
+    </AssetBundleInfo>
+    <AssetBundleInfo>
+      <assetBundleName>Theme1</assetBundleName>
+      <desc />
+      <version>45</version>
+      <preLoading>false</preLoading>
+      <filterType>Type_Scene</filterType>
+    </AssetBundleInfo>
+    <AssetBundleInfo>
+      <assetBundleName>Theme2</assetBundleName>
+      <desc />
+      <version>33</version>
+      <preLoading>false</preLoading>
+      <filterType>Type_Scene</filterType>
+    </AssetBundleInfo>
+    <AssetBundleInfo>
+      <assetBundleName>Theme3</assetBundleName>
+      <desc />
+      <version>32</version>
+      <preLoading>false</preLoading>
+      <filterType>Type_Scene</filterType>
+    </AssetBundleInfo>
+    <AssetBundleInfo>
+      <assetBundleName>Theme4</assetBundleName>
+      <desc />
+      <version>32</version>
+      <preLoading>false</preLoading>
+      <filterType>Type_Scene</filterType>
+    </AssetBundleInfo>
+  </assetBundlInfos>
+</AssetBundleVersion>

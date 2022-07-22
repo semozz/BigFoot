@@ -1,0 +1,4 @@
+﻿ID,AttackDamage,AbilityPower,CriticalHitRate,CriticalDamageRate,HealthMax,HealthRegen,RageMax,RageRegen,VitalMax,VitalRegen,ManaMax,ManaRegen,Armor,MagicResist,ArmorPenetration,MagicPenetration,Stamina
+1,15,0,0.002,0,1000,1.8,0,0,0,0,0,0,300,230,25,0,5
+2,18,18,0.003,0,670,1.1,0,0,0,0,0,0,200,200,75,75,5
+3,0,21,0.003,0,335,0.6,0,0,0,0,0,0,150,250,0,50,5

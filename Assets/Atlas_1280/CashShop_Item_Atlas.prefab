@@ -1,0 +1,526 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: CashShop_Item_Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 9133ba016d4653b45ba4bc42a0220548, type: 2}
+  sprites:
+  - name: CashShop_Buff04
+    outer:
+      serializedVersion: 2
+      x: 410
+      y: 260
+      width: 204
+      height: 254
+    inner:
+      serializedVersion: 2
+      x: 410
+      y: 260
+      width: 204
+      height: 254
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: CashShop_Buff05
+    outer:
+      serializedVersion: 2
+      x: 205
+      y: 5
+      width: 204
+      height: 254
+    inner:
+      serializedVersion: 2
+      x: 205
+      y: 5
+      width: 204
+      height: 254
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: CashShop_Gem04
+    outer:
+      serializedVersion: 2
+      x: 410
+      y: 515
+      width: 204
+      height: 254
+    inner:
+      serializedVersion: 2
+      x: 410
+      y: 515
+      width: 204
+      height: 254
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: CashShop_Gem01
+    outer:
+      serializedVersion: 2
+      x: 410
+      y: 5
+      width: 204
+      height: 254
+    inner:
+      serializedVersion: 2
+      x: 410
+      y: 5
+      width: 204
+      height: 254
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: CashShop_Gold04
+    outer:
+      serializedVersion: 2
+      x: 820
+      y: 770
+      width: 204
+      height: 254
+    inner:
+      serializedVersion: 2
+      x: 820
+      y: 770
+      width: 204
+      height: 254
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: CashShop_Gem03
+    outer:
+      serializedVersion: 2
+      x: 820
+      y: 515
+      width: 204
+      height: 254
+    inner:
+      serializedVersion: 2
+      x: 820
+      y: 515
+      width: 204
+      height: 254
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: CashShop_Gem05
+    outer:
+      serializedVersion: 2
+      x: 615
+      y: 260
+      width: 204
+      height: 254
+    inner:
+      serializedVersion: 2
+      x: 615
+      y: 260
+      width: 204
+      height: 254
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: CashShop_Gold05
+    outer:
+      serializedVersion: 2
+      x: 615
+      y: 5
+      width: 204
+      height: 254
+    inner:
+      serializedVersion: 2
+      x: 615
+      y: 5
+      width: 204
+      height: 254
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: CashShop_Gold01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 260
+      width: 204
+      height: 254
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 260
+      width: 204
+      height: 254
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: CashShop_Buff03
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 5
+      width: 204
+      height: 254
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 5
+      width: 204
+      height: 254
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: CashShop_Gem02
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 770
+      width: 204
+      height: 254
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 770
+      width: 204
+      height: 254
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: CashShop_Gold02
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 515
+      width: 204
+      height: 254
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 515
+      width: 204
+      height: 254
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: CashShop_Buff02
+    outer:
+      serializedVersion: 2
+      x: 205
+      y: 770
+      width: 204
+      height: 254
+    inner:
+      serializedVersion: 2
+      x: 205
+      y: 770
+      width: 204
+      height: 254
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: CashShop_Gem06
+    outer:
+      serializedVersion: 2
+      x: 205
+      y: 515
+      width: 204
+      height: 254
+    inner:
+      serializedVersion: 2
+      x: 205
+      y: 515
+      width: 204
+      height: 254
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: CashShop_Gold06
+    outer:
+      serializedVersion: 2
+      x: 205
+      y: 260
+      width: 204
+      height: 254
+    inner:
+      serializedVersion: 2
+      x: 205
+      y: 260
+      width: 204
+      height: 254
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: CashShop_Gold03
+    outer:
+      serializedVersion: 2
+      x: 410
+      y: 770
+      width: 204
+      height: 254
+    inner:
+      serializedVersion: 2
+      x: 410
+      y: 770
+      width: 204
+      height: 254
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: CashShop_Buff01
+    outer:
+      serializedVersion: 2
+      x: 615
+      y: 770
+      width: 204
+      height: 254
+    inner:
+      serializedVersion: 2
+      x: 615
+      y: 770
+      width: 204
+      height: 254
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Btn_Default_Yellow01
+    outer:
+      serializedVersion: 2
+      x: 820
+      y: 400
+      width: 60
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 849
+      y: 400
+      width: 2
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Btn_Default_Yellow01_pressed
+    outer:
+      serializedVersion: 2
+      x: 957
+      y: 448
+      width: 60
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 986
+      y: 448
+      width: 2
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Frame01-9
+    outer:
+      serializedVersion: 2
+      x: 881
+      y: 406
+      width: 60
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 910
+      y: 435
+      width: 2
+      height: 2
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Price_money_jewel
+    outer:
+      serializedVersion: 2
+      x: 942
+      y: 416
+      width: 39
+      height: 31
+    inner:
+      serializedVersion: 2
+      x: 942
+      y: 416
+      width: 39
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Price_money_won
+    outer:
+      serializedVersion: 2
+      x: 982
+      y: 416
+      width: 30
+      height: 31
+    inner:
+      serializedVersion: 2
+      x: 982
+      y: 416
+      width: 30
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Price_money_gold
+    outer:
+      serializedVersion: 2
+      x: 942
+      y: 386
+      width: 30
+      height: 29
+    inner:
+      serializedVersion: 2
+      x: 942
+      y: 386
+      width: 30
+      height: 29
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Frame02-3
+    outer:
+      serializedVersion: 2
+      x: 973
+      y: 397
+      width: 30
+      height: 18
+    inner:
+      serializedVersion: 2
+      x: 987
+      y: 397
+      width: 2
+      height: 18
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: CashShop_Gem07
+    outer:
+      serializedVersion: 2
+      x: 615
+      y: 515
+      width: 204
+      height: 254
+    inner:
+      serializedVersion: 2
+      x: 615
+      y: 515
+      width: 204
+      height: 254
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Title_Tile47
+    outer:
+      serializedVersion: 2
+      x: 820
+      y: 467
+      width: 136
+      height: 47
+    inner:
+      serializedVersion: 2
+      x: 821
+      y: 467
+      width: 134
+      height: 47
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

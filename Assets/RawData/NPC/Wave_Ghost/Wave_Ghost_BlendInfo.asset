@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04ab2335278b2fa40b919eec1f870945, type: 3}
+  m_Name: Wave_Ghost_BlendInfo
+  m_EditorClassIdentifier: 
+  AnimationClipCount: 3
+  animationClipNames:
+  - 7374616e643031
+  - 7374616e643032
+  - 7374616e643033
+  BlendInfos:
+  - fBlendTime: 0
+  - fBlendTime: 1.10000002
+  - fBlendTime: 1.10000002
+  - fBlendTime: .800000012
+  - fBlendTime: 0
+  - fBlendTime: 1.10000002
+  - fBlendTime: .800000012
+  - fBlendTime: 1.10000002
+  - fBlendTime: 0

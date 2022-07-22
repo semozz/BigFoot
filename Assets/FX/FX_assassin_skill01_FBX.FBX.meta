@@ -1,0 +1,134 @@
+fileFormatVersion: 2
+guid: 74e3cfc7670cf3848815b93378d20e55
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Plane010
+    100002: Plane011
+    100004: Plane015
+    100006: Plane016
+    100010: Plane014
+    100012: Plane009
+    100014: //RootNode
+    100016: Plane008
+    100018: Plane012
+    100020: Plane_B
+    100022: Plane013
+    400000: Plane010
+    400002: Plane011
+    400004: Plane015
+    400006: Plane016
+    400010: Plane014
+    400012: Plane009
+    400014: //RootNode
+    400016: Plane008
+    400018: Plane012
+    400020: Plane_B
+    400022: Plane013
+    2300000: Plane010
+    2300002: Plane011
+    2300004: Plane015
+    2300006: Plane016
+    2300008: Plane_B
+    2300010: Plane014
+    2300012: Plane009
+    2300014: Plane008
+    2300016: Plane012
+    2300018: Plane013
+    3300000: Plane010
+    3300002: Plane011
+    3300004: Plane015
+    3300006: Plane016
+    3300008: Plane_B
+    3300010: Plane014
+    3300012: Plane009
+    3300014: Plane008
+    3300016: Plane012
+    3300018: Plane013
+    4300000: roar001
+    4300002: Plane016
+    4300004: Plane009
+    4300006: Plane011
+    4300008: Plane012
+    4300010: Plane010
+    4300012: Plane015
+    4300014: Plane013
+    4300016: Plane008
+    4300018: Plane014
+    4300020: Plane_B
+    7400000: Take 001
+    7400002: FX_assassin_skill01
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 3
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .100000001
+    animationPositionError: .100000001
+    animationScaleError: .100000001
+    animationWrapMode: 0
+    clipAnimations:
+    - name: FX_assassin_skill01
+      takeName: 
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

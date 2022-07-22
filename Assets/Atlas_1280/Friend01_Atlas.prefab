@@ -1,0 +1,904 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Friend01_Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: b5560678826bc284da9d03d1cb001b75, type: 2}
+  sprites:
+  - name: Title_948_01
+    outer:
+      serializedVersion: 2
+      x: 280
+      y: 609
+      width: 474
+      height: 54
+    inner:
+      serializedVersion: 2
+      x: 280
+      y: 609
+      width: 474
+      height: 54
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Friend_Base_T01
+    outer:
+      serializedVersion: 2
+      x: 476
+      y: 150
+      width: 475
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 476
+      y: 150
+      width: 475
+      height: 90
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Friend_Base_T02
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 150
+      width: 475
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 150
+      width: 475
+      height: 90
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Selected_Center03
+    outer:
+      serializedVersion: 2
+      x: 280
+      y: 523
+      width: 280
+      height: 85
+    inner:
+      serializedVersion: 2
+      x: 280
+      y: 523
+      width: 280
+      height: 85
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Selected_Right03
+    outer:
+      serializedVersion: 2
+      x: 755
+      y: 644
+      width: 258
+      height: 85
+    inner:
+      serializedVersion: 2
+      x: 755
+      y: 644
+      width: 258
+      height: 85
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Selected_Left03
+    outer:
+      serializedVersion: 2
+      x: 755
+      y: 558
+      width: 257
+      height: 85
+    inner:
+      serializedVersion: 2
+      x: 755
+      y: 558
+      width: 257
+      height: 85
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Face_Assassin
+    outer:
+      serializedVersion: 2
+      x: 403
+      y: 450
+      width: 122
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 403
+      y: 450
+      width: 122
+      height: 72
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Face_Wizard
+    outer:
+      serializedVersion: 2
+      x: 280
+      y: 450
+      width: 122
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 280
+      y: 450
+      width: 122
+      height: 72
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Face_Warrior
+    outer:
+      serializedVersion: 2
+      x: 662
+      y: 485
+      width: 122
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 662
+      y: 485
+      width: 122
+      height: 72
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Info_IMG_Left_UserInfo
+    outer:
+      serializedVersion: 2
+      x: 475
+      y: 390
+      width: 57
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 475
+      y: 390
+      width: 57
+      height: 56
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon_Arrow01
+    outer:
+      serializedVersion: 2
+      x: 662
+      y: 561
+      width: 46
+      height: 23
+    inner:
+      serializedVersion: 2
+      x: 662
+      y: 561
+      width: 46
+      height: 23
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon_Stamina01
+    outer:
+      serializedVersion: 2
+      x: 723
+      y: 574
+      width: 29
+      height: 34
+    inner:
+      serializedVersion: 2
+      x: 723
+      y: 574
+      width: 29
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon_Clock01
+    outer:
+      serializedVersion: 2
+      x: 475
+      y: 359
+      width: 26
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 475
+      y: 359
+      width: 26
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Title_948
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 241
+      width: 948
+      height: 47
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 241
+      width: 948
+      height: 47
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Btn_Default_Yellow01_pressed
+    outer:
+      serializedVersion: 2
+      x: 846
+      y: 491
+      width: 60
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 875
+      y: 491
+      width: 2
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Btn_Default_Yellow01
+    outer:
+      serializedVersion: 2
+      x: 414
+      y: 383
+      width: 60
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 443
+      y: 383
+      width: 2
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Friend_Frame_Invite_Common
+    outer:
+      serializedVersion: 2
+      x: 998
+      y: 71
+      width: 21
+      height: 116
+    inner:
+      serializedVersion: 2
+      x: 1008
+      y: 71
+      width: 1
+      height: 116
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button_NickName
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 16
+      width: 270
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 16
+      width: 270
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: NPC_left_bottom
+    outer:
+      serializedVersion: 2
+      x: 441
+      y: 664
+      width: 312
+      height: 360
+    inner:
+      serializedVersion: 2
+      x: 441
+      y: 664
+      width: 312
+      height: 360
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Pop_Up_Happy
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 289
+      width: 279
+      height: 390
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 289
+      width: 279
+      height: 390
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Black01
+    outer:
+      serializedVersion: 2
+      x: 533
+      y: 360
+      width: 30
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 537
+      y: 364
+      width: 22
+      height: 22
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Speak_N
+    outer:
+      serializedVersion: 2
+      x: 754
+      y: 887
+      width: 256
+      height: 137
+    inner:
+      serializedVersion: 2
+      x: 754
+      y: 887
+      width: 256
+      height: 137
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Frame_Yellow01
+    outer:
+      serializedVersion: 2
+      x: 998
+      y: 188
+      width: 23
+      height: 369
+    inner:
+      serializedVersion: 2
+      x: 1009
+      y: 203
+      width: 1
+      height: 339
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Close_pressed
+    outer:
+      serializedVersion: 2
+      x: 533
+      y: 391
+      width: 53
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 533
+      y: 391
+      width: 53
+      height: 55
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Close
+    outer:
+      serializedVersion: 2
+      x: 739
+      y: 374
+      width: 53
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 739
+      y: 374
+      width: 53
+      height: 55
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Frame01-9
+    outer:
+      serializedVersion: 2
+      x: 907
+      y: 430
+      width: 60
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 936
+      y: 459
+      width: 2
+      height: 2
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Frame02-3
+    outer:
+      serializedVersion: 2
+      x: 617
+      y: 489
+      width: 30
+      height: 18
+    inner:
+      serializedVersion: 2
+      x: 631
+      y: 489
+      width: 2
+      height: 18
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Friend_ItemFrame01
+    outer:
+      serializedVersion: 2
+      x: 423
+      y: 54
+      width: 422
+      height: 95
+    inner:
+      serializedVersion: 2
+      x: 723
+      y: 54
+      width: 102
+      height: 95
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Achievement_ItemFrame03
+    outer:
+      serializedVersion: 2
+      x: 587
+      y: 353
+      width: 29
+      height: 93
+    inner:
+      serializedVersion: 2
+      x: 601
+      y: 353
+      width: 1
+      height: 93
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Gradient01
+    outer:
+      serializedVersion: 2
+      x: 662
+      y: 585
+      width: 60
+      height: 23
+    inner:
+      serializedVersion: 2
+      x: 662
+      y: 585
+      width: 60
+      height: 23
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Friend_ItemFrame02
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 54
+      width: 422
+      height: 95
+    inner:
+      serializedVersion: 2
+      x: 300
+      y: 54
+      width: 102
+      height: 95
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Btn_Default_Blue01_pressed
+    outer:
+      serializedVersion: 2
+      x: 907
+      y: 491
+      width: 60
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 936
+      y: 491
+      width: 2
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Btn_Default_Blue01
+    outer:
+      serializedVersion: 2
+      x: 785
+      y: 491
+      width: 60
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 814
+      y: 491
+      width: 2
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Btn_Small_Yellow01
+    outer:
+      serializedVersion: 2
+      x: 846
+      y: 430
+      width: 60
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 875
+      y: 430
+      width: 2
+      height: 60
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Btn_Small_Yellow01_pressed
+    outer:
+      serializedVersion: 2
+      x: 785
+      y: 430
+      width: 60
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 814
+      y: 430
+      width: 2
+      height: 60
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Friend_Frame_Kakao01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 680
+      width: 440
+      height: 344
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 680
+      width: 440
+      height: 344
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Btn_Tiny_Yellow01
+    outer:
+      serializedVersion: 2
+      x: 617
+      y: 429
+      width: 60
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 646
+      y: 429
+      width: 2
+      height: 55
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Btn_Tiny_Yellow01_pressed
+    outer:
+      serializedVersion: 2
+      x: 678
+      y: 429
+      width: 60
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 707
+      y: 429
+      width: 2
+      height: 55
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Title_Tile41
+    outer:
+      serializedVersion: 2
+      x: 846
+      y: 25
+      width: 168
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 846
+      y: 25
+      width: 168
+      height: 41
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Friend_Invited_Kakao
+    outer:
+      serializedVersion: 2
+      x: 526
+      y: 447
+      width: 90
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 596
+      y: 447
+      width: 1
+      height: 60
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button_KaKao_pressed
+    outer:
+      serializedVersion: 2
+      x: 347
+      y: 383
+      width: 66
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 393
+      y: 383
+      width: 1
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button_KaKao
+    outer:
+      serializedVersion: 2
+      x: 280
+      y: 383
+      width: 66
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 326
+      y: 383
+      width: 1
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Back_Paper01-1
+    outer:
+      serializedVersion: 2
+      x: 561
+      y: 508
+      width: 100
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 561
+      y: 508
+      width: 100
+      height: 100
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GambleLight02
+    outer:
+      serializedVersion: 2
+      x: 754
+      y: 730
+      width: 156
+      height: 156
+    inner:
+      serializedVersion: 2
+      x: 754
+      y: 730
+      width: 156
+      height: 156
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GambleLight01
+    outer:
+      serializedVersion: 2
+      x: 846
+      y: 67
+      width: 151
+      height: 82
+    inner:
+      serializedVersion: 2
+      x: 846
+      y: 67
+      width: 151
+      height: 82
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Image_Gamble01
+    outer:
+      serializedVersion: 2
+      x: 911
+      y: 782
+      width: 107
+      height: 104
+    inner:
+      serializedVersion: 2
+      x: 911
+      y: 782
+      width: 107
+      height: 104
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Profile_Empty
+    outer:
+      serializedVersion: 2
+      x: 739
+      y: 444
+      width: 40
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 739
+      y: 444
+      width: 40
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

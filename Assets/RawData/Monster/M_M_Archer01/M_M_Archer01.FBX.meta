@@ -1,0 +1,206 @@
+fileFormatVersion: 2
+guid: 5913333365baa32458f2adb47d0e5b39
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: M_M_Archer01_Bow
+    100002: Bip001 Footsteps
+    100004: Bip001 RUpArmTwist
+    100006: Bip001 R Clavicle
+    100008: Bip001 R Forearm
+    100010: Bip001 L Clavicle
+    100012: Bip001 L Toe0Nub
+    100014: DEL_Bip001 LUpArmTwist1
+    100016: Bip001 LUpArmTwist
+    100018: DEL_Bip001 LUpArmTwist2
+    100020: Bip001 R UpperArm
+    100022: DEL_Bone_Arrow0Y
+    100024: DEL_Bone_Arrow0X
+    100026: M_M_Archer01_quiver
+    100028: Weapon Collider01
+    100030: DEL_Bip001 RUpArmTwist2
+    100032: Bip001 R Toe0Nub
+    100034: Bip001 L Forearm
+    100036: Bip001 L UpperArm
+    100038: DEL_Bip001 RUpArmTwist1
+    100040: M_M_Archer01_03
+    100042: M_M_Archer01
+    100044: M_M_Archer01_H
+    100046: //RootNode
+    100048: Bip001 L Calf
+    100050: Bip001 L Toe0
+    100052: Bip001 L Foot
+    100054: Bip001 R Thigh
+    100056: Bip001 R Calf
+    100058: Bip001 R Foot
+    100060: M_M_Archer01_S
+    100062: Slider001
+    100064: Bip01_Eye01
+    100066: Body Collider
+    100068: Bip001 R Toe0
+    100070: Bip001 L Thigh
+    100072: Bone_quiver01
+    100074: Bip001 Prop2
+    100076: Bip001 L Hand
+    100078: Bone_Arrow01
+    100080: Bone_Arrow04
+    100082: Bone_Arrow02
+    100084: Bone_Arrow03
+    100086: Helper_Arrow01
+    100088: IK Chain002
+    100090: IK Chain001
+    100092: Bone_Arrow01 1
+    100094: Bone_SL
+    100096: Bip001 Prop1
+    100098: Bip001 R Hand
+    100100: Bone_SR
+    100102: M_M_Archer01_02
+    100104: Bip001 Spine1
+    100106: Bip001 Pelvis
+    100108: Bip001 Spine
+    100110: Bip001
+    100112: Root
+    100114: M_Archer_01_E
+    100116: Bip001 HeadNub
+    100118: Bip001 Head
+    100120: Bip001 Neck
+    400000: M_M_Archer01_Bow
+    400002: Bip001 Footsteps
+    400004: Bip001 RUpArmTwist
+    400006: Bip001 R Clavicle
+    400008: Bip001 R Forearm
+    400010: Bip001 L Clavicle
+    400012: Bip001 L Toe0Nub
+    400014: DEL_Bip001 LUpArmTwist1
+    400016: Bip001 LUpArmTwist
+    400018: DEL_Bip001 LUpArmTwist2
+    400020: Bip001 R UpperArm
+    400022: DEL_Bone_Arrow0Y
+    400024: DEL_Bone_Arrow0X
+    400026: M_M_Archer01_quiver
+    400028: Weapon Collider01
+    400030: DEL_Bip001 RUpArmTwist2
+    400032: Bip001 R Toe0Nub
+    400034: Bip001 L Forearm
+    400036: Bip001 L UpperArm
+    400038: DEL_Bip001 RUpArmTwist1
+    400040: M_M_Archer01_03
+    400042: M_M_Archer01
+    400044: M_M_Archer01_H
+    400046: //RootNode
+    400048: Bip001 L Calf
+    400050: Bip001 L Toe0
+    400052: Bip001 L Foot
+    400054: Bip001 R Thigh
+    400056: Bip001 R Calf
+    400058: Bip001 R Foot
+    400060: M_M_Archer01_S
+    400062: Slider001
+    400064: Bip01_Eye01
+    400066: Body Collider
+    400068: Bip001 R Toe0
+    400070: Bip001 L Thigh
+    400072: Bone_quiver01
+    400074: Bip001 Prop2
+    400076: Bip001 L Hand
+    400078: Bone_Arrow01
+    400080: Bone_Arrow04
+    400082: Bone_Arrow02
+    400084: Bone_Arrow03
+    400086: Helper_Arrow01
+    400088: IK Chain002
+    400090: IK Chain001
+    400092: Bone_Arrow01 1
+    400094: Bone_SL
+    400096: Bip001 Prop1
+    400098: Bip001 R Hand
+    400100: Bone_SR
+    400102: M_M_Archer01_02
+    400104: Bip001 Spine1
+    400106: Bip001 Pelvis
+    400108: Bip001 Spine
+    400110: Bip001
+    400112: Root
+    400114: M_Archer_01_E
+    400116: Bip001 HeadNub
+    400118: Bip001 Head
+    400120: Bip001 Neck
+    2300000: Weapon Collider01
+    2300002: Body Collider
+    2300004: Root
+    3300000: Weapon Collider01
+    3300002: Body Collider
+    3300004: Root
+    4300000: Root
+    4300002: Body Collider
+    4300004: Weapon Collider01
+    4300006: M_M_Archer01_02
+    4300008: M_M_Archer01_quiver
+    4300010: M_Archer_01_E
+    4300012: M_M_Archer01
+    4300014: M_M_Archer01_03
+    4300016: M_M_Archer01_H
+    4300018: M_M_Archer01_S
+    4300020: M_M_Archer01_Bow
+    7400000: Take 001
+    11100000: //RootNode
+    13700000: M_M_Archer01_Bow
+    13700002: M_M_Archer01_quiver
+    13700004: M_M_Archer01_03
+    13700006: M_M_Archer01
+    13700008: M_M_Archer01_H
+    13700010: M_M_Archer01_S
+    13700012: M_M_Archer01_02
+    13700014: M_Archer_01_E
+  materials:
+    importMaterials: 1
+    materialName: 3
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 3
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 1
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

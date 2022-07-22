@@ -1,0 +1,1732 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Battle_Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 802e2cf530dcd3f479dafcbdb0c912da, type: 2}
+  sprites:
+  - name: bar_hp_c
+    outer:
+      serializedVersion: 2
+      x: 79
+      y: 57
+      width: 239
+      height: 17
+    inner:
+      serializedVersion: 2
+      x: 79
+      y: 57
+      width: 239
+      height: 17
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bar_vital
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 12
+      width: 229
+      height: 17
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 12
+      width: 229
+      height: 17
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bar_mana
+    outer:
+      serializedVersion: 2
+      x: 174
+      y: 100
+      width: 229
+      height: 17
+    inner:
+      serializedVersion: 2
+      x: 174
+      y: 100
+      width: 229
+      height: 17
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bar_rage
+    outer:
+      serializedVersion: 2
+      x: 230
+      y: 12
+      width: 229
+      height: 17
+    inner:
+      serializedVersion: 2
+      x: 230
+      y: 12
+      width: 229
+      height: 17
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: direction key_right
+    outer:
+      serializedVersion: 2
+      x: 915
+      y: 548
+      width: 81
+      height: 113
+    inner:
+      serializedVersion: 2
+      x: 915
+      y: 548
+      width: 81
+      height: 113
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: direction key_center
+    outer:
+      serializedVersion: 2
+      x: 944
+      y: 830
+      width: 56
+      height: 59
+    inner:
+      serializedVersion: 2
+      x: 944
+      y: 830
+      width: 56
+      height: 59
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: skill02_wa_X
+    outer:
+      serializedVersion: 2
+      x: 93
+      y: 165
+      width: 92
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 93
+      y: 165
+      width: 92
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: skill01_as
+    outer:
+      serializedVersion: 2
+      x: 744
+      y: 74
+      width: 92
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 744
+      y: 74
+      width: 92
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: skill01_wi_X
+    outer:
+      serializedVersion: 2
+      x: 837
+      y: 74
+      width: 92
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 837
+      y: 74
+      width: 92
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: skill02_as
+    outer:
+      serializedVersion: 2
+      x: 465
+      y: 93
+      width: 92
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 465
+      y: 93
+      width: 92
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: attack_wa
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 555
+      width: 109
+      height: 109
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 555
+      width: 109
+      height: 109
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: skill02_wi
+    outer:
+      serializedVersion: 2
+      x: 186
+      y: 165
+      width: 92
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 186
+      y: 165
+      width: 92
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: foot_cm
+    outer:
+      serializedVersion: 2
+      x: 651
+      y: 156
+      width: 92
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 651
+      y: 156
+      width: 92
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: skill02_wa
+    outer:
+      serializedVersion: 2
+      x: 93
+      y: 257
+      width: 92
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 93
+      y: 257
+      width: 92
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: skill01_wi
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 205
+      width: 92
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 205
+      width: 92
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: skill02_as_X
+    outer:
+      serializedVersion: 2
+      x: 792
+      y: 166
+      width: 92
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 792
+      y: 166
+      width: 92
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: attack_wi
+    outer:
+      serializedVersion: 2
+      x: 490
+      y: 645
+      width: 109
+      height: 109
+    inner:
+      serializedVersion: 2
+      x: 490
+      y: 645
+      width: 109
+      height: 109
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: skill01_wa
+    outer:
+      serializedVersion: 2
+      x: 186
+      y: 257
+      width: 92
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 186
+      y: 257
+      width: 92
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: attack_as
+    outer:
+      serializedVersion: 2
+      x: 380
+      y: 645
+      width: 109
+      height: 109
+    inner:
+      serializedVersion: 2
+      x: 380
+      y: 645
+      width: 109
+      height: 109
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: skill01_as_X
+    outer:
+      serializedVersion: 2
+      x: 372
+      y: 228
+      width: 92
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 372
+      y: 228
+      width: 92
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: skill01_wa_X
+    outer:
+      serializedVersion: 2
+      x: 279
+      y: 257
+      width: 92
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 279
+      y: 257
+      width: 92
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: special_wa
+    outer:
+      serializedVersion: 2
+      x: 558
+      y: 185
+      width: 92
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 558
+      y: 185
+      width: 92
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: special_wi
+    outer:
+      serializedVersion: 2
+      x: 465
+      y: 185
+      width: 92
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 465
+      y: 185
+      width: 92
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: frame
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 665
+      width: 135
+      height: 138
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 665
+      width: 135
+      height: 138
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: skill02_wi_X
+    outer:
+      serializedVersion: 2
+      x: 885
+      y: 166
+      width: 92
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 885
+      y: 166
+      width: 92
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: multiply_black
+    outer:
+      serializedVersion: 2
+      x: 380
+      y: 535
+      width: 109
+      height: 109
+    inner:
+      serializedVersion: 2
+      x: 380
+      y: 535
+      width: 109
+      height: 109
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bar_hp_m
+    outer:
+      serializedVersion: 2
+      x: 174
+      y: 118
+      width: 239
+      height: 17
+    inner:
+      serializedVersion: 2
+      x: 174
+      y: 118
+      width: 239
+      height: 17
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bar_hp_c2
+    outer:
+      serializedVersion: 2
+      x: 174
+      y: 75
+      width: 239
+      height: 17
+    inner:
+      serializedVersion: 2
+      x: 174
+      y: 75
+      width: 239
+      height: 17
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bar_hp_m2
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 30
+      width: 239
+      height: 17
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 30
+      width: 239
+      height: 17
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: face_wizard
+    outer:
+      serializedVersion: 2
+      x: 136
+      y: 669
+      width: 128
+      height: 134
+    inner:
+      serializedVersion: 2
+      x: 136
+      y: 669
+      width: 128
+      height: 134
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: face_assassin
+    outer:
+      serializedVersion: 2
+      x: 786
+      y: 630
+      width: 128
+      height: 134
+    inner:
+      serializedVersion: 2
+      x: 786
+      y: 630
+      width: 128
+      height: 134
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: face_warrior
+    outer:
+      serializedVersion: 2
+      x: 657
+      y: 630
+      width: 128
+      height: 134
+    inner:
+      serializedVersion: 2
+      x: 657
+      y: 630
+      width: 128
+      height: 134
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: multiply_black_s
+    outer:
+      serializedVersion: 2
+      x: 279
+      y: 165
+      width: 92
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 279
+      y: 165
+      width: 92
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: button_pose
+    outer:
+      serializedVersion: 2
+      x: 742
+      y: 12
+      width: 81
+      height: 61
+    inner:
+      serializedVersion: 2
+      x: 742
+      y: 12
+      width: 81
+      height: 61
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: frame_s
+    outer:
+      serializedVersion: 2
+      x: 265
+      y: 636
+      width: 114
+      height: 118
+    inner:
+      serializedVersion: 2
+      x: 265
+      y: 636
+      width: 114
+      height: 118
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: s_bar_hp_m
+    outer:
+      serializedVersion: 2
+      x: 490
+      y: 634
+      width: 159
+      height: 10
+    inner:
+      serializedVersion: 2
+      x: 490
+      y: 634
+      width: 159
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bar_frame_c02
+    outer:
+      serializedVersion: 2
+      x: 724
+      y: 890
+      width: 287
+      height: 51
+    inner:
+      serializedVersion: 2
+      x: 724
+      y: 937
+      width: 287
+      height: 4
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bar_frame_m02
+    outer:
+      serializedVersion: 2
+      x: 346
+      y: 504
+      width: 295
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 346
+      y: 504
+      width: 295
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: white
+    outer:
+      serializedVersion: 2
+      x: 373
+      y: 841
+      width: 4
+      height: 4
+    inner:
+      serializedVersion: 2
+      x: 374
+      y: 842
+      width: 2
+      height: 2
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Black
+    outer:
+      serializedVersion: 2
+      x: 372
+      y: 332
+      width: 16
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 373
+      y: 333
+      width: 14
+      height: 14
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Tower_Face_01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 452
+      width: 96
+      height: 102
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 452
+      width: 96
+      height: 102
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Tower_Face_03
+    outer:
+      serializedVersion: 2
+      x: 915
+      y: 662
+      width: 96
+      height: 102
+    inner:
+      serializedVersion: 2
+      x: 915
+      y: 662
+      width: 96
+      height: 102
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Tower_Face_02
+    outer:
+      serializedVersion: 2
+      x: 249
+      y: 533
+      width: 96
+      height: 102
+    inner:
+      serializedVersion: 2
+      x: 249
+      y: 533
+      width: 96
+      height: 102
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bar_frame_tower01
+    outer:
+      serializedVersion: 2
+      x: 490
+      y: 560
+      width: 218
+      height: 24
+    inner:
+      serializedVersion: 2
+      x: 490
+      y: 560
+      width: 218
+      height: 24
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Catapult_Face_02
+    outer:
+      serializedVersion: 2
+      x: 799
+      y: 524
+      width: 85
+      height: 105
+    inner:
+      serializedVersion: 2
+      x: 799
+      y: 524
+      width: 85
+      height: 105
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Catapult_Face_03
+    outer:
+      serializedVersion: 2
+      x: 885
+      y: 442
+      width: 85
+      height: 105
+    inner:
+      serializedVersion: 2
+      x: 885
+      y: 442
+      width: 85
+      height: 105
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Catapult_Face_01
+    outer:
+      serializedVersion: 2
+      x: 713
+      y: 524
+      width: 85
+      height: 105
+    inner:
+      serializedVersion: 2
+      x: 713
+      y: 524
+      width: 85
+      height: 105
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bar_frame_catapult01
+    outer:
+      serializedVersion: 2
+      x: 490
+      y: 535
+      width: 218
+      height: 24
+    inner:
+      serializedVersion: 2
+      x: 490
+      y: 535
+      width: 218
+      height: 24
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bar_hp_add
+    outer:
+      serializedVersion: 2
+      x: 724
+      y: 831
+      width: 177
+      height: 10
+    inner:
+      serializedVersion: 2
+      x: 724
+      y: 831
+      width: 177
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Wave_count_Frame
+    outer:
+      serializedVersion: 2
+      x: 724
+      y: 942
+      width: 228
+      height: 82
+    inner:
+      serializedVersion: 2
+      x: 837
+      y: 942
+      width: 2
+      height: 82
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Battle_Name_Frame
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 903
+      width: 386
+      height: 121
+    inner:
+      serializedVersion: 2
+      x: 192
+      y: 903
+      width: 2
+      height: 121
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: potion_2_button
+    outer:
+      serializedVersion: 2
+      x: 558
+      y: 95
+      width: 91
+      height: 89
+    inner:
+      serializedVersion: 2
+      x: 558
+      y: 95
+      width: 91
+      height: 89
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: potion_1_button
+    outer:
+      serializedVersion: 2
+      x: 93
+      y: 75
+      width: 80
+      height: 89
+    inner:
+      serializedVersion: 2
+      x: 93
+      y: 75
+      width: 80
+      height: 89
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: potion_2_button_X
+    outer:
+      serializedVersion: 2
+      x: 650
+      y: 66
+      width: 91
+      height: 89
+    inner:
+      serializedVersion: 2
+      x: 650
+      y: 66
+      width: 91
+      height: 89
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: potion_1_button_X
+    outer:
+      serializedVersion: 2
+      x: 558
+      y: 5
+      width: 80
+      height: 89
+    inner:
+      serializedVersion: 2
+      x: 558
+      y: 5
+      width: 80
+      height: 89
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: special_wi03_disable
+    outer:
+      serializedVersion: 2
+      x: 699
+      y: 248
+      width: 92
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 699
+      y: 248
+      width: 92
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: special_as01
+    outer:
+      serializedVersion: 2
+      x: 606
+      y: 277
+      width: 92
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 606
+      y: 277
+      width: 92
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: special_as03_disable
+    outer:
+      serializedVersion: 2
+      x: 234
+      y: 349
+      width: 92
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 234
+      y: 349
+      width: 92
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: special_as03
+    outer:
+      serializedVersion: 2
+      x: 768
+      y: 340
+      width: 92
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 768
+      y: 340
+      width: 92
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: special_wi02
+    outer:
+      serializedVersion: 2
+      x: 675
+      y: 369
+      width: 92
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 675
+      y: 369
+      width: 92
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: special_wa03_disable
+    outer:
+      serializedVersion: 2
+      x: 861
+      y: 258
+      width: 92
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 861
+      y: 258
+      width: 92
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: special_wa02
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 297
+      width: 92
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 297
+      width: 92
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: special_wi01
+    outer:
+      serializedVersion: 2
+      x: 141
+      y: 349
+      width: 92
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 141
+      y: 349
+      width: 92
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: special_wa03
+    outer:
+      serializedVersion: 2
+      x: 513
+      y: 277
+      width: 92
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 513
+      y: 277
+      width: 92
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: special_wa02_disable
+    outer:
+      serializedVersion: 2
+      x: 327
+      y: 349
+      width: 92
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 327
+      y: 349
+      width: 92
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: special_as01_disable
+    outer:
+      serializedVersion: 2
+      x: 420
+      y: 320
+      width: 92
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 420
+      y: 320
+      width: 92
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: special_as02
+    outer:
+      serializedVersion: 2
+      x: 783
+      y: 432
+      width: 92
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 783
+      y: 432
+      width: 92
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: special_wa01
+    outer:
+      serializedVersion: 2
+      x: 876
+      y: 350
+      width: 92
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 876
+      y: 350
+      width: 92
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: special_wi02_disable
+    outer:
+      serializedVersion: 2
+      x: 582
+      y: 369
+      width: 92
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 582
+      y: 369
+      width: 92
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: special_wi03
+    outer:
+      serializedVersion: 2
+      x: 489
+      y: 412
+      width: 92
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 489
+      y: 412
+      width: 92
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: special_as02_disable
+    outer:
+      serializedVersion: 2
+      x: 930
+      y: 74
+      width: 92
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 930
+      y: 74
+      width: 92
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: special_wa01_disable
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 113
+      width: 92
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 113
+      width: 92
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: special_wi01_disable
+    outer:
+      serializedVersion: 2
+      x: 372
+      y: 136
+      width: 92
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 372
+      y: 136
+      width: 92
+      height: 91
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Block_I
+    outer:
+      serializedVersion: 2
+      x: 953
+      y: 979
+      width: 61
+      height: 45
+    inner:
+      serializedVersion: 2
+      x: 953
+      y: 979
+      width: 61
+      height: 45
+    rotated: 0
+    paddingLeft: .0327868834
+    paddingRight: .0163934417
+    paddingTop: .222222224
+    paddingBottom: .200000003
+  - name: Absorb_I
+    outer:
+      serializedVersion: 2
+      x: 792
+      y: 294
+      width: 61
+      height: 45
+    inner:
+      serializedVersion: 2
+      x: 792
+      y: 294
+      width: 61
+      height: 45
+    rotated: 0
+    paddingLeft: .0327868834
+    paddingRight: .0163934417
+    paddingTop: .222222224
+    paddingBottom: .200000003
+  - name: Evade_I
+    outer:
+      serializedVersion: 2
+      x: 954
+      y: 304
+      width: 61
+      height: 45
+    inner:
+      serializedVersion: 2
+      x: 954
+      y: 304
+      width: 61
+      height: 45
+    rotated: 0
+    paddingLeft: .0327868834
+    paddingRight: .0163934417
+    paddingTop: .222222224
+    paddingBottom: .200000003
+  - name: Arena_versus
+    outer:
+      serializedVersion: 2
+      x: 657
+      y: 765
+      width: 363
+      height: 61
+    inner:
+      serializedVersion: 2
+      x: 657
+      y: 765
+      width: 363
+      height: 61
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Rescue_Timer
+    outer:
+      serializedVersion: 2
+      x: 387
+      y: 827
+      width: 336
+      height: 98
+    inner:
+      serializedVersion: 2
+      x: 387
+      y: 827
+      width: 336
+      height: 98
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Siege_Timer
+    outer:
+      serializedVersion: 2
+      x: 321
+      y: 755
+      width: 335
+      height: 71
+    inner:
+      serializedVersion: 2
+      x: 321
+      y: 755
+      width: 335
+      height: 71
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Rescue_Timer_Red
+    outer:
+      serializedVersion: 2
+      x: 387
+      y: 926
+      width: 336
+      height: 98
+    inner:
+      serializedVersion: 2
+      x: 387
+      y: 926
+      width: 336
+      height: 98
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: NPC_Face_Escort01
+    outer:
+      serializedVersion: 2
+      x: 110
+      y: 453
+      width: 96
+      height: 102
+    inner:
+      serializedVersion: 2
+      x: 110
+      y: 453
+      width: 96
+      height: 102
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: mission_frame
+    outer:
+      serializedVersion: 2
+      x: 321
+      y: 830
+      width: 51
+      height: 15
+    inner:
+      serializedVersion: 2
+      x: 361
+      y: 831
+      width: 2
+      height: 13
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Warning_Base
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 804
+      width: 320
+      height: 98
+    inner:
+      serializedVersion: 2
+      x: 208
+      y: 804
+      width: 1
+      height: 98
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Warning_BossRaid
+    outer:
+      serializedVersion: 2
+      x: 724
+      y: 842
+      width: 219
+      height: 47
+    inner:
+      serializedVersion: 2
+      x: 724
+      y: 842
+      width: 219
+      height: 47
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Warning_Catapult
+    outer:
+      serializedVersion: 2
+      x: 490
+      y: 585
+      width: 222
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 490
+      y: 585
+      width: 222
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: frame_s2
+    outer:
+      serializedVersion: 2
+      x: 136
+      y: 556
+      width: 112
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 136
+      y: 556
+      width: 112
+      height: 112
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon_Coin
+    outer:
+      serializedVersion: 2
+      x: 265
+      y: 755
+      width: 49
+      height: 48
+    inner:
+      serializedVersion: 2
+      x: 265
+      y: 755
+      width: 49
+      height: 48
+    rotated: 0
+    paddingLeft: .0408163257
+    paddingRight: .0204081628
+    paddingTop: .0416666679
+    paddingBottom: .0416666679
+  - name: face_back02
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 48
+      width: 78
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 48
+      width: 78
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: face_back01
+    outer:
+      serializedVersion: 2
+      x: 321
+      y: 846
+      width: 61
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 321
+      y: 846
+      width: 61
+      height: 56
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Auto_Btn_On
+    outer:
+      serializedVersion: 2
+      x: 348
+      y: 441
+      width: 140
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 348
+      y: 441
+      width: 140
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Auto_Btn_Off
+    outer:
+      serializedVersion: 2
+      x: 642
+      y: 461
+      width: 140
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 642
+      y: 461
+      width: 140
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Auto_Ptn_On
+    outer:
+      serializedVersion: 2
+      x: 207
+      y: 441
+      width: 140
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 207
+      y: 441
+      width: 140
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Auto_Ptn_Off
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 389
+      width: 140
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 389
+      width: 140
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

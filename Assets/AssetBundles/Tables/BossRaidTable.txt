@@ -1,0 +1,25 @@
+﻿id,BossID,StageRange,Name,Desc,HP,BossPrefabPath,Kingdom,StageType
+1,1,10,애꾸눈 오르카,액트1 궁수 중보,244800,NewAsset/BossRaidMonster/Monster_Raid_Middle_Archer,1,0
+2,2,20,미친 왕 앵그바론,액트1 뚱보 보스,508100,NewAsset/BossRaidMonster/Monster_Raid_Final_Berserk,1,0
+3,3,30,얍삽한 루미,액트2 암살자 중보,621800,NewAsset/BossRaidMonster/Monster_Raid_Middle_Assassin,2,0
+4,4,40,대사제 피오나,액트2 사제 보스,978500,NewAsset/BossRaidMonster/Monster_Raid_Final_Priest,2,0
+5,5,50,토카타와 푸가,액트3 쌍둥이 중보,1282400,NewAsset/BossRaidMonster/Monster_Raid_Middle_Wizard,3,0
+6,6,60,불의 지배자 아그타,액트3 마법사 보스,1822400,NewAsset/BossRaidMonster/Monster_Raid_Final_Wizard,3,0
+7,7,70,성기사왕 그래타,액트4 뚱보 보스,1862100,NewAsset/BossRaidMonster/Monster_Raid_Final_Paladin,4,0
+8,7,80,성기사왕 그래타,액트4 뚱보 보스,1862100,NewAsset/BossRaidMonster/Monster_Raid_Final_Paladin,4,0
+9,1,10,애꾸눈 오르카,액트1 궁수 중보,469900,NewAsset/BossRaidMonster/Monster_Raid_Middle_Archer_H,1,1
+10,2,20,미친 왕 앵그바론,액트1 뚱보 보스,806300,NewAsset/BossRaidMonster/Monster_Raid_Final_Berserk_H,1,1
+11,3,30,얍삽한 루미,액트2 암살자 중보,842200,NewAsset/BossRaidMonster/Monster_Raid_Middle_Assassin_H,2,1
+12,4,40,대사제 피오나,액트2 사제 보스,1263700,NewAsset/BossRaidMonster/Monster_Raid_Final_Priest_H,2,1
+13,5,50,토카타와 푸가,액트3 쌍둥이 중보,1611600,NewAsset/BossRaidMonster/Monster_Raid_Middle_Wizard_H,3,1
+14,6,60,불의 지배자 아그타,액트3 마법사 보스,2181700,NewAsset/BossRaidMonster/Monster_Raid_Final_Wizard_H,3,1
+15,7,70,성기사왕 그래타,액트4 뚱보 보스,2213000,NewAsset/BossRaidMonster/Monster_Raid_Final_Paladin_H,4,1
+16,7,80,성기사왕 그래타,액트4 뚱보 보스,2213000,NewAsset/BossRaidMonster/Monster_Raid_Final_Paladin_H,4,1
+17,1,10,애꾸눈 오르카,액트1 궁수 중보,3608200,NewAsset/BossRaidMonster/Monster_Raid_Middle_Archer_Hell,1,2
+18,2,20,미친 왕 앵그바론,액트1 뚱보 보스,5765700,NewAsset/BossRaidMonster/Monster_Raid_Final_Berserk_Hell,1,2
+19,3,30,얍삽한 루미,액트2 암살자 중보,4969700,NewAsset/BossRaidMonster/Monster_Raid_Middle_Assassin_Hell,2,2
+20,4,40,대사제 피오나,액트2 사제 보스,6772300,NewAsset/BossRaidMonster/Monster_Raid_Final_Priest_Hell,2,2
+21,5,50,토카타와 푸가,액트3 쌍둥이 중보,7134500,NewAsset/BossRaidMonster/Monster_Raid_Middle_Wizard_Hell,3,2
+22,6,60,불의 지배자 아그타,액트3 마법사 보스,7001600,NewAsset/BossRaidMonster/Monster_Raid_Final_Wizard_Hell,3,2
+23,7,70,성기사왕 그래타,액트4 뚱보 보스,9354800,NewAsset/BossRaidMonster/Monster_Raid_Final_Paladin_Hell,4,2
+24,7,80,성기사왕 그래타,액트4 뚱보 보스,9354800,NewAsset/BossRaidMonster/Monster_Raid_Final_Paladin_Hell,4,2

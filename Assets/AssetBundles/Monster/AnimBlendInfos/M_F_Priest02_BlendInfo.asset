@@ -1,0 +1,288 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbc50ad079e924467accfaf0237ce0d0, type: 3}
+  m_Name: M_F_Priest02_BlendInfo
+  m_EditorClassIdentifier: 
+  AnimationClipCount: 16
+  animationClipNames:
+  - area_heal
+  - curse_zone
+  - damage
+  - die
+  - jump_fall
+  - jump_landing
+  - knockdown_die
+  - knockdown_fall
+  - knockdown_landing
+  - knockdown_start
+  - mana_shield
+  - run
+  - stand01
+  - stand02
+  - stand03
+  - stun
+  BlendInfos:
+  - fBlendTime: 0
+  - fBlendTime: .100000001
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: .100000001
+  - fBlendTime: .100000001
+  - fBlendTime: .100000001
+  - fBlendTime: .100000001
+  - fBlendTime: .100000001
+  - fBlendTime: .200000003
+  - fBlendTime: .100000001
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: .100000001
+  - fBlendTime: .100000001
+  - fBlendTime: .100000001
+  - fBlendTime: .100000001
+  - fBlendTime: .100000001
+  - fBlendTime: .200000003
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: .100000001
+  - fBlendTime: .100000001
+  - fBlendTime: .100000001
+  - fBlendTime: .100000001
+  - fBlendTime: .100000001
+  - fBlendTime: .200000003
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: .100000001
+  - fBlendTime: .100000001
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: .100000001
+  - fBlendTime: .100000001
+  - fBlendTime: .100000001
+  - fBlendTime: .100000001
+  - fBlendTime: .100000001
+  - fBlendTime: .200000003
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: .100000001
+  - fBlendTime: .100000001
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: .100000001
+  - fBlendTime: .100000001
+  - fBlendTime: .100000001
+  - fBlendTime: .100000001
+  - fBlendTime: .100000001
+  - fBlendTime: .200000003
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: .100000001
+  - fBlendTime: .100000001
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: .100000001
+  - fBlendTime: .100000001
+  - fBlendTime: .100000001
+  - fBlendTime: .100000001
+  - fBlendTime: .200000003
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: .100000001
+  - fBlendTime: 0
+  - fBlendTime: .100000001
+  - fBlendTime: .100000001
+  - fBlendTime: .100000001
+  - fBlendTime: .200000003
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: .100000001
+  - fBlendTime: .100000001
+  - fBlendTime: 0
+  - fBlendTime: .100000001
+  - fBlendTime: .100000001
+  - fBlendTime: .200000003
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: .100000001
+  - fBlendTime: .100000001
+  - fBlendTime: .100000001
+  - fBlendTime: 0
+  - fBlendTime: .100000001
+  - fBlendTime: .200000003
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: .100000001
+  - fBlendTime: .100000001
+  - fBlendTime: .100000001
+  - fBlendTime: .100000001
+  - fBlendTime: 0
+  - fBlendTime: .200000003
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: 0
+  - fBlendTime: .100000001
+  - fBlendTime: .100000001
+  - fBlendTime: .100000001
+  - fBlendTime: .100000001
+  - fBlendTime: .100000001
+  - fBlendTime: 0

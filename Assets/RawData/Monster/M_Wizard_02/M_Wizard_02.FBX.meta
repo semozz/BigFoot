@@ -1,0 +1,158 @@
+fileFormatVersion: 2
+guid: 0c642c8387ad2be47b7f6ce272334b99
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Bip01 R Foot
+    100002: Bip01 R Toe0
+    100004: Bip01 R Toe0Nub
+    100006: M_Wizard_02_E
+    100008: //RootNode
+    100010: M_Wizard_02_H
+    100012: M_Wizard_02_W
+    100014: Body Collider
+    100016: Slider001
+    100018: M_Wizard_02
+    100020: Bip01 R Calf
+    100022: Bip01 R Thigh
+    100024: Bip01 L Toe0Nub
+    100026: Bip01 L Toe0
+    100028: Bip01 L Foot
+    100030: Bip01 L Calf
+    100032: Bip01 L Thigh
+    100034: Bip01_Eye
+    100036: Bip01 HeadNub
+    100038: Bip01 Head
+    100040: Bip01 R Hand
+    100042: Bip01 R Forearm
+    100044: Bip01 Prop1
+    100046: Bip01 L Hand
+    100048: Bip01 L Forearm
+    100050: Bip01 Neck
+    100052: Bip01 Spine1
+    100054: Bip01 Spine
+    100056: Bip01 Pelvis
+    100058: Bip01 Footsteps
+    100060: Bip01
+    100062: Root
+    100064: Bip01 R Clavicle
+    100066: DEL_Bip01 RUpArmTwist1
+    100068: DEL_Bip01 RUpArmTwist2
+    100070: Bip01 RUpArmTwist
+    100072: Bip01 R UpperArm
+    100074: Bip01 L Clavicle
+    100076: Bip01 LUpArmTwist
+    100078: Bip01 L UpperArm
+    100080: DEL_Bip01 LUpArmTwist1
+    100082: DEL_Bip01 LUpArmTwist2
+    400000: Bip01 R Foot
+    400002: Bip01 R Toe0
+    400004: Bip01 R Toe0Nub
+    400006: M_Wizard_02_E
+    400008: //RootNode
+    400010: M_Wizard_02_H
+    400012: M_Wizard_02_W
+    400014: Body Collider
+    400016: Slider001
+    400018: M_Wizard_02
+    400020: Bip01 R Calf
+    400022: Bip01 R Thigh
+    400024: Bip01 L Toe0Nub
+    400026: Bip01 L Toe0
+    400028: Bip01 L Foot
+    400030: Bip01 L Calf
+    400032: Bip01 L Thigh
+    400034: Bip01_Eye
+    400036: Bip01 HeadNub
+    400038: Bip01 Head
+    400040: Bip01 R Hand
+    400042: Bip01 R Forearm
+    400044: Bip01 Prop1
+    400046: Bip01 L Hand
+    400048: Bip01 L Forearm
+    400050: Bip01 Neck
+    400052: Bip01 Spine1
+    400054: Bip01 Spine
+    400056: Bip01 Pelvis
+    400058: Bip01 Footsteps
+    400060: Bip01
+    400062: Root
+    400064: Bip01 R Clavicle
+    400066: DEL_Bip01 RUpArmTwist1
+    400068: DEL_Bip01 RUpArmTwist2
+    400070: Bip01 RUpArmTwist
+    400072: Bip01 R UpperArm
+    400074: Bip01 L Clavicle
+    400076: Bip01 LUpArmTwist
+    400078: Bip01 L UpperArm
+    400080: DEL_Bip01 LUpArmTwist1
+    400082: DEL_Bip01 LUpArmTwist2
+    2300000: Body Collider
+    2300002: Root
+    3300000: Body Collider
+    3300002: Root
+    4300000: Root
+    4300002: Body Collider
+    4300004: M_Wizard_02_B
+    4300006: M_Wizard_02_H
+    4300008: M_Wizard_02_W
+    4300010: M_Wizard_02_E
+    4300012: M_Wizard_02
+    7400000: Take 001
+    11100000: //RootNode
+    13700000: M_Wizard_02_E
+    13700002: M_Wizard_02_H
+    13700004: M_Wizard_02_W
+    13700006: M_Wizard_02
+  materials:
+    importMaterials: 1
+    materialName: 3
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 3
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 1
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

@@ -1,0 +1,31 @@
+id,Name,GroupID,IconName,Type_1,Type_2,MethodArg,MaxPoint,Need_GroupID,Need_Group_Point,NeedIDs,FormatString,IncValue,UnitString,Desc
+1,치명상,1,,Passive,CriticalRateInc,,5,1,0,0,치명타 확률 {0}{1}증가,0.01,%,치명타 확률이 증가합니다.
+2,포효,1,,Passive,DecreaseUseAbilityAmount,,5,1,0,0,날카로운 고함의 분노 소모량 {0},2,,날카로운 고함의 분노 소모량이 감소합니다.
+3,피의 냄새,1,,Passive,IncreaseDamageWhenHitUnderHP50,,5,1,5,0,생명력이 50%이하인 적에게 {0}{1} 추가 피해,0.03,%,생명력이 50%이하인 적에게 주는 피해가 증가합니다.
+4,분노 해방,1,,Passive,IncreaseRegenAbilityAmountByDamage,,5,1,5,0,피해를 입었을 때 생성되는 분노 {0}{1} 증가,0.05,%,피해를 입었을 때 생성되는 분노의 양이 증가합니다.
+5,도끼폭풍,1,,Active,ChangeAttackBState,도끼폭풍;40;7,1,1,10,0,전방으로 빠르게 3회 회전하며 공격을 퍼붓는 난폭한 기술,,,도끼폭풍을 사용 할 수 있게 됩니다.
+6,도끼 전문가,1,,Passive,IncreaseAttackDamageEquipWeapon,,5,1,15,5,도끼를 사용 할 때 공격력 {0}{1}증가,0.02,%,도끼를 사용 할 때 공격력이 증가합니다.
+7,폭풍강타,1,,Passive,DecreaseCoolTime,,5,1,15,0,도끼폭룽 재상용 대기시간 : {0}{1},0.5,초,도끼폭풍의 재상용 대기시간을 감소합니다.
+8,상처입은 야수,1,,Passive,IncreaseAttackDamageWhenMyHPUnder35,,5,1,15,0,생명력 35%이하 일 때 공격력 {0}{1}증가,0.03,%,자신의 생명력이 35%이하 일 때 공격력이 상승합니다.
+9,격노,1,,Passive,IncreaseAttackDamageWhenBerserkMode,,5,1,20,0,광전사 모드 일 때 공격력 {0}{1},0.03,%,광전사 모드 일 때 공격력이 더욱 증가합니다.
+10,갈망,1,,Passive,IncreaseMaxAbility,,5,1,30,9,최대 분노 : {0},4,,분노의 최대량이 증가 합니다.
+11,완력,2,,Passive,IncreaseAttackDamage,,5,2,0,0,공격력 {0}{1}증가,0.012,%,공격력이 증가합니다.
+12,산울림,2,,Passive,IncreaseDamageThisAttack,,5,2,0,0,날카로운 고함의 피해량 {0}{1} 증가,0.03,%,날카로운 고함의 피해량이 증가합니다.
+13,울부짖는 대지,2,,Passive,IncreaseAttackDamageThisAttack,,5,2,5,0,대지강타의 공격력 {0}{1} 증가,0.1,%,대지강타의 공격력이 증가합니다.
+14,대지의 힘,2,,Passive,IncreaseStunRateThisAttack,,5,2,10,13,대지강타의 기절 확률 : {0}{1},0.05,%,대지강타로 적을 기절시킬 확률이 증가합니다.
+15,침묵의 망치,2,,Active,ChangeAttackBState,침묵의망치;40;6,1,2,10,0,힘을 모아 도약하며 적을 날려버리고 기절시키는 기술.,,,침묵의 망치를 사용 할 수 있게 됩니다.
+16,영원한 침묵,2,,Passive,IncreaseDamageThisAttack,,5,2,15,0,침묵의 망치 피해량 {0}{1} 증가,0.05,%,침묵의 망치를 더 강하게 합니다.
+17,둔기 전문가,2,,Passive,IncreaseAttackDamageEquipWeapon,,5,2,15,0,둔기를 사용 할 때 공격력 {0}{1} 증가,0.02,%,둔기를 사용 할 때 공격력이 증가합니다.
+18,영원한 휴식,2,,Passive,IncreaseDamageWhenHitStune,,5,2,20,0,기절한 적에게 주는 피해량 {0}{1} 증가,0.06,%,기절한 적에게 주는 피해량이 증가합니다.
+19,압도적인 힘,2,,Passive,IncreaseStunRateEquipWeapon,,5,2,20,0,추가 기절 확률 : {0}{1},0.015,%,둔기로 공격할 때 일정 확률로 적을 기절시킵니다.
+20,분쇄,2,,Passive,IncreaseArmorPenetration,,5,2,30,0,물리 관통력 {0}{1} 증가,0.03,%,물리 관통력이 증가합니다.
+21,습득력,3,,Passive,IncreaseGainExp,,5,3,0,0,경험치 {0}{1} 추가 획득,0.015,%,획득하는 경험치가 증가합니다.
+22,강한 체력,3,,Passive,IncreaseMaxHP,,5,3,0,0,생명력 {0}{1} 증가,0.015,%,생명력이 증가 합니다.
+23,재생,3,,Passive,IncreaseHPRegen,,5,3,5,0,생명력 회복량 {0}{1} 증가,0.02,%,생명력 회복량이 증가 합니다.
+24,재정비,3,,Passive,RegenHPWhenKnockdown,,5,3,5,0,넉다운 되면 5초 동안 전체 생명력의 {0}{1}%가 회복됩니다.,0.01,%,넉다운 당하면 생명력이 회복됩니다.
+25,충격파,3,,Active,ChangeAttackBState,충격파;40;6,1,3,10,0,강한 파동으로 전방의 적을 기절시키는 기술,,,충격파를 사용 할 수 있게 됩니다.
+26,절제된 분노,3,,Passive,DecreseDamageWhenBerserk,,5,3,15,0,광전사 모드 일 때 받는 피해 {0}{1} 감소,0.02,%,광전사 모드 일 때 받는 피해가 감소합니다.
+27,강한 파동,3,,Passive,DecreaseUseAbilityAmount,,5,3,15,25,충격파에 소모되는 분노 : {0},3,,충격파에 소모되는 분노가 감소합니다.
+28,문노 제어,3,,Passive,DecreaseUseAbilityAmount,,5,3,20,26,강제소집에 소모되는 분노 : {0},2,,강제소집에 소모되는 분노가 감소합니다.
+29,강철 피부,3,,Passive,IncreaseArmor,,5,3,20,0,물리 방어력과 마법 저항력 {0}{1} 증가,0.04,%,물리 방어력과 마법 저항력이 증가합니다.
+30,힘의 균형,3,,Passive,IncreeseAttackDamageByAormor,,5,3,30,29,방어력의 {0}{1} 만큼 공격력 증가,0.02,%,방어력의 일정 비율 만큼 공격력이 증가합니다.

@@ -1,0 +1,258 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Rank_font
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b4eb3a400afab046abb8471a9d746d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dynamicFont: {fileID: 0}
+  dynamicFontMaterial: {fileID: 0}
+  dynamicFontSize: 12
+  dynamicFontStyle: 0
+  mMat: {fileID: 2100000, guid: 5a2beb302dc8654429de05e2bd1172ad, type: 2}
+  mUVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  mFont:
+    mGlyphs: []
+    mSize: 88
+    mBase: 68
+    mWidth: 512
+    mHeight: 256
+    mSpriteName: rank_font_0
+    mSaved:
+    - index: 44053
+      x: 0
+      y: 0
+      width: 83
+      height: 83
+      offsetX: -5
+      offsetY: 6
+      advance: 71
+      channel: 15
+      kerning: 
+    - index: 44144
+      x: 153
+      y: 167
+      width: 72
+      height: 80
+      offsetX: -2
+      offsetY: 6
+      advance: 71
+      channel: 15
+      kerning: 
+    - index: 45331
+      x: 227
+      y: 167
+      width: 72
+      height: 80
+      offsetX: 0
+      offsetY: 6
+      advance: 71
+      channel: 15
+      kerning: 
+    - index: 45817
+      x: 85
+      y: 0
+      width: 82
+      height: 83
+      offsetX: -2
+      offsetY: 6
+      advance: 71
+      channel: 15
+      kerning: 
+    - index: 45824
+      x: 77
+      y: 167
+      width: 74
+      height: 80
+      offsetX: -2
+      offsetY: 6
+      advance: 71
+      channel: 15
+      kerning: 
+    - index: 47141
+      x: 301
+      y: 166
+      width: 72
+      height: 80
+      offsetX: -1
+      offsetY: 6
+      advance: 71
+      channel: 15
+      kerning: 
+    - index: 48156
+      x: 83
+      y: 85
+      width: 80
+      height: 80
+      offsetX: 0
+      offsetY: 6
+      advance: 71
+      channel: 15
+      kerning: 
+    - index: 49444
+      x: 165
+      y: 85
+      width: 77
+      height: 80
+      offsetX: -6
+      offsetY: 6
+      advance: 71
+      channel: 15
+      kerning: 
+    - index: 50557
+      x: 0
+      y: 85
+      width: 81
+      height: 80
+      offsetX: -3
+      offsetY: 6
+      advance: 71
+      channel: 15
+      kerning: 
+    - index: 50948
+      x: 244
+      y: 84
+      width: 76
+      height: 80
+      offsetX: -5
+      offsetY: 6
+      advance: 71
+      channel: 15
+      kerning: 
+    - index: 51008
+      x: 339
+      y: 0
+      width: 81
+      height: 81
+      offsetX: -5
+      offsetY: 5
+      advance: 71
+      channel: 15
+      kerning: 
+    - index: 51032
+      x: 322
+      y: 83
+      width: 76
+      height: 80
+      offsetX: -4
+      offsetY: 6
+      advance: 71
+      channel: 15
+      kerning: 
+    - index: 51089
+      x: 422
+      y: 0
+      width: 85
+      height: 80
+      offsetX: -6
+      offsetY: 6
+      advance: 71
+      channel: 15
+      kerning: 
+    - index: 51201
+      x: 400
+      y: 83
+      width: 76
+      height: 80
+      offsetX: -5
+      offsetY: 6
+      advance: 71
+      channel: 15
+      kerning: 
+    - index: 51204
+      x: 0
+      y: 167
+      width: 75
+      height: 80
+      offsetX: -4
+      offsetY: 6
+      advance: 71
+      channel: 15
+      kerning: 
+    - index: 51339
+      x: 169
+      y: 0
+      width: 81
+      height: 82
+      offsetX: -5
+      offsetY: 7
+      advance: 71
+      channel: 15
+      kerning: 
+    - index: 53360
+      x: 375
+      y: 165
+      width: 81
+      height: 79
+      offsetX: -5
+      offsetY: 7
+      advance: 71
+      channel: 15
+      kerning: 
+    - index: 54620
+      x: 252
+      y: 0
+      width: 85
+      height: 81
+      offsetX: -5
+      offsetY: 5
+      advance: 71
+      channel: 15
+      kerning: 
+    mSymbols: []
+  mSpacingX: 0
+  mSpacingY: 0
+  mAtlas: {fileID: 0}
+  mReplacement: {fileID: 0}
+  mPixelSize: 1
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

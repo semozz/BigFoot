@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WaveReward>
+	<Info>1;1;320</Info>
+	<Info>2;2;160</Info>
+	<Info>3;3;80</Info>
+	<Info>4;9;40</Info>
+	<Info>10;99;20</Info>
+	<Info>100;999;10</Info>
+	<Info>1000;9999;5</Info>
+	<Info>10000;-1;2</Info>
+</WaveReward>
+		

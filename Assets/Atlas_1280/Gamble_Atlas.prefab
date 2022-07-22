@@ -1,0 +1,652 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Gamble_Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 3c6df54784357db4baf814a3707330f6, type: 2}
+  sprites:
+  - name: Title_695
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 99
+      width: 695
+      height: 47
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 99
+      width: 695
+      height: 47
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Gamble_B
+    outer:
+      serializedVersion: 2
+      x: 696
+      y: 1
+      width: 223
+      height: 145
+    inner:
+      serializedVersion: 2
+      x: 856
+      y: 1
+      width: 3
+      height: 145
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Gamble_S
+    outer:
+      serializedVersion: 2
+      x: 771
+      y: 478
+      width: 223
+      height: 145
+    inner:
+      serializedVersion: 2
+      x: 931
+      y: 478
+      width: 3
+      height: 145
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Gamble_A
+    outer:
+      serializedVersion: 2
+      x: 793
+      y: 879
+      width: 223
+      height: 145
+    inner:
+      serializedVersion: 2
+      x: 953
+      y: 879
+      width: 3
+      height: 145
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Title_545
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 191
+      width: 545
+      height: 47
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 191
+      width: 545
+      height: 47
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Gamble_LeftBase
+    outer:
+      serializedVersion: 2
+      x: 455
+      y: 624
+      width: 337
+      height: 400
+    inner:
+      serializedVersion: 2
+      x: 455
+      y: 624
+      width: 337
+      height: 400
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Btn_Small_Yellow01
+    outer:
+      serializedVersion: 2
+      x: 920
+      y: 141
+      width: 60
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 949
+      y: 141
+      width: 2
+      height: 60
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Btn_Small_Yellow01_pressed
+    outer:
+      serializedVersion: 2
+      x: 920
+      y: 80
+      width: 60
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 949
+      y: 80
+      width: 2
+      height: 60
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Btn_Default_Yellow01
+    outer:
+      serializedVersion: 2
+      x: 793
+      y: 626
+      width: 60
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 822
+      y: 626
+      width: 2
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Btn_Default_Yellow01_pressed
+    outer:
+      serializedVersion: 2
+      x: 915
+      y: 626
+      width: 60
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 944
+      y: 626
+      width: 2
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Btn_Default_Red01
+    outer:
+      serializedVersion: 2
+      x: 854
+      y: 626
+      width: 60
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 883
+      y: 626
+      width: 2
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Btn_Default_Red01_pressed
+    outer:
+      serializedVersion: 2
+      x: 920
+      y: 747
+      width: 60
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 949
+      y: 747
+      width: 2
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Friend_Base_C
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 373
+      width: 474
+      height: 250
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 373
+      width: 474
+      height: 250
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ItemInfo_Frame01
+    outer:
+      serializedVersion: 2
+      x: 893
+      y: 156
+      width: 16
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 895
+      y: 158
+      width: 12
+      height: 12
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Shop_Btn_Back_pressed
+    outer:
+      serializedVersion: 2
+      x: 920
+      y: 814
+      width: 98
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 920
+      y: 814
+      width: 98
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Shop_Btn_Back
+    outer:
+      serializedVersion: 2
+      x: 546
+      y: 174
+      width: 98
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 546
+      y: 174
+      width: 98
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Title_227
+    outer:
+      serializedVersion: 2
+      x: 793
+      y: 693
+      width: 227
+      height: 47
+    inner:
+      serializedVersion: 2
+      x: 793
+      y: 693
+      width: 227
+      height: 47
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon_Clock02
+    outer:
+      serializedVersion: 2
+      x: 893
+      y: 173
+      width: 24
+      height: 28
+    inner:
+      serializedVersion: 2
+      x: 893
+      y: 173
+      width: 24
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Frame_Yellow03
+    outer:
+      serializedVersion: 2
+      x: 995
+      y: 433
+      width: 23
+      height: 259
+    inner:
+      serializedVersion: 2
+      x: 1006
+      y: 448
+      width: 1
+      height: 229
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Shop_Money03
+    outer:
+      serializedVersion: 2
+      x: 981
+      y: 777
+      width: 42
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 981
+      y: 777
+      width: 42
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Shop_Money01
+    outer:
+      serializedVersion: 2
+      x: 850
+      y: 165
+      width: 42
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 850
+      y: 165
+      width: 42
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Shop_Money02
+    outer:
+      serializedVersion: 2
+      x: 771
+      y: 362
+      width: 42
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 771
+      y: 362
+      width: 42
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Frame01-9
+    outer:
+      serializedVersion: 2
+      x: 920
+      y: 19
+      width: 60
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 949
+      y: 48
+      width: 2
+      height: 2
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Black01
+    outer:
+      serializedVersion: 2
+      x: 981
+      y: 746
+      width: 30
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 985
+      y: 750
+      width: 22
+      height: 22
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Frame02-3
+    outer:
+      serializedVersion: 2
+      x: 814
+      y: 380
+      width: 30
+      height: 18
+    inner:
+      serializedVersion: 2
+      x: 828
+      y: 380
+      width: 2
+      height: 18
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Back_Paper01-0
+    outer:
+      serializedVersion: 2
+      x: 649
+      y: 147
+      width: 200
+      height: 200
+    inner:
+      serializedVersion: 2
+      x: 649
+      y: 147
+      width: 200
+      height: 200
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Gamble_ItemBase02
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 696
+      width: 454
+      height: 328
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 696
+      width: 454
+      height: 328
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Gamble_ItemBase01
+    outer:
+      serializedVersion: 2
+      x: 475
+      y: 348
+      width: 295
+      height: 275
+    inner:
+      serializedVersion: 2
+      x: 475
+      y: 348
+      width: 295
+      height: 275
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Gamble_Lock
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 239
+      width: 648
+      height: 108
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 239
+      width: 648
+      height: 108
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Selected_ClassB
+    outer:
+      serializedVersion: 2
+      x: 793
+      y: 741
+      width: 126
+      height: 137
+    inner:
+      serializedVersion: 2
+      x: 793
+      y: 741
+      width: 126
+      height: 137
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Selected_ClassA
+    outer:
+      serializedVersion: 2
+      x: 850
+      y: 202
+      width: 126
+      height: 137
+    inner:
+      serializedVersion: 2
+      x: 850
+      y: 202
+      width: 126
+      height: 137
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Selected_ClassS
+    outer:
+      serializedVersion: 2
+      x: 850
+      y: 340
+      width: 126
+      height: 137
+    inner:
+      serializedVersion: 2
+      x: 850
+      y: 340
+      width: 126
+      height: 137
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Gamble_Btn_Free
+    outer:
+      serializedVersion: 2
+      x: 771
+      y: 399
+      width: 71
+      height: 78
+    inner:
+      serializedVersion: 2
+      x: 771
+      y: 399
+      width: 71
+      height: 78
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

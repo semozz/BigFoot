@@ -1,0 +1,472 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Event_02_Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 61de682daec841c4ea0352e32806705f, type: 2}
+  sprites:
+  - name: randomboxevent_base
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 306
+      width: 897
+      height: 718
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 306
+      width: 897
+      height: 718
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Btn_Default_Yellow01_pressed
+    outer:
+      serializedVersion: 2
+      x: 898
+      y: 594
+      width: 60
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 927
+      y: 594
+      width: 2
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Close
+    outer:
+      serializedVersion: 2
+      x: 898
+      y: 538
+      width: 53
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 898
+      y: 538
+      width: 53
+      height: 55
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Close_pressed
+    outer:
+      serializedVersion: 2
+      x: 952
+      y: 538
+      width: 53
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 952
+      y: 538
+      width: 53
+      height: 55
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: randombox_opened
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 48
+      width: 434
+      height: 257
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 48
+      width: 434
+      height: 257
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: randombox_closed
+    outer:
+      serializedVersion: 2
+      x: 435
+      y: 121
+      width: 200
+      height: 184
+    inner:
+      serializedVersion: 2
+      x: 435
+      y: 121
+      width: 200
+      height: 184
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Package_Btn_001
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1
+      width: 149
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 9
+      y: 1
+      width: 1
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Package_Btn_001_pressed
+    outer:
+      serializedVersion: 2
+      x: 150
+      y: 1
+      width: 149
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 159
+      y: 1
+      width: 1
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Black01
+    outer:
+      serializedVersion: 2
+      x: 983
+      y: 994
+      width: 30
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 983
+      y: 994
+      width: 30
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Event02_02
+    outer:
+      serializedVersion: 2
+      x: 435
+      y: 92
+      width: 169
+      height: 28
+    inner:
+      serializedVersion: 2
+      x: 435
+      y: 92
+      width: 169
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Event01_02
+    outer:
+      serializedVersion: 2
+      x: 435
+      y: 63
+      width: 169
+      height: 28
+    inner:
+      serializedVersion: 2
+      x: 435
+      y: 63
+      width: 169
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Event03_01
+    outer:
+      serializedVersion: 2
+      x: 435
+      y: 34
+      width: 169
+      height: 28
+    inner:
+      serializedVersion: 2
+      x: 435
+      y: 34
+      width: 169
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Event01_01
+    outer:
+      serializedVersion: 2
+      x: 435
+      y: 5
+      width: 169
+      height: 28
+    inner:
+      serializedVersion: 2
+      x: 435
+      y: 5
+      width: 169
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Event01_03
+    outer:
+      serializedVersion: 2
+      x: 636
+      y: 277
+      width: 169
+      height: 28
+    inner:
+      serializedVersion: 2
+      x: 636
+      y: 277
+      width: 169
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Event03_03
+    outer:
+      serializedVersion: 2
+      x: 806
+      y: 277
+      width: 169
+      height: 28
+    inner:
+      serializedVersion: 2
+      x: 806
+      y: 277
+      width: 169
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Event02_03
+    outer:
+      serializedVersion: 2
+      x: 636
+      y: 248
+      width: 169
+      height: 28
+    inner:
+      serializedVersion: 2
+      x: 636
+      y: 248
+      width: 169
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Event02_01
+    outer:
+      serializedVersion: 2
+      x: 806
+      y: 248
+      width: 169
+      height: 28
+    inner:
+      serializedVersion: 2
+      x: 806
+      y: 248
+      width: 169
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Event03_02
+    outer:
+      serializedVersion: 2
+      x: 636
+      y: 219
+      width: 169
+      height: 28
+    inner:
+      serializedVersion: 2
+      x: 636
+      y: 219
+      width: 169
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Start_Btn_Default_Yellow01
+    outer:
+      serializedVersion: 2
+      x: 959
+      y: 594
+      width: 60
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 988
+      y: 594
+      width: 2
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Result_Icon_Buff
+    outer:
+      serializedVersion: 2
+      x: 898
+      y: 934
+      width: 84
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 898
+      y: 934
+      width: 84
+      height: 90
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Result_Icon_Gold
+    outer:
+      serializedVersion: 2
+      x: 898
+      y: 843
+      width: 84
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 898
+      y: 843
+      width: 84
+      height: 90
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Result_Icon_Meat
+    outer:
+      serializedVersion: 2
+      x: 898
+      y: 752
+      width: 84
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 898
+      y: 752
+      width: 84
+      height: 90
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Result_Icon_Gamble
+    outer:
+      serializedVersion: 2
+      x: 898
+      y: 661
+      width: 84
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 898
+      y: 661
+      width: 84
+      height: 90
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

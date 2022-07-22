@@ -1,0 +1,976 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Town_Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 1a669363c58f6f64ea2a81ee1a4452b6, type: 2}
+  sprites:
+  - name: BossRaid
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 818
+      width: 204
+      height: 206
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 818
+      width: 204
+      height: 206
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Change_Character
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 334
+      width: 152
+      height: 144
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 334
+      width: 152
+      height: 144
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Friend
+    outer:
+      serializedVersion: 2
+      x: 309
+      y: 134
+      width: 143
+      height: 129
+    inner:
+      serializedVersion: 2
+      x: 309
+      y: 134
+      width: 143
+      height: 129
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Characteristic
+    outer:
+      serializedVersion: 2
+      x: 162
+      y: 563
+      width: 117
+      height: 119
+    inner:
+      serializedVersion: 2
+      x: 162
+      y: 563
+      width: 117
+      height: 119
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Shop_Gem
+    outer:
+      serializedVersion: 2
+      x: 280
+      y: 565
+      width: 112
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 280
+      y: 565
+      width: 112
+      height: 117
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Shop_battle
+    outer:
+      serializedVersion: 2
+      x: 291
+      y: 783
+      width: 106
+      height: 119
+    inner:
+      serializedVersion: 2
+      x: 291
+      y: 783
+      width: 106
+      height: 119
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Shop_Gamble
+    outer:
+      serializedVersion: 2
+      x: 393
+      y: 665
+      width: 103
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 393
+      y: 665
+      width: 103
+      height: 117
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Post
+    outer:
+      serializedVersion: 2
+      x: 436
+      y: 912
+      width: 107
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 436
+      y: 912
+      width: 107
+      height: 112
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IllustratedBook
+    outer:
+      serializedVersion: 2
+      x: 398
+      y: 793
+      width: 107
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 398
+      y: 793
+      width: 107
+      height: 112
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MyInfo
+    outer:
+      serializedVersion: 2
+      x: 393
+      y: 548
+      width: 103
+      height: 116
+    inner:
+      serializedVersion: 2
+      x: 393
+      y: 548
+      width: 103
+      height: 116
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Option
+    outer:
+      serializedVersion: 2
+      x: 610
+      y: 799
+      width: 103
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 610
+      y: 799
+      width: 103
+      height: 112
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Inven
+    outer:
+      serializedVersion: 2
+      x: 506
+      y: 799
+      width: 103
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 506
+      y: 799
+      width: 103
+      height: 112
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Achievement
+    outer:
+      serializedVersion: 2
+      x: 544
+      y: 912
+      width: 103
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 544
+      y: 912
+      width: 103
+      height: 112
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Town_Character_Base01
+    outer:
+      serializedVersion: 2
+      x: 123
+      y: 73
+      width: 185
+      height: 108
+    inner:
+      serializedVersion: 2
+      x: 219
+      y: 73
+      width: 3
+      height: 108
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Town_Character_Base02
+    outer:
+      serializedVersion: 2
+      x: 205
+      y: 903
+      width: 126
+      height: 121
+    inner:
+      serializedVersion: 2
+      x: 210
+      y: 903
+      width: 3
+      height: 121
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Bar_EXP
+    outer:
+      serializedVersion: 2
+      x: 648
+      y: 1007
+      width: 303
+      height: 17
+    inner:
+      serializedVersion: 2
+      x: 648
+      y: 1007
+      width: 303
+      height: 17
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Bar_Stamina
+    outer:
+      serializedVersion: 2
+      x: 123
+      y: 3
+      width: 149
+      height: 17
+    inner:
+      serializedVersion: 2
+      x: 123
+      y: 3
+      width: 149
+      height: 17
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Frame_Bar
+    outer:
+      serializedVersion: 2
+      x: 276
+      y: 198
+      width: 20
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 285
+      y: 212
+      width: 2
+      height: 2
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Arena_Ticket
+    outer:
+      serializedVersion: 2
+      x: 211
+      y: 518
+      width: 48
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 211
+      y: 518
+      width: 48
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Shop_Money03
+    outer:
+      serializedVersion: 2
+      x: 162
+      y: 481
+      width: 39
+      height: 33
+    inner:
+      serializedVersion: 2
+      x: 162
+      y: 481
+      width: 39
+      height: 33
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Shop_Money02
+    outer:
+      serializedVersion: 2
+      x: 253
+      y: 479
+      width: 37
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 253
+      y: 479
+      width: 37
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Shop_Money01
+    outer:
+      serializedVersion: 2
+      x: 273
+      y: 5
+      width: 30
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 273
+      y: 5
+      width: 30
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Stamina
+    outer:
+      serializedVersion: 2
+      x: 276
+      y: 229
+      width: 28
+      height: 34
+    inner:
+      serializedVersion: 2
+      x: 276
+      y: 229
+      width: 28
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: face_assassin
+    outer:
+      serializedVersion: 2
+      x: 412
+      y: 268
+      width: 128
+      height: 134
+    inner:
+      serializedVersion: 2
+      x: 412
+      y: 268
+      width: 128
+      height: 134
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: face_wizard
+    outer:
+      serializedVersion: 2
+      x: 162
+      y: 683
+      width: 128
+      height: 134
+    inner:
+      serializedVersion: 2
+      x: 162
+      y: 683
+      width: 128
+      height: 134
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: face_warrior
+    outer:
+      serializedVersion: 2
+      x: 453
+      y: 133
+      width: 128
+      height: 134
+    inner:
+      serializedVersion: 2
+      x: 453
+      y: 133
+      width: 128
+      height: 134
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: frame
+    outer:
+      serializedVersion: 2
+      x: 276
+      y: 264
+      width: 135
+      height: 138
+    inner:
+      serializedVersion: 2
+      x: 276
+      y: 264
+      width: 135
+      height: 138
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Black
+    outer:
+      serializedVersion: 2
+      x: 318
+      y: 489
+      width: 16
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 319
+      y: 490
+      width: 14
+      height: 14
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Shop_Money04
+    outer:
+      serializedVersion: 2
+      x: 211
+      y: 481
+      width: 41
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 211
+      y: 481
+      width: 41
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Name_Defence
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 258
+      width: 275
+      height: 75
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 258
+      width: 275
+      height: 75
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Name_Arena
+    outer:
+      serializedVersion: 2
+      x: 153
+      y: 403
+      width: 275
+      height: 75
+    inner:
+      serializedVersion: 2
+      x: 153
+      y: 403
+      width: 275
+      height: 75
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Name_Story
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 182
+      width: 275
+      height: 75
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 182
+      width: 275
+      height: 75
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: New_Town_Big
+    outer:
+      serializedVersion: 2
+      x: 280
+      y: 506
+      width: 60
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 280
+      y: 506
+      width: 60
+      height: 58
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Eventshop
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 644
+      width: 161
+      height: 173
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 644
+      width: 161
+      height: 173
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: starter_button
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 479
+      width: 161
+      height: 164
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 479
+      width: 161
+      height: 164
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BuffTimer
+    outer:
+      serializedVersion: 2
+      x: 309
+      y: 12
+      width: 139
+      height: 121
+    inner:
+      serializedVersion: 2
+      x: 309
+      y: 12
+      width: 139
+      height: 121
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BuffTimer01
+    outer:
+      serializedVersion: 2
+      x: 429
+      y: 439
+      width: 108
+      height: 108
+    inner:
+      serializedVersion: 2
+      x: 429
+      y: 439
+      width: 108
+      height: 108
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Bar_EXP_Awaken
+    outer:
+      serializedVersion: 2
+      x: 648
+      y: 989
+      width: 303
+      height: 17
+    inner:
+      serializedVersion: 2
+      x: 648
+      y: 989
+      width: 303
+      height: 17
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: face_back02
+    outer:
+      serializedVersion: 2
+      x: 153
+      y: 338
+      width: 78
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 153
+      y: 338
+      width: 78
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: face_back01
+    outer:
+      serializedVersion: 2
+      x: 341
+      y: 491
+      width: 61
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 341
+      y: 491
+      width: 61
+      height: 56
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Awakening
+    outer:
+      serializedVersion: 2
+      x: 332
+      y: 906
+      width: 103
+      height: 118
+    inner:
+      serializedVersion: 2
+      x: 332
+      y: 906
+      width: 103
+      height: 118
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Event_StoryMode01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 15
+      width: 122
+      height: 166
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 15
+      width: 122
+      height: 166
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Event_Gamble
+    outer:
+      serializedVersion: 2
+      x: 497
+      y: 698
+      width: 124
+      height: 94
+    inner:
+      serializedVersion: 2
+      x: 497
+      y: 698
+      width: 124
+      height: 94
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Info_Town_Character
+    outer:
+      serializedVersion: 2
+      x: 162
+      y: 515
+      width: 48
+      height: 47
+    inner:
+      serializedVersion: 2
+      x: 162
+      y: 515
+      width: 48
+      height: 47
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: AwakenTimer
+    outer:
+      serializedVersion: 2
+      x: 449
+      y: 11
+      width: 139
+      height: 121
+    inner:
+      serializedVersion: 2
+      x: 449
+      y: 11
+      width: 139
+      height: 121
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Lock_Icon
+    outer:
+      serializedVersion: 2
+      x: 205
+      y: 820
+      width: 82
+      height: 82
+    inner:
+      serializedVersion: 2
+      x: 205
+      y: 820
+      width: 82
+      height: 82
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Lock_text02
+    outer:
+      serializedVersion: 2
+      x: 123
+      y: 21
+      width: 142
+      height: 25
+    inner:
+      serializedVersion: 2
+      x: 123
+      y: 21
+      width: 142
+      height: 25
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Lock_text01
+    outer:
+      serializedVersion: 2
+      x: 123
+      y: 47
+      width: 142
+      height: 25
+    inner:
+      serializedVersion: 2
+      x: 123
+      y: 47
+      width: 142
+      height: 25
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Notice_Town
+    outer:
+      serializedVersion: 2
+      x: 266
+      y: 32
+      width: 40
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 285
+      y: 51
+      width: 2
+      height: 2
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Notice_T01
+    outer:
+      serializedVersion: 2
+      x: 429
+      y: 403
+      width: 300
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 429
+      y: 403
+      width: 300
+      height: 35
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Notice_T02
+    outer:
+      serializedVersion: 2
+      x: 291
+      y: 483
+      width: 26
+      height: 22
+    inner:
+      serializedVersion: 2
+      x: 291
+      y: 483
+      width: 26
+      height: 22
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

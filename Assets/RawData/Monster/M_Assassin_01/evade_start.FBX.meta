@@ -1,0 +1,264 @@
+fileFormatVersion: 2
+guid: 7e3f3b0760bd4924bbdb56477e6b19d8
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Bip001
+    100002: Bip001 Footsteps
+    100004: Bip001 Head
+    100006: Bip001 HeadNub
+    100008: Bip001 L Calf
+    100010: Bip001 L Clavicle
+    100012: Bip001 L Foot
+    100014: Bip001 L Forearm
+    100016: Bip001 L Hand
+    100018: Bip001 L Thigh
+    100020: Bip001 L Toe0
+    100022: Bip001 L Toe0Nub
+    100024: Bip001 L UpperArm
+    100026: Bip001 LUpArmTwist
+    100028: Bip001 Neck
+    100030: Bip001 Pelvis
+    100032: Bip001 Prop1
+    100034: Bip001 Prop2
+    100036: Bip001 R Calf
+    100038: Bip001 R Clavicle
+    100040: Bip001 R Foot
+    100042: Bip001 R Forearm
+    100044: Bip001 R Hand
+    100046: Bip001 R Thigh
+    100048: Bip001 R Toe0
+    100050: Bip001 R Toe0Nub
+    100052: Bip001 R UpperArm
+    100054: Bip001 RUpArmTwist
+    100056: Bip001 Spine
+    100058: Bip001 Spine1
+    100060: Bip01_Eye01
+    100062: Body Collider
+    100064: Bone001
+    100066: Bone002
+    100068: Bone003
+    100070: Bone004
+    100072: Bone005
+    100074: Bone006
+    100076: Bone_SL
+    100078: Bone_SR
+    100080: DEL_Bip001 LUpArmTwist1
+    100082: DEL_Bip001 LUpArmTwist2
+    100084: DEL_Bip001 RUpArmTwist1
+    100086: DEL_Bip001 RUpArmTwist2
+    100088: DEL_Bone004
+    100090: DEL_Bone005
+    100092: //RootNode
+    100094: M_Assassin_02_B
+    100096: M_Assassin_02_E
+    100098: M_Assassin_02_H
+    100100: M_Assassin_02_S
+    100102: M_Assassin_02_WP_L
+    100104: M_Assassin_02_WP_R
+    100106: Plane001
+    100108: Plane002
+    100110: Plane005
+    100112: Plane006
+    100114: Plane009
+    100116: Plane010
+    100118: Plane011
+    100120: Plane012
+    100122: Root
+    100124: Slider001
+    100126: Sphere001
+    100128: Sphere002
+    100130: Sphere003
+    400000: Bip001
+    400002: Bip001 Footsteps
+    400004: Bip001 Head
+    400006: Bip001 HeadNub
+    400008: Bip001 L Calf
+    400010: Bip001 L Clavicle
+    400012: Bip001 L Foot
+    400014: Bip001 L Forearm
+    400016: Bip001 L Hand
+    400018: Bip001 L Thigh
+    400020: Bip001 L Toe0
+    400022: Bip001 L Toe0Nub
+    400024: Bip001 L UpperArm
+    400026: Bip001 LUpArmTwist
+    400028: Bip001 Neck
+    400030: Bip001 Pelvis
+    400032: Bip001 Prop1
+    400034: Bip001 Prop2
+    400036: Bip001 R Calf
+    400038: Bip001 R Clavicle
+    400040: Bip001 R Foot
+    400042: Bip001 R Forearm
+    400044: Bip001 R Hand
+    400046: Bip001 R Thigh
+    400048: Bip001 R Toe0
+    400050: Bip001 R Toe0Nub
+    400052: Bip001 R UpperArm
+    400054: Bip001 RUpArmTwist
+    400056: Bip001 Spine
+    400058: Bip001 Spine1
+    400060: Bip01_Eye01
+    400062: Body Collider
+    400064: Bone001
+    400066: Bone002
+    400068: Bone003
+    400070: Bone004
+    400072: Bone005
+    400074: Bone006
+    400076: Bone_SL
+    400078: Bone_SR
+    400080: DEL_Bip001 LUpArmTwist1
+    400082: DEL_Bip001 LUpArmTwist2
+    400084: DEL_Bip001 RUpArmTwist1
+    400086: DEL_Bip001 RUpArmTwist2
+    400088: DEL_Bone004
+    400090: DEL_Bone005
+    400092: //RootNode
+    400094: M_Assassin_02_B
+    400096: M_Assassin_02_E
+    400098: M_Assassin_02_H
+    400100: M_Assassin_02_S
+    400102: M_Assassin_02_WP_L
+    400104: M_Assassin_02_WP_R
+    400106: Plane001
+    400108: Plane002
+    400110: Plane005
+    400112: Plane006
+    400114: Plane009
+    400116: Plane010
+    400118: Plane011
+    400120: Plane012
+    400122: Root
+    400124: Slider001
+    400126: Sphere001
+    400128: Sphere002
+    400130: Sphere003
+    2300000: Body Collider
+    2300002: Plane001
+    2300004: Plane002
+    2300006: Plane005
+    2300008: Plane006
+    2300010: Plane009
+    2300012: Plane010
+    2300014: Plane011
+    2300016: Plane012
+    2300018: Root
+    2300020: Sphere001
+    2300022: Sphere002
+    2300024: Sphere003
+    3300000: Body Collider
+    3300002: Plane001
+    3300004: Plane002
+    3300006: Plane005
+    3300008: Plane006
+    3300010: Plane009
+    3300012: Plane010
+    3300014: Plane011
+    3300016: Plane012
+    3300018: Root
+    3300020: Sphere001
+    3300022: Sphere002
+    3300024: Sphere003
+    4300000: Root
+    4300002: Sphere003
+    4300004: Sphere001
+    4300006: Body Collider
+    4300008: Sphere002
+    4300010: M_Assassin_02_B
+    4300012: M_Assassin_02_H
+    4300014: Plane001
+    4300016: Plane002
+    4300018: Plane005
+    4300020: Plane006
+    4300022: Plane009
+    4300024: Plane010
+    4300026: M_Assassin_02_S
+    4300028: M_Assassin_02_E
+    4300030: Plane011
+    4300032: Plane012
+    4300034: M_Assassin_02_WP_R
+    4300036: M_Assassin_02_WP_L
+    7400000: evade_start
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: M_Assassin_02_B
+    13700002: M_Assassin_02_E
+    13700004: M_Assassin_02_H
+    13700006: M_Assassin_02_S
+    13700008: M_Assassin_02_WP_L
+    13700010: M_Assassin_02_WP_R
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 3
+    bakeSimulation: 0
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 8
+    clipAnimations:
+    - name: evade_start
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 17
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

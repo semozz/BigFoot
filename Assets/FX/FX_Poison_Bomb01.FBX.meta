@@ -1,0 +1,146 @@
+fileFormatVersion: 2
+guid: 519e7e576611ede458652fa94bd8ad37
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Box001
+    100002: //RootNode
+    100004: Plane001
+    100006: Plane002
+    100008: Poison_Jar_Bomb001
+    100010: Poison_Jar_Bomb002
+    100012: Poison_Jar_Bomb003
+    100014: Poison_Jar_Bomb004
+    100016: Poison_Jar_Bomb005
+    100018: Poison_Jar_L
+    100020: Poison_Jar_L001
+    100022: Poison_Jar_R
+    100024: Poison_Jar_R001
+    400000: Box001
+    400002: //RootNode
+    400004: Plane001
+    400006: Plane002
+    400008: Poison_Jar_Bomb001
+    400010: Poison_Jar_Bomb002
+    400012: Poison_Jar_Bomb003
+    400014: Poison_Jar_Bomb004
+    400016: Poison_Jar_Bomb005
+    400018: Poison_Jar_L
+    400020: Poison_Jar_L001
+    400022: Poison_Jar_R
+    400024: Poison_Jar_R001
+    2300000: Box001
+    2300002: //RootNode
+    2300004: Plane001
+    2300006: Plane002
+    2300008: Poison_Jar_Bomb001
+    2300010: Poison_Jar_Bomb002
+    2300012: Poison_Jar_Bomb003
+    2300014: Poison_Jar_Bomb004
+    2300016: Poison_Jar_Bomb005
+    2300018: Poison_Jar_L
+    2300020: Poison_Jar_L001
+    2300022: Poison_Jar_R
+    2300024: Poison_Jar_R001
+    3300000: Box001
+    3300002: //RootNode
+    3300004: Plane001
+    3300006: Plane002
+    3300008: Poison_Jar_Bomb001
+    3300010: Poison_Jar_Bomb002
+    3300012: Poison_Jar_Bomb003
+    3300014: Poison_Jar_Bomb004
+    3300016: Poison_Jar_Bomb005
+    3300018: Poison_Jar_L
+    3300020: Poison_Jar_L001
+    3300022: Poison_Jar_R
+    3300024: Poison_Jar_R001
+    4300000: FX_Root
+    4300002: Box001
+    4300004: Poison_Jar_L
+    4300006: Poison_Jar_R
+    4300008: Poison_Jar_R001
+    4300010: Poison_Jar_L001
+    4300012: Poison_Jar_Bomb004
+    4300014: Poison_Jar_Bomb001
+    4300016: Poison_Jar_Bomb002
+    4300018: Poison_Jar_Bomb003
+    4300020: Poison_Jar_Bomb005
+    4300022: Plane002
+    4300024: Plane001
+    7400000: FX_Poison_Bomb01
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 8
+    clipAnimations:
+    - name: FX_Poison_Bomb01
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MasteryUIInfo>
+	<PlayerClass>
+		<Class>Warrior</Class>
+		<Group>
+			<GroupInfo>1,난폭,base01</GroupInfo>
+			<SlotInfo> 0, 0,None</SlotInfo>
+			<SlotInfo> 1, 1,None</SlotInfo>
+			<SlotInfo> 2, 2,None</SlotInfo>
+			<SlotInfo> 3, 3,None</SlotInfo>
+			<SlotInfo> 4, 0,None</SlotInfo>
+			<SlotInfo> 5, 4,None</SlotInfo>
+			<SlotInfo> 6, 0,None</SlotInfo>
+			<SlotInfo> 7, 5,Arrow_Normal</SlotInfo>
+			<SlotInfo> 8, 0,None</SlotInfo>
+			<SlotInfo> 9, 6,None</SlotInfo>
+			<SlotInfo>10, 7,None</SlotInfo>
+			<SlotInfo>11, 8,None</SlotInfo>
+			<SlotInfo>12, 0,None</SlotInfo>
+			<SlotInfo>13, 9,Arrow_Normal</SlotInfo>
+			<SlotInfo>14, 0,None</SlotInfo>
+			<SlotInfo>15, 0,None</SlotInfo>
+			<SlotInfo>16,10,None</SlotInfo>
+			<SlotInfo>17, 0,None</SlotInfo>
+		</Group>
+		<Group>
+			<GroupInfo>2,압도,base02</GroupInfo>
+			<SlotInfo> 0, 0,None</SlotInfo>
+			<SlotInfo> 1, 11,None</SlotInfo>
+			<SlotInfo> 2, 12,None</SlotInfo>
+			<SlotInfo> 3, 13,Arrow_Normal</SlotInfo>
+			<SlotInfo> 4, 0,None</SlotInfo>
+			<SlotInfo> 5, 0,None</SlotInfo>
+			<SlotInfo> 6, 14,None</SlotInfo>
+			<SlotInfo> 7, 15,Arrow_Normal</SlotInfo>
+			<SlotInfo> 8, 0,None</SlotInfo>
+			<SlotInfo> 9, 0,None</SlotInfo>
+			<SlotInfo>10, 16,Arrow_Normal</SlotInfo>
+			<SlotInfo>11, 17,Arrow_Normal</SlotInfo>
+			<SlotInfo>12, 0,None</SlotInfo>
+			<SlotInfo>13, 18,None</SlotInfo>
+			<SlotInfo>14, 19,None</SlotInfo>
+			<SlotInfo>15, 0,None</SlotInfo>
+			<SlotInfo>16,20,None</SlotInfo>
+			<SlotInfo>17, 0,None</SlotInfo>
+		</Group>
+		<Group>
+			<GroupInfo>3,강력,base03</GroupInfo>
+			<SlotInfo> 0, 21,None</SlotInfo>
+			<SlotInfo> 1, 22,None</SlotInfo>
+			<SlotInfo> 2, 23,None</SlotInfo>
+			<SlotInfo> 3, 24,None</SlotInfo>
+			<SlotInfo> 4, 0,None</SlotInfo>
+			<SlotInfo> 5, 0,None</SlotInfo>
+			<SlotInfo> 6, 0,None</SlotInfo>
+			<SlotInfo> 7, 25,Arrow_Normal</SlotInfo>
+			<SlotInfo> 8, 0,None</SlotInfo>
+			<SlotInfo> 9, 26,Arrow_Normal</SlotInfo>
+			<SlotInfo>10, 27,None</SlotInfo>
+			<SlotInfo>11, 0,None</SlotInfo>
+			<SlotInfo>12, 28,None</SlotInfo>
+			<SlotInfo>13, 29,Arrow_Normal</SlotInfo>
+			<SlotInfo>14, 0,None</SlotInfo>
+			<SlotInfo>15, 0,None</SlotInfo>
+			<SlotInfo>16,30,None</SlotInfo>
+			<SlotInfo>17, 0,None</SlotInfo>
+		</Group>
+	</PlayerClass>
+	<PlayerClass>
+		<Class>Assassin</Class>
+		<Group>
+			<GroupInfo>4,학살,base04</GroupInfo>
+			<SlotInfo> 0, 0,None</SlotInfo>
+			<SlotInfo> 1, 31,None</SlotInfo>
+			<SlotInfo> 2, 32,None</SlotInfo>
+			<SlotInfo> 3, 33,None</SlotInfo>
+			<SlotInfo> 4, 0,None</SlotInfo>
+			<SlotInfo> 5, 34,None</SlotInfo>
+			<SlotInfo> 6, 0,None</SlotInfo>
+			<SlotInfo> 7, 35,Arrow_Normal</SlotInfo>
+			<SlotInfo> 8, 0,None</SlotInfo>
+			<SlotInfo> 9, 36,None</SlotInfo>
+			<SlotInfo>10, 37,Arrow_Normal</SlotInfo>
+			<SlotInfo>11, 38,Arrow_Long</SlotInfo>
+			<SlotInfo>12, 0,None</SlotInfo>
+			<SlotInfo>13, 39,None</SlotInfo>
+			<SlotInfo>14, 0,None</SlotInfo>
+			<SlotInfo>15, 0,None</SlotInfo>
+			<SlotInfo>16, 0,None</SlotInfo>
+			<SlotInfo>17,40,None</SlotInfo>
+		</Group>
+		<Group>
+			<GroupInfo>5,암살,base05</GroupInfo>
+			<SlotInfo> 0, 0,None</SlotInfo>
+			<SlotInfo> 1, 41,None</SlotInfo>
+			<SlotInfo> 2, 42,None</SlotInfo>
+			<SlotInfo> 3, 43,Arrow_Normal</SlotInfo>
+			<SlotInfo> 4, 0,None</SlotInfo>
+			<SlotInfo> 5, 0,None</SlotInfo>
+			<SlotInfo> 6, 44,None</SlotInfo>
+			<SlotInfo> 7, 45,Arrow_Normal</SlotInfo>
+			<SlotInfo> 8, 0,None</SlotInfo>
+			<SlotInfo> 9, 0,None</SlotInfo>
+			<SlotInfo>10, 46,Arrow_Normal</SlotInfo>
+			<SlotInfo>11, 47,Arrow_Normal</SlotInfo>
+			<SlotInfo>12, 0,None</SlotInfo>
+			<SlotInfo>13, 48,Arrow_Normal</SlotInfo>
+			<SlotInfo>14, 49,None</SlotInfo>
+			<SlotInfo>15, 0,None</SlotInfo>
+			<SlotInfo>16,50,None</SlotInfo>
+			<SlotInfo>17, 0,None</SlotInfo>
+		</Group>
+		<Group>
+			<GroupInfo>6,독살,base06</GroupInfo>
+			<SlotInfo> 0, 0,None</SlotInfo>
+			<SlotInfo> 1, 51,Arrow_Normal</SlotInfo>
+			<SlotInfo> 2, 52,None</SlotInfo>
+			<SlotInfo> 3, 0,None</SlotInfo>
+			<SlotInfo> 4, 53,None</SlotInfo>
+			<SlotInfo> 5, 0,None</SlotInfo>
+			<SlotInfo> 6, 54,Arrow_Normal</SlotInfo>
+			<SlotInfo> 7, 55,Arrow_Normal</SlotInfo>
+			<SlotInfo> 8, 0,None</SlotInfo>
+			<SlotInfo> 9, 56,Arrow_Normal</SlotInfo>
+			<SlotInfo>10, 57,None</SlotInfo>
+			<SlotInfo>11, 0,None</SlotInfo>
+			<SlotInfo>12, 58,Arrow_Normal</SlotInfo>
+			<SlotInfo>13, 0,None</SlotInfo>
+			<SlotInfo>14, 59,None</SlotInfo>
+			<SlotInfo>15,60,None</SlotInfo>
+			<SlotInfo>16, 0,None</SlotInfo>
+			<SlotInfo>17, 0,None</SlotInfo>
+		</Group>
+	</PlayerClass>
+	<PlayerClass>
+		<Class>Wizard</Class>
+		<Group>
+			<GroupInfo>7,마력,base07</GroupInfo>
+			<SlotInfo> 0, 0,None</SlotInfo>
+			<SlotInfo> 1, 61,None</SlotInfo>
+			<SlotInfo> 2, 62,None</SlotInfo>
+			<SlotInfo> 3, 0,None</SlotInfo>
+			<SlotInfo> 4, 63,None</SlotInfo>
+			<SlotInfo> 5, 0,None</SlotInfo>
+			<SlotInfo> 6, 64,Arrow_Normal</SlotInfo>
+			<SlotInfo> 7, 65,Arrow_Normal</SlotInfo>
+			<SlotInfo> 8, 0,None</SlotInfo>
+			<SlotInfo> 9, 66,Arrow_Normal</SlotInfo>
+			<SlotInfo>10, 67,None</SlotInfo>
+			<SlotInfo>11, 0,None</SlotInfo>
+			<SlotInfo>12, 68,None</SlotInfo>
+			<SlotInfo>13, 69,Arrow_Normal</SlotInfo>
+			<SlotInfo>14, 0,None</SlotInfo>
+			<SlotInfo>15, 0,None</SlotInfo>
+			<SlotInfo>16,70,None</SlotInfo>
+			<SlotInfo>17, 0,None</SlotInfo>
+		</Group>
+		<Group>
+			<GroupInfo>8,순환,base08</GroupInfo>
+			<SlotInfo> 0, 71,None</SlotInfo>
+			<SlotInfo> 1, 72,None</SlotInfo>
+			<SlotInfo> 2, 73,Arrow_Normal</SlotInfo>
+			<SlotInfo> 3, 0,None</SlotInfo>
+			<SlotInfo> 4, 0,None</SlotInfo>
+			<SlotInfo> 5, 74,None</SlotInfo>
+			<SlotInfo> 6, 0,None</SlotInfo>
+			<SlotInfo> 7, 75,Arrow_Normal</SlotInfo>
+			<SlotInfo> 8, 0,None</SlotInfo>
+			<SlotInfo> 9, 0,None</SlotInfo>
+			<SlotInfo>10, 76,Arrow_Normal</SlotInfo>
+			<SlotInfo>11, 77,Arrow_Normal</SlotInfo>
+			<SlotInfo>12, 0,None</SlotInfo>
+			<SlotInfo>13, 78,None</SlotInfo>
+			<SlotInfo>14, 79,Arrow_Normal</SlotInfo>
+			<SlotInfo>15, 0,None</SlotInfo>
+			<SlotInfo>16, 0,None</SlotInfo>
+			<SlotInfo>17, 80,None</SlotInfo>
+		</Group>
+		<Group>
+			<GroupInfo>9,보호,base09</GroupInfo>
+			<SlotInfo> 0, 81,None</SlotInfo>
+			<SlotInfo> 1, 82,Arrow_Normal</SlotInfo>
+			<SlotInfo> 2, 0,None</SlotInfo>
+			<SlotInfo> 3, 0,None</SlotInfo>
+			<SlotInfo> 4, 83,None</SlotInfo>
+			<SlotInfo> 5, 0,None</SlotInfo>
+			<SlotInfo> 6, 84,Arrow_Normal</SlotInfo>
+			<SlotInfo> 7, 85,Arrow_Normal</SlotInfo>
+			<SlotInfo> 8, 0,None</SlotInfo>
+			<SlotInfo> 9, 86,None</SlotInfo>
+			<SlotInfo>10, 87,None</SlotInfo>
+			<SlotInfo>11, 88,Arrow_Normal</SlotInfo>
+			<SlotInfo>12, 0,None</SlotInfo>
+			<SlotInfo>13, 0,None</SlotInfo>
+			<SlotInfo>14, 89,Arrow_Normal</SlotInfo>
+			<SlotInfo>15, 0,None</SlotInfo>
+			<SlotInfo>16,0,None</SlotInfo>
+			<SlotInfo>17, 90,None</SlotInfo>
+		</Group>
+	</PlayerClass>
+</MasteryUIInfo>

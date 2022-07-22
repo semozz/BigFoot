@@ -1,0 +1,176 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41a5487d43c36d744ba6419dc1a38e4f, type: 3}
+  m_Name: m_f_berserk01-animation
+  m_EditorClassIdentifier: 
+  clipinfos:
+  - clipname: 61747461636b3031
+    wrapmode: 1
+    eventinfos:
+    - eventtime: 0
+      functionname: 4f6e57616c6b696e675374617274
+    - eventtime: .633333325
+      functionname: 4f6e436f6c6c6973696f6e5374617274
+    - eventtime: .666666687
+      functionname: 4f6e436f6c6c6973696f6e53746f70
+    - eventtime: 1.60000002
+      functionname: 4f6e436f6c6c6973696f6e5374617274
+    - eventtime: 1.63333333
+      functionname: 4f6e436f6c6c6973696f6e53746f70
+    - eventtime: 2.76666665
+      functionname: 4f6e436f6c6c6973696f6e5374617274
+    - eventtime: 2.79999995
+      functionname: 4f6e436f6c6c6973696f6e53746f70
+    - eventtime: 3.4333334
+      functionname: 4f6e436f6c6c6973696f6e5374617274
+    - eventtime: 3.4666667
+      functionname: 4f6e436f6c6c6973696f6e53746f70
+    - eventtime: 3.66666675
+      functionname: 4f6e57616c6b696e6753746f70
+  - clipname: 64616d616765
+    wrapmode: 1
+    eventinfos:
+    - eventtime: .0333333351
+      functionname: 4f6e57616c6b696e675374617274
+    - eventtime: .200000003
+      functionname: 4f6e57616c6b696e6753746f70
+  - clipname: 646965
+    wrapmode: 1
+    eventinfos: []
+  - clipname: 6a756d705f66616c6c
+    wrapmode: 2
+    eventinfos: []
+  - clipname: 6a756d705f6c616e64696e67
+    wrapmode: 1
+    eventinfos: []
+  - clipname: 6b6e6f636b646f776e5f646965
+    wrapmode: 1
+    eventinfos: []
+  - clipname: 6b6e6f636b646f776e5f66616c6c
+    wrapmode: 1
+    eventinfos: []
+  - clipname: 6b6e6f636b646f776e5f6c616e64696e67
+    wrapmode: 1
+    eventinfos:
+    - eventtime: 0
+      functionname: 4f6e57616c6b696e675374617274
+    - eventtime: .266666681
+      functionname: 4f6e57616c6b696e6753746f70
+  - clipname: 6b6e6f636b646f776e5f7374617274
+    wrapmode: 1
+    eventinfos: []
+  - clipname: 72756e
+    wrapmode: 2
+    eventinfos: []
+  - clipname: 736b696c6c3031
+    wrapmode: 1
+    eventinfos:
+    - eventtime: 0
+      functionname: 4f6e57616c6b696e675374617274
+    - eventtime: .100000001
+      functionname: 4f6e436f6c6c6973696f6e5374617274
+    - eventtime: .13333334
+      functionname: 4f6e436f6c6c6973696f6e53746f70
+    - eventtime: .300000012
+      functionname: 4f6e436f6c6c6973696f6e5374617274
+    - eventtime: .333333343
+      functionname: 4f6e436f6c6c6973696f6e53746f70
+    - eventtime: .5
+      functionname: 4f6e436f6c6c6973696f6e5374617274
+    - eventtime: .533333361
+      functionname: 4f6e436f6c6c6973696f6e53746f70
+    - eventtime: .699999988
+      functionname: 4f6e436f6c6c6973696f6e5374617274
+    - eventtime: .733333349
+      functionname: 4f6e436f6c6c6973696f6e53746f70
+    - eventtime: .899999976
+      functionname: 4f6e436f6c6c6973696f6e5374617274
+    - eventtime: .933333337
+      functionname: 4f6e436f6c6c6973696f6e53746f70
+    - eventtime: 1.10000002
+      functionname: 4f6e436f6c6c6973696f6e5374617274
+    - eventtime: 1.13333333
+      functionname: 4f6e436f6c6c6973696f6e53746f70
+    - eventtime: 1.29999995
+      functionname: 4f6e436f6c6c6973696f6e5374617274
+    - eventtime: 1.33333337
+      functionname: 4f6e436f6c6c6973696f6e53746f70
+    - eventtime: 1.5
+      functionname: 4f6e436f6c6c6973696f6e5374617274
+    - eventtime: 1.5333333
+      functionname: 4f6e436f6c6c6973696f6e53746f70
+    - eventtime: 1.70000005
+      functionname: 4f6e436f6c6c6973696f6e5374617274
+    - eventtime: 1.73333335
+      functionname: 4f6e436f6c6c6973696f6e53746f70
+    - eventtime: 1.89999998
+      functionname: 4f6e436f6c6c6973696f6e5374617274
+    - eventtime: 1.93333328
+      functionname: 4f6e436f6c6c6973696f6e53746f70
+    - eventtime: 2.0999999
+      functionname: 4f6e436f6c6c6973696f6e5374617274
+    - eventtime: 2.13333344
+      functionname: 4f6e436f6c6c6973696f6e53746f70
+    - eventtime: 2.29999995
+      functionname: 4f6e436f6c6c6973696f6e5374617274
+    - eventtime: 2.33333325
+      functionname: 4f6e436f6c6c6973696f6e53746f70
+    - eventtime: 2.5
+      functionname: 4f6e436f6c6c6973696f6e5374617274
+    - eventtime: 2.5333333
+      functionname: 4f6e436f6c6c6973696f6e53746f70
+    - eventtime: 2.70000005
+      functionname: 4f6e436f6c6c6973696f6e5374617274
+    - eventtime: 2.73333335
+      functionname: 4f6e436f6c6c6973696f6e53746f70
+    - eventtime: 2.9000001
+      functionname: 4f6e436f6c6c6973696f6e5374617274
+    - eventtime: 2.9333334
+      functionname: 4f6e436f6c6c6973696f6e53746f70
+    - eventtime: 3.0999999
+      functionname: 4f6e436f6c6c6973696f6e5374617274
+    - eventtime: 3.13333344
+      functionname: 4f6e436f6c6c6973696f6e53746f70
+    - eventtime: 3.29999995
+      functionname: 4f6e436f6c6c6973696f6e5374617274
+    - eventtime: 3.33333325
+      functionname: 4f6e436f6c6c6973696f6e53746f70
+    - eventtime: 3.4333334
+      functionname: 4f6e436f6c6c6973696f6e5374617274
+    - eventtime: 3.4666667
+      functionname: 4f6e57616c6b696e6753746f70
+    - eventtime: 3.4666667
+      functionname: 4f6e436f6c6c6973696f6e53746f70
+  - clipname: 736b696c6c3032
+    wrapmode: 1
+    eventinfos:
+    - eventtime: .333333343
+      functionname: 4f6e436f6c6c6973696f6e5374617274
+    - eventtime: .366666675
+      functionname: 4f6e436f6c6c6973696f6e53746f70
+  - clipname: 7374616e643031
+    wrapmode: 2
+    eventinfos: []
+  - clipname: 7374616e643032
+    wrapmode: 2
+    eventinfos: []
+  - clipname: 7374616e643033
+    wrapmode: 2
+    eventinfos: []
+  - clipname: 7374616e643034
+    wrapmode: 2
+    eventinfos: []
+  - clipname: 7374756e
+    wrapmode: 2
+    eventinfos: []
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6
